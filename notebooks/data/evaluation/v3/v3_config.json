@@ -1,0 +1,34 @@
+{
+  "version": "V3",
+  "description": "Quality-constrained cost/latency aware routing",
+  "quality_requirement": {
+    "simple": 0.8,
+    "medium": 0.9,
+    "complex": 0.95
+  },
+  "cost_weight": 0.55,
+  "latency_weight": 0.45,
+  "model_profiles": {
+    "small_model": {
+      "quality": 0.82,
+      "latency_ms": 200,
+      "cost": 0.1,
+      "normalized_cost": 0.0,
+      "normalized_latency": 0.0
+    },
+    "medium_model": {
+      "quality": 0.91,
+      "latency_ms": 500,
+      "cost": 0.3,
+      "normalized_cost": 0.2222222222222222,
+      "normalized_latency": 0.3
+    },
+    "large_model": {
+      "quality": 0.97,
+      "latency_ms": 1200,
+      "cost": 1.0,
+      "normalized_cost": 1.0,
+      "normalized_latency": 1.0
+    }
+  }
+}

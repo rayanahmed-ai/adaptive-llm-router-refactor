@@ -1,0 +1,22 @@
+{
+  "version": "V5",
+  "algorithm": "epsilon_greedy_contextual_bandit",
+  "context": "query_complexity",
+  "models": [
+    "small_model",
+    "medium_model",
+    "large_model"
+  ],
+  "initial_epsilon": 0.2,
+  "minimum_epsilon": 0.05,
+  "epsilon_decay": 0.985,
+  "prior_count": 10,
+  "cost_penalty": 0.1,
+  "latency_penalty": 0.1,
+  "quality_violation_penalty": 1.0,
+  "success_threshold": 0.95,
+  "evaluation_queries": 192,
+  "aws_region": "eu-north-1",
+  "s3_bucket": "adaptive-llm-router-753176172779-eu-north-1",
+  "s3_prefix": "adaptive-llm-router/v5"
+}

@@ -1,0 +1,425 @@
+{
+  "evaluation_version": "V8.2",
+  "generated_at": "2026-10-08T05:46:40.133559+00:00",
+  "benchmark_requests": 30,
+  "strategies_evaluated": 5,
+  "cost_data_available": false,
+  "cost_note": "Real inference cost was not available in V8.1. Cost metrics are intentionally omitted rather than estimated.",
+  "strategies": [
+    {
+      "strategy": "cheapest",
+      "requests": 6,
+      "successful_requests": 6,
+      "failed_requests": 0,
+      "success_rate": 1,
+      "average_quality": 0.8833333333333333,
+      "median_quality": 1.0,
+      "average_latency_ms": 1281.0840056675563,
+      "median_latency_ms": 1277.2523095045472,
+      "p95_latency_ms": 1412.021834497864,
+      "average_output_tokens": 256,
+      "models_used": [
+        "small_model"
+      ],
+      "model_distribution": {
+        "small_model": 6
+      },
+      "cost_available": false,
+      "average_cost_usd": null,
+      "quality_retention_vs_strongest": 1.0192307692307692,
+      "quality_gap_vs_strongest": 0.016666666666666607,
+      "latency_change_vs_strongest_ms": -385.7071870055129,
+      "latency_reduction_vs_strongest": 0.23140702248788936,
+      "p95_reduction_vs_strongest": 0.2951370227771982,
+      "pareto_quality_latency": true
+    },
+    {
+      "strategy": "strongest",
+      "requests": 6,
+      "successful_requests": 6,
+      "failed_requests": 0,
+      "success_rate": 1,
+      "average_quality": 0.8666666666666667,
+      "median_quality": 1.0,
+      "average_latency_ms": 1666.7911926730692,
+      "median_latency_ms": 1631.781571501051,
+      "p95_latency_ms": 2003.2572005147813,
+      "average_output_tokens": 256,
+      "models_used": [
+        "large_model"
+      ],
+      "model_distribution": {
+        "large_model": 6
+      },
+      "cost_available": false,
+      "average_cost_usd": null,
+      "quality_retention_vs_strongest": 1.0,
+      "quality_gap_vs_strongest": 0.0,
+      "latency_change_vs_strongest_ms": 0.0,
+      "latency_reduction_vs_strongest": 0.0,
+      "p95_reduction_vs_strongest": 0.0,
+      "pareto_quality_latency": false
+    },
+    {
+      "strategy": "random",
+      "requests": 6,
+      "successful_requests": 6,
+      "failed_requests": 0,
+      "success_rate": 1,
+      "average_quality": 0.8166666666666667,
+      "median_quality": 1.0,
+      "average_latency_ms": 1373.0864991715255,
+      "median_latency_ms": 1354.7503180161584,
+      "p95_latency_ms": 1730.5687519910862,
+      "average_output_tokens": 256,
+      "models_used": [
+        "large_model",
+        "medium_model",
+        "small_model"
+      ],
+      "model_distribution": {
+        "large_model": 2,
+        "small_model": 3,
+        "medium_model": 1
+      },
+      "cost_available": false,
+      "average_cost_usd": null,
+      "quality_retention_vs_strongest": 0.9423076923076923,
+      "quality_gap_vs_strongest": -0.050000000000000044,
+      "latency_change_vs_strongest_ms": -293.7046935015437,
+      "latency_reduction_vs_strongest": 0.1762096504904871,
+      "p95_reduction_vs_strongest": 0.1361225350662021,
+      "pareto_quality_latency": false
+    },
+    {
+      "strategy": "static_complexity",
+      "requests": 6,
+      "successful_requests": 6,
+      "failed_requests": 0,
+      "success_rate": 1,
+      "average_quality": 0.8166666666666667,
+      "median_quality": 1.0,
+      "average_latency_ms": 1448.3599111651226,
+      "median_latency_ms": 1413.9377040119143,
+      "p95_latency_ms": 1966.6136157466099,
+      "average_output_tokens": 256,
+      "models_used": [
+        "large_model",
+        "medium_model",
+        "small_model"
+      ],
+      "model_distribution": {
+        "small_model": 1,
+        "medium_model": 3,
+        "large_model": 2
+      },
+      "cost_available": false,
+      "average_cost_usd": null,
+      "quality_retention_vs_strongest": 0.9423076923076923,
+      "quality_gap_vs_strongest": -0.050000000000000044,
+      "latency_change_vs_strongest_ms": -218.43128150794655,
+      "latency_reduction_vs_strongest": 0.13104897750128108,
+      "p95_reduction_vs_strongest": 0.018292002024879794,
+      "pareto_quality_latency": false
+    },
+    {
+      "strategy": "v7_adaptive",
+      "requests": 6,
+      "successful_requests": 6,
+      "failed_requests": 0,
+      "success_rate": 1,
+      "average_quality": 0.8166666666666667,
+      "median_quality": 1.0,
+      "average_latency_ms": 1438.8641021650983,
+      "median_latency_ms": 1525.0312314892653,
+      "p95_latency_ms": 1619.3533707555616,
+      "average_output_tokens": 256,
+      "models_used": [
+        "medium_model"
+      ],
+      "model_distribution": {
+        "medium_model": 6
+      },
+      "cost_available": false,
+      "average_cost_usd": null,
+      "quality_retention_vs_strongest": 0.9423076923076923,
+      "quality_gap_vs_strongest": -0.050000000000000044,
+      "latency_change_vs_strongest_ms": -227.9270905079709,
+      "latency_reduction_vs_strongest": 0.13674603724203704,
+      "p95_reduction_vs_strongest": 0.19163981023533427,
+      "pareto_quality_latency": false
+    }
+  ],
+  "raw_results": [
+    {
+      "strategy": "strongest",
+      "prompt_id": "b1",
+      "model": "large_model",
+      "success": true,
+      "latency_ms": 2036.5145660180133,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "strongest",
+      "prompt_id": "b2",
+      "model": "large_model",
+      "success": true,
+      "latency_ms": 1280.13148001628,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "strongest",
+      "prompt_id": "b3",
+      "model": "large_model",
+      "success": true,
+      "latency_ms": 1736.2647830159403,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "strongest",
+      "prompt_id": "b4",
+      "model": "large_model",
+      "success": true,
+      "latency_ms": 1903.4851040050853,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "strongest",
+      "prompt_id": "b5",
+      "model": "large_model",
+      "success": true,
+      "latency_ms": 1517.052862996934,
+      "output_tokens": 256,
+      "quality_score": 0.2
+    },
+    {
+      "strategy": "strongest",
+      "prompt_id": "b6",
+      "model": "large_model",
+      "success": true,
+      "latency_ms": 1527.2983599861618,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "cheapest",
+      "prompt_id": "b1",
+      "model": "small_model",
+      "success": true,
+      "latency_ms": 1233.5202700051013,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "cheapest",
+      "prompt_id": "b2",
+      "model": "small_model",
+      "success": true,
+      "latency_ms": 1320.984349003993,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "cheapest",
+      "prompt_id": "b3",
+      "model": "small_model",
+      "success": true,
+      "latency_ms": 1160.1555210072547,
+      "output_tokens": 256,
+      "quality_score": 0.5
+    },
+    {
+      "strategy": "cheapest",
+      "prompt_id": "b4",
+      "model": "small_model",
+      "success": true,
+      "latency_ms": 1327.0041400101036,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "cheapest",
+      "prompt_id": "b5",
+      "model": "small_model",
+      "success": true,
+      "latency_ms": 1204.4786879851017,
+      "output_tokens": 256,
+      "quality_score": 0.8
+    },
+    {
+      "strategy": "cheapest",
+      "prompt_id": "b6",
+      "model": "small_model",
+      "success": true,
+      "latency_ms": 1440.361065993784,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "random",
+      "prompt_id": "b1",
+      "model": "large_model",
+      "success": true,
+      "latency_ms": 1712.8024910052773,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "random",
+      "prompt_id": "b2",
+      "model": "small_model",
+      "success": true,
+      "latency_ms": 1335.0854480231646,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "random",
+      "prompt_id": "b3",
+      "model": "small_model",
+      "success": true,
+      "latency_ms": 917.9450779920444,
+      "output_tokens": 256,
+      "quality_score": 0.5
+    },
+    {
+      "strategy": "random",
+      "prompt_id": "b4",
+      "model": "large_model",
+      "success": true,
+      "latency_ms": 1736.4908389863558,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "random",
+      "prompt_id": "b5",
+      "model": "medium_model",
+      "success": true,
+      "latency_ms": 1374.4151880091522,
+      "output_tokens": 256,
+      "quality_score": 0.4
+    },
+    {
+      "strategy": "random",
+      "prompt_id": "b6",
+      "model": "small_model",
+      "success": true,
+      "latency_ms": 1161.779951013159,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "static_complexity",
+      "prompt_id": "b1",
+      "model": "small_model",
+      "success": true,
+      "latency_ms": 1455.9427530039102,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "static_complexity",
+      "prompt_id": "b2",
+      "model": "medium_model",
+      "success": true,
+      "latency_ms": 1080.0366289913654,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "static_complexity",
+      "prompt_id": "b3",
+      "model": "medium_model",
+      "success": true,
+      "latency_ms": 1371.9326550199185,
+      "output_tokens": 256,
+      "quality_score": 0.5
+    },
+    {
+      "strategy": "static_complexity",
+      "prompt_id": "b4",
+      "model": "medium_model",
+      "success": true,
+      "latency_ms": 1182.5166269845795,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "static_complexity",
+      "prompt_id": "b5",
+      "model": "large_model",
+      "success": true,
+      "latency_ms": 1466.368972993223,
+      "output_tokens": 256,
+      "quality_score": 0.4
+    },
+    {
+      "strategy": "static_complexity",
+      "prompt_id": "b6",
+      "model": "large_model",
+      "success": true,
+      "latency_ms": 2133.361829997739,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "v7_adaptive",
+      "prompt_id": "b1",
+      "model": "medium_model",
+      "success": true,
+      "latency_ms": 1288.2196190184914,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "v7_adaptive",
+      "prompt_id": "b2",
+      "model": "medium_model",
+      "success": true,
+      "latency_ms": 1621.4483680087142,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "v7_adaptive",
+      "prompt_id": "b3",
+      "model": "medium_model",
+      "success": true,
+      "latency_ms": 1060.3857839887496,
+      "output_tokens": 256,
+      "quality_score": 0.5
+    },
+    {
+      "strategy": "v7_adaptive",
+      "prompt_id": "b4",
+      "model": "medium_model",
+      "success": true,
+      "latency_ms": 1542.5053429789841,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    },
+    {
+      "strategy": "v7_adaptive",
+      "prompt_id": "b5",
+      "model": "medium_model",
+      "success": true,
+      "latency_ms": 1507.5571199995466,
+      "output_tokens": 256,
+      "quality_score": 0.4
+    },
+    {
+      "strategy": "v7_adaptive",
+      "prompt_id": "b6",
+      "model": "medium_model",
+      "success": true,
+      "latency_ms": 1613.068378996104,
+      "output_tokens": 256,
+      "quality_score": 1.0
+    }
+  ]
+}

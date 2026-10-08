@@ -1,0 +1,15 @@
+metric,value
+online_requests,300.0
+v5_average_quality,0.9230792344715182
+v6_average_quality,0.9216635060851568
+v5_average_latency_ms,638.7456884305807
+v6_average_latency_ms,658.9727652181939
+v5_average_cost,0.47447707073576606
+v6_average_cost,0.4885516106399324
+v5_success_rate,1.0
+v6_success_rate,1.0
+v5_average_reward,0.8296803382720305
+v6_average_reward,0.8243925813802203
+v6_exploration_rate,0.05333333333333334
+v6_final_epsilon,0.011170462303555123
+restart_recovered,1.0

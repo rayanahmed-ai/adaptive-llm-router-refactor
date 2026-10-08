@@ -1,0 +1,30 @@
+{
+  "v1_validation_accuracy": 0.6016,
+  "v2_validation_accuracy": 0.6172,
+  "v2_fresh_test_accuracy": 0.8359375,
+  "v2_validation_improvement_pp": 1.5599999999999947,
+  "v2_fresh_test_improvement_pp": 23.433749999999996,
+  "fresh_test_size": 128,
+  "fresh_test_distribution": {
+    "simple": 43,
+    "complex": 42,
+    "medium": 43
+  },
+  "confusion_matrix": [
+    [
+      37,
+      4,
+      2
+    ],
+    [
+      9,
+      33,
+      1
+    ],
+    [
+      2,
+      3,
+      37
+    ]
+  ]
+}

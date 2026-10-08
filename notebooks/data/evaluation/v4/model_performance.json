@@ -1,0 +1,71 @@
+{
+  "complex": {
+    "large_model": {
+      "queries": 149,
+      "quality": 0.9574,
+      "latency_ms": 1212.57,
+      "cost": 1.0327,
+      "success_rate": 1.0
+    },
+    "medium_model": {
+      "queries": 149,
+      "quality": 0.8,
+      "latency_ms": 527.81,
+      "cost": 0.3222,
+      "success_rate": 0.9933
+    },
+    "small_model": {
+      "queries": 149,
+      "quality": 0.5539,
+      "latency_ms": 220.65,
+      "cost": 0.1099,
+      "success_rate": 0.9664
+    }
+  },
+  "medium": {
+    "large_model": {
+      "queries": 149,
+      "quality": 0.9635,
+      "latency_ms": 1196.85,
+      "cost": 1.0024,
+      "success_rate": 1.0
+    },
+    "medium_model": {
+      "queries": 149,
+      "quality": 0.9068,
+      "latency_ms": 510.17,
+      "cost": 0.3097,
+      "success_rate": 0.9933
+    },
+    "small_model": {
+      "queries": 149,
+      "quality": 0.7639,
+      "latency_ms": 208.4,
+      "cost": 0.1002,
+      "success_rate": 0.9799
+    }
+  },
+  "simple": {
+    "large_model": {
+      "queries": 149,
+      "quality": 0.9686,
+      "latency_ms": 1144.12,
+      "cost": 0.9807,
+      "success_rate": 1.0
+    },
+    "medium_model": {
+      "queries": 149,
+      "quality": 0.937,
+      "latency_ms": 481.24,
+      "cost": 0.2889,
+      "success_rate": 0.9933
+    },
+    "small_model": {
+      "queries": 149,
+      "quality": 0.9106,
+      "latency_ms": 187.03,
+      "cost": 0.0896,
+      "success_rate": 0.9866
+    }
+  }
+}

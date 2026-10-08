@@ -1,0 +1,10 @@
+complexity,model,estimated_reward,count
+simple,small_model,0.909657,163
+simple,medium_model,0.888061,13
+simple,large_model,0.776006,18
+medium,small_model,0.632053,14
+medium,medium_model,0.838697,165
+medium,large_model,0.762714,15
+complex,small_model,0.151892,11
+complex,medium_model,0.596069,13
+complex,large_model,0.742724,170

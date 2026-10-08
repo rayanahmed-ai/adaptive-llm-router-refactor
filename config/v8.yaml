@@ -1,0 +1,31 @@
+version: "8.0"
+
+project:
+  name: adaptive-llm-routing
+
+routing:
+  version: "v7.7"
+
+  weights:
+    quality: 0.45
+    reliability: 0.20
+    latency: 0.20
+    cost: 0.15
+
+  epsilon:
+    initial: 0.10
+    minimum: 0.05
+    decay: 0.995
+
+runtime:
+  default_max_tokens: 512
+  default_temperature: 0.2
+
+evaluation:
+  enabled: true
+
+  benchmark_directory:
+    - "notebooks/data/evaluation"
+
+storage:
+  s3_enabled: false

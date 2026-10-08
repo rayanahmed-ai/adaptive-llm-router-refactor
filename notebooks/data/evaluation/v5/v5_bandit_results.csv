@@ -1,0 +1,193 @@
+step,query_id,query,complexity,selected_model,exploration,epsilon,quality,latency_ms,cost,success,reward,cumulative_reward
+1,6,What is your favorite strip from the comic Calvin and Hobbes?,simple,small_model,False,0.197,0.8732,197.56,0.0906,1,0.8720655702159623,0.8720655702159623
+2,11,Which products apple sell?,simple,small_model,False,0.194045,0.9354,186.62,0.0834,1,0.9360957514903268,1.808161321706289
+3,14,How do you operate a car with a manual transmission?,simple,small_model,False,0.191134325,0.9037,189.38,0.0871,1,0.9037343093246322,2.711895631030921
+4,15,What is an apple?,simple,small_model,False,0.188267310125,0.9622,193.33,0.0882,1,0.9617325113626075,3.6736281423935284
+5,16,What are AirPods?,simple,medium_model,True,0.185443300473125,0.9657,464.85,0.2899,1,0.9173701739194231,4.590998316312952
+6,17,What is an EV?,simple,small_model,False,0.1826616509660281,0.828,189.26,0.0862,1,0.8281414384973277,5.4191397548102795
+7,19,"Please classify each of the following animals as mammal, amphibian, or fish: elk, frog, dog, cat, newt, and human.",simple,small_model,False,0.17992172620153768,0.8759,185.63,0.0834,1,0.8766922862011356,6.2958320410114155
+8,22,Should I have Kids?,simple,large_model,True,0.17722290030851462,0.9511,1179.12,0.9752,1,0.7604587256027281,7.0562907666141435
+9,23,Extract what is Top Gun,simple,small_model,False,0.1745645568038869,0.9729,195.86,0.0866,1,0.9723554613161011,8.028646227930244
+10,30,Give me three ideas for a fun dinner party,simple,small_model,False,0.1719460884518286,0.9194,194.11,0.0861,1,0.9190791190347989,8.947725346965044
+11,31,"Tell me whether each of these are animals or not: Alligator, Grass, Tree, Boat, Dolphin, Shark, Fish, Fence, Dog, Car",simple,small_model,False,0.16936689712505118,0.9181,202.83,0.0901,1,0.9165047090761975,9.86423005604124
+12,34,How are tornadoes formed?,simple,small_model,False,0.16682639366817542,0.9428,184.02,0.0923,1,0.9428056001478081,10.807035656189049
+13,35,What is Magical Thinking?,simple,small_model,False,0.1643239977631528,0.8986,193.01,0.0949,1,0.8974533060895588,11.704488962278608
+14,36,"Tell me whether these are movies or film Directors: Sholay, Satyajit Ray, Mani Ratnam, Lagaan, Yash Chopra, Roja",simple,small_model,False,0.1618591377967055,0.9421,216.16,0.0838,1,0.9398728992929848,12.644361861571593
+15,40,"Given a reference text about Gennady Petrovich Lyachin, tell me when he joined the navy and when he was decommissioned.",simple,small_model,False,0.15943125072975492,0.9348,184.84,0.0948,1,0.934460564338879,13.578822425910472
+16,41,"Tell me wether these are cities, or states? IL, chicago, Texas, Fremont, Washington, Washington DC, san jose, bay area",simple,small_model,False,0.1570397819688086,0.8788,196.54,0.0862,1,0.8782315670885519,14.457053992999024
+17,42,Why do people enjoy surfing,simple,large_model,True,0.15468418523927646,0.8614,1100.0,1.0986,1,0.6653894631710848,15.122443456170108
+18,43,What is Depreciation,simple,small_model,False,0.1523639224606873,0.8876,197.07,0.083,1,0.8873191864298461,16.009762642599956
+19,44,Write a brief passage arguing for mandating Electric Vehicles (EVs) over gas combustion vehicles in the United States.,simple,small_model,False,0.150078463623777,0.8712,176.51,0.096,1,0.8715455837194939,16.88130822631945
+20,47,Provide a brief summary of the reaction to the creation of LIV Golf,simple,small_model,False,0.14782728666942033,0.8799,174.31,0.0844,1,0.8816900661316054,17.762998292451055
+21,49,"Tell me whether these are names of soft drinks or coffee: Starbucks, Peet's, Blue Bottle, Coca-Cola, Sprite, Canada Dry, Pepsi",simple,small_model,False,0.14560987736937903,0.8999,195.52,0.0792,1,0.9001732448373995,18.663171537288456
+22,53,Who is Stephen King?,simple,small_model,False,0.14342572920883834,0.9288,181.89,0.0881,1,0.9294586266870235,19.59263016397548
+23,57,What causes ocean tides?,simple,small_model,False,0.14127434327070576,0.9414,194.14,0.0868,1,0.9410019719661548,20.533632135941634
+24,58,Where do bears live?,simple,small_model,False,0.13915522812164516,0.9601,182.08,0.088,1,0.9607507029339583,21.49438283887559
+25,60,What is WordPress?,simple,small_model,False,0.13706789969982047,0.8736,198.49,0.089,1,0.8725445358636924,22.366927374739284
+26,61,"Tell me if these vegetables are or are not green: carrot, courgette, bell pepper, radish, spaghetti squash, onion.",simple,large_model,True,0.13501188120432317,0.9913,1220.59,0.9241,1,0.8020331833572718,23.168960558096554
+27,64,Why do people like biking?,simple,small_model,False,0.1329867029862583,0.9814,207.27,0.0859,1,0.9798170961709546,24.14877765426751
+28,69,"Given a reference text about Larissa Ilinichna Volpert, tell me what game she played, when she was champion, and what titles she earned.",simple,small_model,False,0.13099190244146444,0.8849,194.73,0.0882,1,0.8842959976301505,25.03307365189766
+29,76,How to lose weight?,simple,small_model,False,0.12902702390484247,0.9292,166.66,0.0918,1,0.9309513859834003,25.96402503788106
+30,77,Extract the non-meat ingredients of the sandwich in the passage provided. Separate them with a pipe symbol.,simple,small_model,False,0.12709161854626982,0.8799,196.03,0.0925,1,0.878713301121695,26.842738339002757
+31,97,Who are the Wagner group,simple,small_model,False,0.12518524426807578,0.9174,204.63,0.0912,1,0.9155125572033032,27.75825089620606
+32,102,Why do people sleep?,simple,small_model,False,0.12330746560405464,0.9455,182.57,0.0892,1,0.9459756858000946,28.704226582006154
+33,105,Remove vowels from this text:,simple,small_model,False,0.12145785361999382,0.9518,191.03,0.0881,1,0.9515673870336978,29.655793969039852
+34,109,What is solar wind?,simple,small_model,False,0.11963598581569392,0.8942,157.64,0.0912,1,0.8968945431234102,30.55268851216326
+35,110,Tell me about Roger Federer,simple,small_model,False,0.1178414460284585,0.9,152.29,0.0855,1,0.9038205979066563,31.456509110069916
+36,113,Who wrote the most episodes of season four of Game of Thrones?,simple,small_model,False,0.11607382433803162,0.8781,196.5,0.092,1,0.8769204870646397,32.333429597134554
+37,122,"Tell me whether these pokemon are electric or grass type: Pikachu, Bulbasaur, Zapdos, Voltorb, Oddish, Bellsprout",simple,small_model,False,0.11433271697296114,0.8977,180.98,0.0885,1,0.8984049481706193,33.231834545305176
+38,129,Who is Ronald Peter Nash,simple,small_model,False,0.11261772621836673,0.9493,172.29,0.099,1,0.9497389817942833,34.18157352709946
+39,136,Who was Margaret Thatcher?,simple,small_model,False,0.11092846032509122,1.0,162.99,0.0915,1,1.0,35.18157352709946
+40,137,Why do babies cry?,simple,small_model,False,0.10926453342021486,0.925,206.38,0.0845,1,0.923652323449628,36.10522585054909
+41,139,Tell me about Indiana,simple,small_model,False,0.10762556541891163,0.9315,184.14,0.0889,1,0.9318544047320011,37.03708025528109
+42,140,What are mammals?,simple,small_model,False,0.10601118193762796,0.9577,179.42,0.091,1,0.958291985706867,37.995372240987955
+43,141,What causes earthquakes?,simple,small_model,False,0.10442101420856353,0.9495,195.54,0.0867,1,0.9489760613443231,38.94434830233228
+44,142,Who was Nikola Tesla?,simple,small_model,False,0.10285469899543508,0.9043,203.27,0.0876,1,0.9029268825259154,39.8472751848582
+45,160,Different uses for glass,simple,small_model,False,0.10131187851050355,0.9529,199.16,0.0894,1,0.9517367918492295,40.799011976707426
+46,162,What is observer bias,simple,small_model,False,0.099792200332846,0.8623,181.14,0.0854,1,0.8633180430305804,41.66233001973801
+47,163,Who is Bryan Adams,simple,small_model,False,0.09829531732785331,0.8635,179.71,0.0864,1,0.8645514509510511,42.526881470689055
+48,164,Who developed Pilates?,simple,small_model,False,0.09682088756793551,0.99,190.86,0.0911,1,0.9894658703824509,43.51634734107151
+49,166,Are UGGs considered fashionable?,simple,small_model,False,0.09536857425441647,0.9779,169.63,0.0935,1,0.9791815289703436,44.49552887004185
+50,169,How was Napoleon defeated?,simple,large_model,True,0.09393804564060022,0.9536,1203.53,1.0034,1,0.7575884339711947,45.253117304013045
+51,171,Why do we watch television?,simple,small_model,False,0.09252897495599122,0.8941,191.73,0.0933,1,0.893247768414953,46.146365072428
+52,175,Name ten Shakespeare plays,simple,small_model,False,0.09114104033165135,0.9255,172.46,0.0907,1,0.9268024633086716,47.073167535736665
+53,178,How to lose weight?,simple,small_model,False,0.08977392472667658,0.9143,193.27,0.0935,1,0.9132763970879998,47.98644393282466
+54,179,Who is Juliette Roche?,simple,small_model,False,0.08842731585577643,0.9527,191.49,0.1005,1,0.951107746804066,48.937551679628726
+55,181,Why USA is best ?,simple,small_model,False,0.08710090611793977,0.867,193.41,0.0927,1,0.8660475705997566,49.80359925022848
+56,182,How would you describe Dance?,simple,small_model,False,0.08579439252617067,0.9599,232.75,0.0823,1,0.9562142582227501,50.75981350845123
+57,183,Why Italy is known for,simple,small_model,False,0.08450747663827811,0.9303,199.17,0.0883,1,0.9292524509680191,51.68906595941925
+58,192,What is a circle?,simple,small_model,False,0.08323986448870394,0.9245,200.6,0.1002,1,0.922051241776883,52.61111720119614
+59,193,"From a 10-year old child's perspective, write a short summary of a visit to the Rijksmuseum for the Vermeer exhibition.",simple,small_model,False,0.08199126652137337,0.88,182.29,0.0886,1,0.8805666072103379,53.49168380840648
+60,194,What is Milky Way?,simple,small_model,False,0.08076139752355277,0.9205,202.56,0.0913,1,0.9188037993970961,54.410487607803574
+61,195,What is a newspaper?,simple,small_model,False,0.07954997656069948,0.9603,207.33,0.0901,1,0.9582659149361575,55.36875352273973
+62,196,"Given this paragraph about time travel, how practical is it",simple,small_model,False,0.07835672691228898,0.9087,182.53,0.0904,1,0.9090523488649468,56.27780587160468
+63,205,"Tell me whether each company is based inside or outside of the USA: Uber, Grab, Samsung, Meituan, Exxon, Amazon, Roche",simple,small_model,False,0.07718137600860464,0.9048,191.07,0.0926,1,0.9040863466632028,57.18189221826788
+64,207,Please give me a short bulleted list of the key discoveries from Gallo’s lab.,simple,small_model,False,0.07602365536847557,0.8624,179.32,0.0865,1,0.863478876665896,58.04537109493378
+65,214,"Given a reference text about Lollapalooza, where does it take place, who started it and what is it?",medium,medium_model,False,0.07488330053794844,0.93,441.49,0.3083,1,0.881997030700218,58.927368125634
+66,220,What is best Playstation or Xbox,medium,large_model,True,0.0737600510298792,0.9638,1318.81,1.0733,1,0.7491359288743636,59.676504054508364
+67,225,What is LAPR?,medium,medium_model,False,0.07265365026443102,0.9011,550.62,0.2993,1,0.8434100652114803,60.51991411971984
+68,226,Is beauty objective or subjective?,medium,medium_model,False,0.07156384551046455,0.8954,567.08,0.3248,1,0.8288012605475676,61.34871538026741
+69,236,Tell me about the 2017 Southeastern Conference football season,medium,medium_model,False,0.07049038782780757,0.8886,510.29,0.3017,1,0.8231881611493205,62.171903541416725
+70,238,"Classify each of the following as either a title by Isaac Asimov or Jules Verne: Pebble in the Sky, The Stars, Like Dust, Foundation, The Robots of Dawn, The Naked Sun, Around the World in Eighty Days, From the Earth to the Moon, Martin Paz, Journey to the Centre of the Earth, A Drama in the Air",medium,medium_model,False,0.06943303201039046,0.9192,558.81,0.3112,1,0.859449689712195,63.03135323112892
+71,243,"Pick if these would be useful or not useful for a high school student to put in their backpack. Notebooks, textbook, desk lamp, pencil pouch, beach ball, pillow, laptop.",medium,medium_model,False,0.0683915365302346,0.9131,474.8,0.3225,1,0.860343337257038,63.89169656838595
+72,244,What is one year?,medium,large_model,True,0.06736566348228107,0.8806,1224.02,1.0972,1,0.6532447402203354,64.54494130860628
+73,248,Based on the following passage summarise how sunsets are viewed from the northern hemisphere across seasons.,medium,medium_model,False,0.06635517853004685,0.9312,514.64,0.3129,1,0.8755764450905802,65.42051775369687
+74,250,Give me 3 ideas for hobbies that I can recommend to somebody who is retiring. These should all be activities that require gentle movement and are not overly demanding on the body.,medium,medium_model,False,0.06535985085209615,0.9064,573.05,0.307,1,0.8457064806797537,66.26622423437662
+75,253,"Extract why Tim Lincecum was called ""The Freak""",medium,medium_model,False,0.06437945308931471,0.8848,553.13,0.3159,1,0.8099051992273448,67.07612943360397
+76,254,What is Linux?,medium,medium_model,False,0.06341376129297499,0.8882,540.02,0.2889,1,0.8208463926908293,67.89697582629479
+77,256,What is FIFA?,medium,medium_model,False,0.062462554873580364,0.9669,550.63,0.2955,1,0.9096120083171532,68.80658783461195
+78,261,"Categorize the following Taylor Swift songs based on what album they are in: The Archer, tolerate it, Lover, Love Story (Taylor's Version), Bejeweled, Don't Blame Me, 22 (Taylor's version), Look What You Made Me Do, Lavender Haze, willow, Cruel Summer",medium,medium_model,False,0.061525616550476656,0.8775,519.59,0.3288,1,0.7972078769471111,69.60379571155906
+79,267,Write a haiku about how much I love pickles.,medium,medium_model,False,0.060602732302219506,0.8501,480.95,0.3188,1,0.7472359670254531,70.3510316785845
+80,275,What was the Counter Reformation?,medium,medium_model,False,0.05969369131768621,0.8647,549.21,0.2773,1,0.774180238379595,71.1252119169641
+81,279,"Categorize these movies that came out in 1999 as cartoons or live-action: The Matrix, Stuart Little, Cruel Intentions, The Iron Giant, The Blair Witch Project, South Park: Bigger, Longer, and Uncut, The Sixth Sense",medium,small_model,True,0.058798285947920914,0.791,183.01,0.0984,1,0.6814572953066508,71.80666921227076
+82,280,Discuss at least two risks associated with scraping data from websites. Describe steps an analyst could take to mitigate those risks.,medium,medium_model,False,0.0579163116587021,0.8987,499.93,0.3176,1,0.8427124681800771,72.64938168045084
+83,283,"Tell me whether each South Park character is a kid or adult: Randy, Stan, Kyle, Butters, Sharon",medium,medium_model,False,0.05704756698382157,0.8485,449.73,0.3009,1,0.7489781800611733,73.39835986051202
+84,288,"Classify each of the following as either titles by J.K. Rowling or Suzanne Collins: Harry Potter and the Sorcerer's Stone, The Ickabog, Fantastic Beasts and Where to Find Them, The Cuckoo's Calling, Harry Potter and the Order of the Phoenix, Catching Fire, Mockingjay, Gregor the Overlander, Year of the Jungle, The Ballad of Songbirds and Snakes",medium,medium_model,False,0.05619185347906424,0.9661,496.09,0.3117,1,0.9124124893731379,74.31077234988516
+85,291,What is the fastest car?,medium,medium_model,False,0.05534897567687828,0.8342,567.98,0.3245,1,0.7063453110514358,75.01711766093659
+86,297,Name 5 popular musicians,medium,medium_model,False,0.054518741041725105,0.8966,545.21,0.2974,1,0.8362390523794981,75.85335671331609
+87,298,What is guitar amp modeling?,medium,medium_model,False,0.053700959926099225,0.9327,479.7,0.2916,1,0.8827419003766606,76.73609861369275
+88,301,How reliable is public transportation?,medium,medium_model,False,0.052895445527207735,0.9913,468.24,0.3131,1,0.9401796940021869,77.67627830769493
+89,304,Give me a comma separated list of all the organizations Henry Holst worked for based on this article.,medium,medium_model,False,0.05210201384429962,0.8849,473.96,0.3263,1,0.8167223272927503,78.49300063498768
+90,305,"Given a reference text about the Spellenspektakel, tell me where it takes place and what games are played.",medium,medium_model,False,0.05132048363663513,0.9049,503.0,0.29,1,0.8528395715993472,79.34584020658703
+91,306,"Given this paragraph about Sam Baker, what is the Outland Trophy?",medium,medium_model,False,0.0505506763820856,0.8509,568.06,0.3039,1,0.7419217510555384,80.08776195764257
+92,308,"Classify each of the following as an American coffee shop chain or an American fast-food hamburger restaurant: Starbucks, Dunkin Donuts, McDonald's, In-N-Out, Dutch Bros, Coffee Bean & Tea Leaf, Burger King, Carl's Jr",medium,medium_model,False,0.05,0.9155,529.91,0.3182,1,0.8578255054455692,80.94558746308815
+93,312,Why should you visit Ireland?,medium,medium_model,False,0.05,0.9278,528.58,0.3144,1,0.8706581116951652,81.81624557478331
+94,315,Give me a list of the greatest chess players of all time,medium,medium_model,False,0.05,0.9403,500.72,0.3023,1,0.8871577113567206,82.70340328614003
+95,317,Give me a bulleted list of all artists that performers on the Trolls World Tour Soundtrack.,medium,medium_model,False,0.05,0.8737,528.76,0.3089,1,0.7908237310139559,83.49422701715399
+96,321,Share the best 7 European Cities for Nightlife,medium,medium_model,False,0.05,0.9074,501.4,0.3049,1,0.8539157238104119,84.3481427409644
+97,322,What is Hornachuelos?,medium,medium_model,False,0.05,0.9672,521.5,0.319,1,0.9102607380533971,85.2584034790178
+98,326,Pitch me some bad ideas for cologne scents.,medium,medium_model,False,0.05,0.9229,560.42,0.2983,1,0.864360500190535,86.12276397920833
+99,335,"Give this paragraph about the Alley Cats a capella group, what famous talk show hosts have they performed for?",medium,medium_model,False,0.05,0.9213,467.81,0.3053,1,0.8710486658487874,86.99381264505712
+100,339,"Classify each of the following as either a single digit or a double digit number: 8, 4, 1, 12, 87, 65, 3, 5, 45, 97, 6, 2, 34, 71, 9, 48, 0, 7, 31, 50.",medium,medium_model,False,0.05,0.8823,502.91,0.3114,1,0.8102792818083309,87.80409192686545
+101,348,Provide a table of the various recruiting lists that Calvin Johnson was named to and who named him to the list and do it in CSV format,medium,medium_model,False,0.05,0.8364,513.85,0.3409,1,0.7142846068645218,88.51837653372998
+102,349,Why do humans like dogs?,medium,medium_model,False,0.05,0.9635,552.94,0.3171,1,0.9036964887635317,89.4220730224935
+103,350,I would like to get a camper for the family vacations.  What things do I need to be aware of when buying one?,medium,medium_model,False,0.05,0.9301,553.31,0.3194,1,0.8700165385898573,90.29208956108336
+104,358,Provide a list of ways musicians can earn income from their music craft.,medium,medium_model,False,0.05,0.8909,477.39,0.3153,1,0.8295542108170153,91.12164377190038
+105,362,What is the loudest animal on Earth?,medium,medium_model,False,0.05,0.9248,520.03,0.3096,1,0.8690007698712563,91.99064454177164
+106,369,What is nomadism?,medium,medium_model,False,0.05,0.9126,491.05,0.2943,1,0.8612488800587873,92.85189342183043
+107,371,Extract all of the names of people mentioned in this paragraph and list them using bullets in the format {Name},medium,medium_model,False,0.05,0.9563,541.23,0.288,1,0.9007238338176909,93.75261725564812
+108,378,"Classify each of the following as either titles by George R.R. Martin or Robert Jordan: A Game of Thrones, Dying of the Light, The Armageddon Rag, A Storm of Swords, A Song for Lya, The Great Hunt, Towers of Midnight, Lord of Chaos, A Crown of Swords, Crossroads of Twilight",medium,medium_model,False,0.05,0.882,575.34,0.3216,1,0.8015351290660822,94.5541523847142
+109,380,What is the JDK?,medium,medium_model,False,0.05,0.8818,568.4,0.3241,1,0.8015467693741999,95.3556991540884
+110,381,"Classify the following as either red wines or white wines: Cabernet Sauvignon, Pinot Blanc, Riesling, Chardonnay, Pinot Grigio, Sauvignon Blanc, Merlot, Syrah, Shiraz",medium,medium_model,False,0.05,0.9523,521.11,0.2813,1,0.8993961395846104,96.25509529367301
+111,382,"Extract universities Moret studied at and his year of graduation for each, and put them in a bulleted list.",medium,medium_model,False,0.05,0.8825,524.62,0.3376,1,0.8057843288733277,97.06087962254634
+112,385,Write an email to someone updating that I’ve accepted the position at their company to which they referred me,medium,medium_model,False,0.05,0.8417,491.3,0.3232,1,0.7289602036358472,97.78983982618219
+113,388,What are the primary colors?,medium,medium_model,False,0.05,0.9836,525.85,0.3016,1,0.9280815116334964,98.71792133781568
+114,393,"Tell me whether these sports are played on grass or ice: figure skating, hockey, football, soccer, curling",medium,medium_model,False,0.05,0.884,481.07,0.2901,1,0.8180673585978503,99.53598869641353
+115,394,India’s overall food grain production (based on 4th Advance estimates) is estimated to have touched how much?,medium,medium_model,False,0.05,0.9386,506.17,0.3267,1,0.8823391239056512,100.41832782031918
+116,396,Why do people like golf?,medium,medium_model,False,0.05,0.8002,473.02,0.3092,1,0.6492271184300428,101.06755493874923
+117,397,"Given this paragraph about a Tesla Model 3, tell me what the EPA-rated ranges are for the various models.",medium,medium_model,False,0.05,0.9997,418.58,0.304,1,0.9543869141789547,102.02194185292818
+118,398,What are the titles of the songs on Side B for this album?,medium,medium_model,False,0.05,0.9025,520.3,0.3217,1,0.845391465837191,102.86733331876538
+119,399,Are cats or dogs better?,medium,medium_model,False,0.05,0.9167,544.86,0.2947,1,0.8600594647994959,103.72739278356487
+120,401,"Holidays such as Christmas, Easter and Halloween are associated with themes. Sort the following items into the holiday with which they are most frequently associated: elves, chocolate, presents, pumpkin, rabbit, candy, pilgrim, egg, Santa, Jesus, hot-crossed buns, and reindeer",medium,medium_model,False,0.05,0.9113,495.79,0.329,1,0.8558074041776281,104.58320018774249
+121,407,Who let the dogs out?,medium,small_model,True,0.05,0.7852,197.61,0.1001,1,0.6682533992161127,105.2514535869586
+122,411,List the items you need to play pickleball,medium,medium_model,False,0.05,0.8922,425.04,0.3111,1,0.8377041799590776,106.08915776691768
+123,412,"What is the name of the gruff and tough female Viper pilot on the 2003 reboot of ""Battlestar Galactica""?",medium,medium_model,False,0.05,0.93,524.56,0.2931,1,0.8755085636901262,106.96466633060781
+124,417,Where is Meerut?,medium,medium_model,False,0.05,0.8535,550.35,0.2675,1,0.7527081820387322,107.71737451264654
+125,420,Why is pickleball so popular?,medium,medium_model,False,0.05,0.927,476.74,0.3147,1,0.8748812108565508,108.5922557235031
+126,422,Give me a bulleted list of 3 informal fallacies and the meaning each,medium,medium_model,False,0.05,0.9428,561.08,0.3092,1,0.8830404046585033,109.4752961281616
+127,423,What is tollywood?,medium,medium_model,False,0.05,0.8377,423.21,0.3313,1,0.7267407945630474,110.20203692272464
+128,425,"What is the best football club in the world in 23 between Arsenal, Real Madrid, Napoli, Manchester City, and Bayern Munich?",medium,medium_model,False,0.05,0.8252,546.35,0.2995,1,0.6931052258742232,110.89514214859886
+129,426,Which is a species of fish? Tope or Rope,complex,large_model,False,0.05,0.964,1198.45,1.0666,1,0.7617826178851976,111.65692476648407
+130,427,Why can camels survive for long without water?,complex,large_model,False,0.05,0.9804,1195.33,1.0854,1,0.7764934636913999,112.43341823017546
+131,429,When was Tomoaki Komorida born?,complex,medium_model,True,0.05,0.8659,554.82,0.3329,1,0.7201378788440044,113.15355610901946
+132,431,Who gave the UN the land in NY to build their HQ,complex,large_model,False,0.05,0.9406,1325.31,0.9434,1,0.7296755558188098,113.88323166483828
+133,436,What is a dispersive prism?,complex,large_model,False,0.05,0.9226,1104.03,0.945,1,0.7150828765617077,114.59831454139999
+134,445,Who played Billy the Kid in The Left Handed Gun,complex,large_model,False,0.05,0.9207,1119.12,1.0553,1,0.6981162225257197,115.29643076392571
+135,450,Who saved Andromeda from the sea monster,complex,large_model,False,0.05,1.0,1293.22,1.0458,1,0.7907470603060192,116.08717782423173
+136,452,"Who are ''The Lumières"" ?",complex,large_model,False,0.05,0.9344,1139.13,1.0448,1,0.7246783778653328,116.81185620209706
+137,457,Who was the first to record the Needles and Pins song?,complex,large_model,False,0.05,1.0,1119.51,0.9926,1,0.8133263440623208,117.62518254615938
+138,458,Provide me a list of the different types of harnesses used in rock climbing,complex,large_model,False,0.05,0.921,1267.45,1.0715,1,0.68253488865061,118.30771743480999
+139,459,Think of some family rules to promote a healthy family relationship,complex,large_model,False,0.05,0.9247,1282.02,1.0757,1,0.6880688400887058,118.99578627489869
+140,463,"which weighs more, cold or hot water?",complex,large_model,False,0.05,0.9536,1082.39,1.0534,1,0.7640992169084164,119.75988549180711
+141,464,Write a short paragraph about why you should not have both a pet cat and a pet bird.,complex,large_model,False,0.05,0.9242,1004.31,1.0591,1,0.7159084054815131,120.47579389728863
+142,465,What makes a formula one car so fast?,complex,large_model,False,0.05,0.9735,1121.9,1.067,1,0.7787045813138223,121.25449847860244
+143,468,Why do potato chip bags become stale after opening?,complex,large_model,False,0.05,0.9379,1235.41,1.0009,1,0.726944899029166,121.9814433776316
+144,469,Classify each of the following as a primary color or a secondary color,complex,large_model,False,0.05,0.9525,1150.1,1.0449,1,0.7572980921510988,122.73874146978271
+145,475,Give me five ways in which I can make my homebrew beer more interesting,complex,medium_model,True,0.05,0.7894,542.13,0.336,1,0.5680465818895326,123.30678805167224
+146,476,How many Grammy Awards has Bad Bunny won?,complex,large_model,False,0.05,0.9693,1302.93,1.0026,1,0.7636807838517571,124.070468835524
+147,479,What are some kinds of embroidery stitches for writing letters?,complex,large_model,False,0.05,0.8997,1196.44,1.0296,1,0.6513017635324482,124.72177059905644
+148,483,"Why is Santa Cruz, California a great place to live?",complex,large_model,False,0.05,0.9362,1408.11,1.0121,1,0.7055174066424829,125.42728800569893
+149,484,Give me some ideas to manage my manager.,complex,large_model,False,0.05,1.0,1250.98,1.036,1,0.7959049794751426,126.22319298517407
+150,488,Please describe  what is oil and give me a list of it’s applications.,complex,large_model,False,0.05,0.9658,1200.06,0.9326,1,0.7776337953307918,127.00082678050485
+151,489,List 6 different types of rain in Seattle,complex,large_model,False,0.05,0.953,1026.88,1.0777,1,0.7663354305183816,127.76716221102323
+152,492,Tell me whether or not these foods are on EWG's dirty dozen list,complex,large_model,False,0.05,0.9671,1458.91,1.0391,1,0.7424010684816404,128.50956327950487
+153,494,Summarize in one sentence this article about a famous song.,complex,large_model,False,0.05,0.961,1198.85,1.0597,1,0.7594752285947851,129.26903850809967
+154,495,What is the Maareech Advanced Torpedo Defence System (ATDS)?,complex,large_model,False,0.05,0.9621,1135.54,1.0669,1,0.7659851506310815,130.03502365873075
+155,498,Who is Shoji Hashimoto?,complex,large_model,False,0.05,0.9865,948.8,1.0931,1,0.8058161173608229,130.84083977609157
+156,506,Why are so many US Hollywood films made in the state of Georgia?,complex,large_model,False,0.05,0.9277,1293.92,1.1399,1,0.6861012763413711,131.52694105243293
+157,508,What is the current capital of Japan?,complex,large_model,False,0.05,0.9662,1268.7,1.1146,1,0.7520430607099775,132.2789841131429
+158,510,write a short essay on California wild fire,complex,large_model,True,0.05,0.9911,1289.44,1.1233,1,0.7739982366490352,133.05298234979193
+159,515,Which is a species of fish? Sea dragon or Red bearded,complex,large_model,False,0.05,0.9394,1153.88,0.9239,1,0.746059268930094,133.79904161872201
+160,516,"Categorize where each of these household items belong: bed, couch, desk",complex,large_model,False,0.05,0.9186,1316.46,1.0448,1,0.6757869634534878,134.4748285821755
+161,521,"Identify which animal species is alive or extinct: Pliosaur, Marine Iguana",complex,large_model,False,0.05,0.9597,1155.43,1.0766,1,0.7606171788014493,135.23544576097694
+162,525,"In SQL, how can I filter table rows based on a column condition?",complex,large_model,False,0.05,0.9621,1108.06,1.0521,1,0.7702339805521392,136.0056797415291
+163,527,What makes the world go around?,complex,large_model,False,0.05,0.963,1136.28,1.0019,1,0.7737050152789507,136.77938475680804
+164,534,List the weapons of Goddess Durga in a comma separated manner.,complex,large_model,False,0.05,0.942,1232.33,0.996,1,0.7359647816612115,137.51534953846925
+165,540,Who tends to participates in hackathons?,complex,large_model,False,0.05,0.9613,1388.03,1.1135,1,0.7356238494310828,138.25097338790033
+166,544,How should I invest my money?,complex,large_model,False,0.05,0.9162,1215.79,1.0361,1,0.6817257465396305,138.93269913443996
+167,551,How many planets are there?,complex,large_model,False,0.05,0.9834,1048.24,0.9474,1,0.8084684741451079,139.74116760858507
+168,556,What are good activities for two year old boys?,complex,large_model,False,0.05,0.9471,1239.4,1.0685,1,0.7377881321089523,140.47895574069403
+169,559,What happens when you bring flammable objects closer to a fire source or extreme heat?,complex,large_model,False,0.05,0.9127,1059.33,1.1326,1,0.6797501294863515,141.1587058701804
+170,568,The former Chairman of Tata Sons died in road accident  en route  from where?,complex,small_model,True,0.05,0.5512,215.35,0.1036,1,0.14815246633438006,141.30685833651478
+171,571,What is cloud computing in simple terms?,complex,large_model,False,0.05,0.9384,1214.63,1.0369,1,0.7261540330329493,142.03301236954772
+172,574,"Are the following items candy bars or gum: trident, Twix, hubba bubba, snickers, three musketeers, and wrigleys.",complex,large_model,False,0.05,0.9479,1404.2,1.0291,1,0.7274961411889699,142.76050851073668
+173,576,Give me a list of things that pose a challenge to cryptos,complex,large_model,False,0.05,0.9115,1294.15,0.9849,1,0.67011367055456,143.43062218129126
+174,579,Why are we like aquariums?,complex,large_model,False,0.05,0.9852,1162.13,1.0653,1,0.7866620145824944,144.21728419587376
+175,580,Give me a bulleted list of countries that start with the letter B.,complex,large_model,False,0.05,0.952,1322.07,1.0284,1,0.7417788435681224,144.95906303944187
+176,581,Who are some of the most successful golfers in history?,complex,large_model,False,0.05,1.0,1177.27,0.9926,1,0.8076941775003845,145.76675721694227
+177,582,"Which is a bird or fish: Red-throated diver, Redlip blenny",complex,large_model,False,0.05,1.0,1294.11,1.1012,1,0.7847861532896767,146.55154337023194
+178,584,How do you make an iced matcha latter?,complex,large_model,False,0.05,0.9684,1359.09,0.9698,1,0.7607824532691598,147.3123258235011
+179,586,Which is the best place to Kayak in Austin?,complex,large_model,False,0.05,0.9878,1325.64,1.014,1,0.7787575814804024,148.0910834049815
+180,588,"What is the winter weather like in Salt Lake City, Utah?",complex,large_model,False,0.05,0.9277,1229.22,1.0364,1,0.7033843804742571,148.79446778545577
+181,593,What are the careers of your dream?,complex,large_model,False,0.05,0.9235,1252.85,1.0932,1,0.6866576568548246,149.4811254423106
+182,601,Please provide a brief summary describing Canada,complex,large_model,False,0.05,1.0,1355.28,1.0529,1,0.7839427807114251,150.265068223022
+183,604,Write the first paragraph of a blog post describing the appeal of Boston as a tourist destination,complex,large_model,False,0.05,0.948,1109.89,1.0391,1,0.755333941983147,151.02040216500515
+184,615,"As an expert skier, what are the top resorts in the US to go skiing?",complex,large_model,False,0.05,0.9521,1225.11,1.0586,1,0.7481312552300076,151.76853342023517
+185,616,"Which characters belong to DC or Marvel Universe? Hulk, Spectre",complex,large_model,False,0.05,0.968,1119.06,1.0376,1,0.7765988236949339,152.5451322439301
+186,617,Which players won the men's singles grand slam tennis tournaments in 2022.,complex,large_model,False,0.05,0.9424,1265.18,1.0995,1,0.7225873649417202,153.26771960887183
+187,618,Can you tell me something about Stanley J. Goldberg,complex,large_model,False,0.05,0.9061,1194.96,1.0264,1,0.6645853775896268,153.93230498646145
+188,629,Give me a list of popular current artists in the EDM category.,complex,large_model,False,0.05,0.9988,1101.55,1.0455,1,0.8082685747093346,154.74057356117078
+189,633,"Given a reference text about Jen Shah, what is she famous from, when was she criminally charged, what was the verdict, and when was she sentenced.",complex,large_model,False,0.05,0.9409,1258.19,1.0513,1,0.7253796578273166,155.4659532189981
+190,634,What are the classifications of Academic Degrees?,complex,large_model,False,0.05,0.856,1282.59,1.0013,1,0.5585019738028671,156.02445519280096
+191,635,What types of problems in government could AI be used to solve,complex,large_model,False,0.05,0.9867,1045.63,1.0875,1,0.7971680167602674,156.82162320956124
+192,637,Who is the best NBA player of all time?,complex,large_model,False,0.05,0.9533,1106.23,1.1252,1,0.7538615496353184,157.57548475919657

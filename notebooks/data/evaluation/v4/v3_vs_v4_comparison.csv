@@ -1,0 +1,5 @@
+metric,V3,V4,delta_V4_minus_V3
+average_quality,0.9251,0.9251,0.0
+average_latency_ms,638.8798,638.8798,0.0
+average_cost,0.48,0.48,0.0
+success_rate,1.0,1.0,0.0

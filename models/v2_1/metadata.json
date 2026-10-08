@@ -1,0 +1,13 @@
+{
+  "version": "v2_1",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "classifier": "LogisticRegression",
+  "training_examples": 511,
+  "validation_examples": 128,
+  "validation_accuracy": 0.4921875,
+  "classes": [
+    "simple",
+    "medium",
+    "complex"
+  ]
+}

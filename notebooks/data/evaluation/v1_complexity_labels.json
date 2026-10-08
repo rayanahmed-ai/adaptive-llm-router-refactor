@@ -1,0 +1,3197 @@
+[
+  {
+    "instruction": "Who was John Moses Browning?",
+    "complexity": "simple",
+    "confidence": 0.35976269841194153
+  },
+  {
+    "instruction": "Who is Thomas Jefferson?",
+    "complexity": "simple",
+    "confidence": 0.5071777701377869
+  },
+  {
+    "instruction": "Which Dutch artist painted “Girl with a Pearl Earring”?",
+    "complexity": "simple",
+    "confidence": 0.35567647218704224
+  },
+  {
+    "instruction": "What is a verb?",
+    "complexity": "simple",
+    "confidence": 0.6339873671531677
+  },
+  {
+    "instruction": "Did dinosaurs have lips?",
+    "complexity": "simple",
+    "confidence": 0.5723126530647278
+  },
+  {
+    "instruction": "What is Sunshine Recession?",
+    "complexity": "simple",
+    "confidence": 0.43267905712127686
+  },
+  {
+    "instruction": "What is your favorite strip from the comic Calvin and Hobbes?",
+    "complexity": "simple",
+    "confidence": 0.43173736333847046
+  },
+  {
+    "instruction": "Who invented the telephone?",
+    "complexity": "simple",
+    "confidence": 0.42300960421562195
+  },
+  {
+    "instruction": "What is a kite?",
+    "complexity": "simple",
+    "confidence": 0.3860251307487488
+  },
+  {
+    "instruction": "Given this paragraph about Billie Eilish, tell me who produced her debut single, also tell me what is her chart-topping single?",
+    "complexity": "simple",
+    "confidence": 0.5296847224235535
+  },
+  {
+    "instruction": "Who was boxer John Baldwin",
+    "complexity": "simple",
+    "confidence": 0.482620507478714
+  },
+  {
+    "instruction": "Which products apple sell?",
+    "complexity": "simple",
+    "confidence": 0.4693126976490021
+  },
+  {
+    "instruction": "Write a short story about a person who discovers a hidden room in their house. The story should include a plot twist and a clear resolution at the end.",
+    "complexity": "simple",
+    "confidence": 0.9695876836776733
+  },
+  {
+    "instruction": "Categorize each of the following instruments as either string or keyboard: Guitar, Violin, piano, harmonium, cello, accordion, banjo",
+    "complexity": "simple",
+    "confidence": 0.37086722254753113
+  },
+  {
+    "instruction": "How do you operate a car with a manual transmission?",
+    "complexity": "simple",
+    "confidence": 0.3854459524154663
+  },
+  {
+    "instruction": "What is an apple?",
+    "complexity": "simple",
+    "confidence": 0.36253494024276733
+  },
+  {
+    "instruction": "What are AirPods?",
+    "complexity": "simple",
+    "confidence": 0.3823820948600769
+  },
+  {
+    "instruction": "What is an EV?",
+    "complexity": "simple",
+    "confidence": 0.4751831591129303
+  },
+  {
+    "instruction": "Name 10 colors",
+    "complexity": "simple",
+    "confidence": 0.41805216670036316
+  },
+  {
+    "instruction": "Please classify each of the following animals as mammal, amphibian, or fish: elk, frog, dog, cat, newt, and human.",
+    "complexity": "simple",
+    "confidence": 0.374815970659256
+  },
+  {
+    "instruction": "What is a Mormon?",
+    "complexity": "simple",
+    "confidence": 0.40447309613227844
+  },
+  {
+    "instruction": "What is Bollywood",
+    "complexity": "simple",
+    "confidence": 0.36653175950050354
+  },
+  {
+    "instruction": "Should I have Kids?",
+    "complexity": "simple",
+    "confidence": 0.46485385298728943
+  },
+  {
+    "instruction": "Extract what is Top Gun",
+    "complexity": "simple",
+    "confidence": 0.5460243225097656
+  },
+  {
+    "instruction": "From the passage provided, extract the languages in which Kishore Kumar provided his vocals as a playback singer. Separate them with a comma.",
+    "complexity": "simple",
+    "confidence": 0.7469455599784851
+  },
+  {
+    "instruction": "What percussion instruments are easy to learn?",
+    "complexity": "simple",
+    "confidence": 0.43107977509498596
+  },
+  {
+    "instruction": "Tell me whether you drive on the right or left side of the road in these countries: USA, Mexico, Spain, England, New Zealand, Japan",
+    "complexity": "simple",
+    "confidence": 0.42951610684394836
+  },
+  {
+    "instruction": "When was Lamb Air operating",
+    "complexity": "simple",
+    "confidence": 0.3849758207798004
+  },
+  {
+    "instruction": "What is Terraform?",
+    "complexity": "simple",
+    "confidence": 0.3790725767612457
+  },
+  {
+    "instruction": "From the passage find the list of banks who supported Yes Bank in 2020. Display the results in comma separated format.",
+    "complexity": "simple",
+    "confidence": 0.35425516963005066
+  },
+  {
+    "instruction": "Give me three ideas for a fun dinner party",
+    "complexity": "simple",
+    "confidence": 0.4438302516937256
+  },
+  {
+    "instruction": "Tell me whether each of these are animals or not: Alligator, Grass, Tree, Boat, Dolphin, Shark, Fish, Fence, Dog, Car",
+    "complexity": "simple",
+    "confidence": 0.5062754154205322
+  },
+  {
+    "instruction": "Cauliflower rice is not that fun to eat in its bland form. Is there anything interesting and tasty I can cook with cauliflower rice?",
+    "complexity": "simple",
+    "confidence": 0.5477110743522644
+  },
+  {
+    "instruction": "What is Brdinje",
+    "complexity": "simple",
+    "confidence": 0.41499385237693787
+  },
+  {
+    "instruction": "How are tornadoes formed?",
+    "complexity": "simple",
+    "confidence": 0.41890275478363037
+  },
+  {
+    "instruction": "What is Magical Thinking?",
+    "complexity": "simple",
+    "confidence": 0.4834940433502197
+  },
+  {
+    "instruction": "Tell me whether these are movies or film Directors: Sholay, Satyajit Ray, Mani Ratnam, Lagaan, Yash Chopra, Roja",
+    "complexity": "simple",
+    "confidence": 0.39143165946006775
+  },
+  {
+    "instruction": "What is CBT?",
+    "complexity": "simple",
+    "confidence": 0.3485495448112488
+  },
+  {
+    "instruction": "Can you tell me recipe to make a quick dessert , tell me one which is your favorite.",
+    "complexity": "simple",
+    "confidence": 0.4991151988506317
+  },
+  {
+    "instruction": "Who is Cindy Robinson?",
+    "complexity": "simple",
+    "confidence": 0.4086368978023529
+  },
+  {
+    "instruction": "Given a reference text about Gennady Petrovich Lyachin, tell me when he joined the navy and when he was decommissioned.",
+    "complexity": "simple",
+    "confidence": 0.3358589708805084
+  },
+  {
+    "instruction": "Tell me wether these are cities, or states? IL, chicago, Texas, Fremont, Washington, Washington DC, san jose, bay area",
+    "complexity": "simple",
+    "confidence": 0.43728041648864746
+  },
+  {
+    "instruction": "Why do people enjoy surfing",
+    "complexity": "simple",
+    "confidence": 0.5033051371574402
+  },
+  {
+    "instruction": "What is Depreciation",
+    "complexity": "simple",
+    "confidence": 0.491852343082428
+  },
+  {
+    "instruction": "Write a brief passage arguing for mandating Electric Vehicles (EVs) over gas combustion vehicles in the United States.",
+    "complexity": "simple",
+    "confidence": 0.3498940169811249
+  },
+  {
+    "instruction": "Based on the text below, please summarise in a few lines",
+    "complexity": "simple",
+    "confidence": 0.40167954564094543
+  },
+  {
+    "instruction": "Who invented the radio?",
+    "complexity": "simple",
+    "confidence": 0.442369669675827
+  },
+  {
+    "instruction": "Provide a brief summary of the reaction to the creation of LIV Golf",
+    "complexity": "simple",
+    "confidence": 0.5730435848236084
+  },
+  {
+    "instruction": "What is Angel Falls?",
+    "complexity": "simple",
+    "confidence": 0.3840838372707367
+  },
+  {
+    "instruction": "Tell me whether these are names of soft drinks or coffee: Starbucks, Peet's, Blue Bottle, Coca-Cola, Sprite, Canada Dry, Pepsi",
+    "complexity": "simple",
+    "confidence": 0.5200124382972717
+  },
+  {
+    "instruction": "What is Python?",
+    "complexity": "simple",
+    "confidence": 0.346295028924942
+  },
+  {
+    "instruction": "what is Stoicism",
+    "complexity": "simple",
+    "confidence": 0.5216525793075562
+  },
+  {
+    "instruction": "Tell me whether the following animals are part of the cat family: ocelot, lion, jackal, caracal, leopard, fox, tiger, lynx.",
+    "complexity": "simple",
+    "confidence": 0.4015538692474365
+  },
+  {
+    "instruction": "Who is Stephen King?",
+    "complexity": "simple",
+    "confidence": 0.41501709818840027
+  },
+  {
+    "instruction": "Who is Malcolm X?",
+    "complexity": "simple",
+    "confidence": 0.4344564974308014
+  },
+  {
+    "instruction": "How does water feel?",
+    "complexity": "simple",
+    "confidence": 0.4746032953262329
+  },
+  {
+    "instruction": "Please provide a short biography of The Needle from the passage provided.",
+    "complexity": "simple",
+    "confidence": 0.7224727272987366
+  },
+  {
+    "instruction": "What causes ocean tides?",
+    "complexity": "simple",
+    "confidence": 0.37331539392471313
+  },
+  {
+    "instruction": "Where do bears live?",
+    "complexity": "simple",
+    "confidence": 0.3974120318889618
+  },
+  {
+    "instruction": "5 best Resume titles",
+    "complexity": "simple",
+    "confidence": 0.5393342971801758
+  },
+  {
+    "instruction": "What is WordPress?",
+    "complexity": "simple",
+    "confidence": 0.47632473707199097
+  },
+  {
+    "instruction": "Tell me if these vegetables are or are not green: carrot, courgette, bell pepper, radish, spaghetti squash, onion.",
+    "complexity": "simple",
+    "confidence": 0.6266455054283142
+  },
+  {
+    "instruction": "Tell me whether each food is from a grain or animal: quinoa, millet, couscous, ribeye steak, pork belly, chicken wing",
+    "complexity": "simple",
+    "confidence": 0.4362427294254303
+  },
+  {
+    "instruction": "Is it fun to play guitar? How do you start playing guitar?",
+    "complexity": "simple",
+    "confidence": 0.35720840096473694
+  },
+  {
+    "instruction": "Why do people like biking?",
+    "complexity": "simple",
+    "confidence": 0.34942859411239624
+  },
+  {
+    "instruction": "Who is Alexander McGuire?",
+    "complexity": "simple",
+    "confidence": 0.398929238319397
+  },
+  {
+    "instruction": "From this passage, tell me what was the highest grossing movie in 2022 and what was the second highest grossing movie?",
+    "complexity": "simple",
+    "confidence": 0.4301058351993561
+  },
+  {
+    "instruction": "Why do people drink coffee?",
+    "complexity": "simple",
+    "confidence": 0.3920886516571045
+  },
+  {
+    "instruction": "Categorize the following list into common greetings and common parting words: goodbye, hi, hiya, howdy, see ya, what's up, i'm out, how are you, how are you doing, peace, sup, talk to you later, see you soon, have a good one",
+    "complexity": "simple",
+    "confidence": 0.6730577349662781
+  },
+  {
+    "instruction": "Given a reference text about Larissa Ilinichna Volpert, tell me what game she played, when she was champion, and what titles she earned.",
+    "complexity": "simple",
+    "confidence": 0.4552713632583618
+  },
+  {
+    "instruction": "Who is Santa Clause?",
+    "complexity": "simple",
+    "confidence": 0.53715980052948
+  },
+  {
+    "instruction": "Given a reference text about Richard Brandon Morris, tell me what when and where he was born as well as the different colleges and universities he attended.",
+    "complexity": "simple",
+    "confidence": 0.35112670063972473
+  },
+  {
+    "instruction": "What is Holi?",
+    "complexity": "simple",
+    "confidence": 0.4218221604824066
+  },
+  {
+    "instruction": "List the years in which Anne Rochelle Steely Ramirez participated in Sprint events based on the passage. Use bulleted format to represent the years and sort in ascending order.",
+    "complexity": "simple",
+    "confidence": 0.3398718535900116
+  },
+  {
+    "instruction": "Provide a list of diseases which spread in the Diamond Princess and the virus that caused them. Use bulleted list in the format ‘Disease Name - Virus Name - year’.",
+    "complexity": "simple",
+    "confidence": 0.345797598361969
+  },
+  {
+    "instruction": "Is karaoke fun?",
+    "complexity": "simple",
+    "confidence": 0.4682735204696655
+  },
+  {
+    "instruction": "How to lose weight?",
+    "complexity": "simple",
+    "confidence": 0.41015687584877014
+  },
+  {
+    "instruction": "Extract the non-meat ingredients of the sandwich in the passage provided. Separate them with a pipe symbol.",
+    "complexity": "simple",
+    "confidence": 0.3940519094467163
+  },
+  {
+    "instruction": "Tell me about David Wolfenberger",
+    "complexity": "simple",
+    "confidence": 0.35468342900276184
+  },
+  {
+    "instruction": "Who created Sesame Street?",
+    "complexity": "simple",
+    "confidence": 0.466153621673584
+  },
+  {
+    "instruction": "Who started Belu?",
+    "complexity": "simple",
+    "confidence": 0.38815271854400635
+  },
+  {
+    "instruction": "What is a bond",
+    "complexity": "simple",
+    "confidence": 0.4004036486148834
+  },
+  {
+    "instruction": "Give me a title of one of the \"Harry Potter\" novels.",
+    "complexity": "simple",
+    "confidence": 0.39175859093666077
+  },
+  {
+    "instruction": "We are expecting a baby. Can you describe your experience and provide some pointers as a first time parent?",
+    "complexity": "simple",
+    "confidence": 0.4195631742477417
+  },
+  {
+    "instruction": "Who were the Beatles?",
+    "complexity": "simple",
+    "confidence": 0.4924423098564148
+  },
+  {
+    "instruction": "Classify the following hockey teams as either National Hockey League (NHL) or American Hockey League (AHL): Abbotsford Canucks, Bakersfield Condors, Belleville Senators, Bridgeport Islanders, Calgary Wranglers, Charlotte Checkers, Chicago Wolves, Cleveland Monsters, Coachella Valley Firebirds, Colorado Eagles, Grand Rapids Griffins, Hartford Wolf Pack, Henderson Silver Knights, Hershey Bears, Iowa Wild, Laval Rocket, Lehigh Valley Phantoms, Manitoba Moose, Milwaukee Admirals, Ontario Reign, Providence Bruins, Rochester Americans, Rockford IceHogs, San Diego Gulls, San Jose Barracuda, Springfield Thunderbirds, Syracuse Crunch, Texas Stars, Toronto Marlies, Tucson Roadrunners, Utica Comets, Wilkes-Barre/Scranton Penguins, Anaheim Ducks, Arizona Coyotes, Boston Bruins, Buffalo Sabres, Calgary Flames, Carolina Hurricanes, Chicago Blackhawks, Colorado Avalanche, Columbus Blue Jackets, Dallas Stars, Detroit Red Wings, Edmonton Oilers, Florida Panthers, Los Angeles Kings, Minnesota Wild, Montreal Canadiens, Nashville Predators, New Jersey Devils, New York Islanders, New York Rangers, Ottawa Senators, Philadelphia Flyers, Pittsburgh Penguins, San Jose Sharks, Seattle Kraken, St Louis Blues, Tampa Bay Lightning, Toronto Maple Leafs, Vancouver Canucks, Vegas Golden Knights, Washington Capitals, Winnipeg Jets",
+    "complexity": "simple",
+    "confidence": 0.4397924840450287
+  },
+  {
+    "instruction": "What are brambles?",
+    "complexity": "simple",
+    "confidence": 0.3846471309661865
+  },
+  {
+    "instruction": "Who is RFK?",
+    "complexity": "simple",
+    "confidence": 0.4249202013015747
+  },
+  {
+    "instruction": "8 Simple Ways to Adopt a Healthy and sustainable Eating Pattern",
+    "complexity": "simple",
+    "confidence": 0.6588416695594788
+  },
+  {
+    "instruction": "Who is Tom Billeter",
+    "complexity": "simple",
+    "confidence": 0.511457085609436
+  },
+  {
+    "instruction": "Extract from the text what are the Proteins functions in the organism, and separate them with a comma,",
+    "complexity": "simple",
+    "confidence": 0.49499499797821045
+  },
+  {
+    "instruction": "What is net worth?",
+    "complexity": "simple",
+    "confidence": 0.4092395007610321
+  },
+  {
+    "instruction": "Without quoting directly from the text, tell me about rainbows.",
+    "complexity": "simple",
+    "confidence": 0.44108521938323975
+  },
+  {
+    "instruction": "Using this text, please give me a short bulleted list of famous figures buried at the Sleepy Hollow Cemetery in Sleepy Hollow, New York",
+    "complexity": "simple",
+    "confidence": 0.36878418922424316
+  },
+  {
+    "instruction": "Give me a title of one of the \"Harry Potter\" novels.",
+    "complexity": "simple",
+    "confidence": 0.39175859093666077
+  },
+  {
+    "instruction": "How is beer made?",
+    "complexity": "simple",
+    "confidence": 0.44738900661468506
+  },
+  {
+    "instruction": "What is a trumpet?",
+    "complexity": "simple",
+    "confidence": 0.4442328214645386
+  },
+  {
+    "instruction": "Who are the Wagner group",
+    "complexity": "simple",
+    "confidence": 0.37160199880599976
+  },
+  {
+    "instruction": "Who wrote Beloved?",
+    "complexity": "simple",
+    "confidence": 0.5306705832481384
+  },
+  {
+    "instruction": "Extract the platforms that the game can be played on and separate them with a comma.",
+    "complexity": "simple",
+    "confidence": 0.40745022892951965
+  },
+  {
+    "instruction": "Extract the names of all of the albums that Taylor Swift has released. Separate them with a comma.",
+    "complexity": "simple",
+    "confidence": 0.6255120635032654
+  },
+  {
+    "instruction": "Tell me which sport the following athletes play, or played in the past: Michael Jordan, Derek Jeter, Joe Namath, Lebron James, Tiger Woods, Rory Mcilroy, Jackie Robinson, Mike Tyson, Barry Sanders, Tom Brady, Jaromir Jagr, Sydney Crosby, Muhammed Ali, Greg Maddux, Oscar Robertson",
+    "complexity": "simple",
+    "confidence": 0.369772344827652
+  },
+  {
+    "instruction": "Why do people sleep?",
+    "complexity": "simple",
+    "confidence": 0.4525003135204315
+  },
+  {
+    "instruction": "Classify each of these as a cereal grain or legume: wheat, lentils, chickpeas, rye, corn, soybeans, peas, millet",
+    "complexity": "simple",
+    "confidence": 0.34932753443717957
+  },
+  {
+    "instruction": "Who is Ali G?",
+    "complexity": "simple",
+    "confidence": 0.39608320593833923
+  },
+  {
+    "instruction": "Remove vowels from this text:",
+    "complexity": "simple",
+    "confidence": 0.4037388265132904
+  },
+  {
+    "instruction": "Who is Hugo Chavez?",
+    "complexity": "simple",
+    "confidence": 0.42528560757637024
+  },
+  {
+    "instruction": "List of Italian horse breeds",
+    "complexity": "simple",
+    "confidence": 0.46890655159950256
+  },
+  {
+    "instruction": "Correct the typos in these sentences",
+    "complexity": "simple",
+    "confidence": 0.4856935143470764
+  },
+  {
+    "instruction": "What is solar wind?",
+    "complexity": "simple",
+    "confidence": 0.3965747654438019
+  },
+  {
+    "instruction": "Tell me about Roger Federer",
+    "complexity": "simple",
+    "confidence": 0.533444881439209
+  },
+  {
+    "instruction": "Extract from the text the main characteristics of the city of São Paulo. Separate them with a comma.",
+    "complexity": "simple",
+    "confidence": 0.3376985788345337
+  },
+  {
+    "instruction": "What is pink salt?",
+    "complexity": "simple",
+    "confidence": 0.418189138174057
+  },
+  {
+    "instruction": "Who wrote the most episodes of season four of Game of Thrones?",
+    "complexity": "simple",
+    "confidence": 0.407198429107666
+  },
+  {
+    "instruction": "What is a mammal?",
+    "complexity": "simple",
+    "confidence": 0.39708900451660156
+  },
+  {
+    "instruction": "Given the text about the 2019 Masters Tournament, tell me who won the golf tournament, where the tournament was held and what age the winner was?",
+    "complexity": "simple",
+    "confidence": 0.5084415674209595
+  },
+  {
+    "instruction": "Explain Business Intelligence",
+    "complexity": "simple",
+    "confidence": 0.3845313787460327
+  },
+  {
+    "instruction": "What is Sinking Sand?",
+    "complexity": "simple",
+    "confidence": 0.3546038866043091
+  },
+  {
+    "instruction": "Tell me whether these are flowers or fruit: apples, oranges, pineapples, bananas, strawberries, daisies, sunflowers, roses, poppies",
+    "complexity": "simple",
+    "confidence": 0.4963739812374115
+  },
+  {
+    "instruction": "Tell me which of these things are fruits or vegetables: Carrot, Apple, Orange, Potato, Peas, Broccoli, Pears",
+    "complexity": "simple",
+    "confidence": 0.5737836956977844
+  },
+  {
+    "instruction": "Who founded Amazon?",
+    "complexity": "simple",
+    "confidence": 0.39672622084617615
+  },
+  {
+    "instruction": "Who invented Calculus?",
+    "complexity": "simple",
+    "confidence": 0.37213826179504395
+  },
+  {
+    "instruction": "Tell me whether these pokemon are electric or grass type: Pikachu, Bulbasaur, Zapdos, Voltorb, Oddish, Bellsprout",
+    "complexity": "simple",
+    "confidence": 0.37825921177864075
+  },
+  {
+    "instruction": "which country surrounds India?",
+    "complexity": "simple",
+    "confidence": 0.3958855867385864
+  },
+  {
+    "instruction": "What do economists do?",
+    "complexity": "simple",
+    "confidence": 0.4133090674877167
+  },
+  {
+    "instruction": "Classify each of the following as either a drink or a food: apple juice, cake, hamburger, carrot, orange juice, soda.",
+    "complexity": "simple",
+    "confidence": 0.3694475591182709
+  },
+  {
+    "instruction": "Tell me whether these are TV shows or books: Modern Family, You, Don Quixote, A Tale of Two Cities,  The Little Prince",
+    "complexity": "simple",
+    "confidence": 0.439910352230072
+  },
+  {
+    "instruction": "Who succeeded Howard Schultz as Chairman of Starbucks Corporation on June 2018?",
+    "complexity": "simple",
+    "confidence": 0.353436142206192
+  },
+  {
+    "instruction": "What is paella?",
+    "complexity": "simple",
+    "confidence": 0.36383143067359924
+  },
+  {
+    "instruction": "Who is Ronald Peter Nash",
+    "complexity": "simple",
+    "confidence": 0.463728129863739
+  },
+  {
+    "instruction": "Why we need music?",
+    "complexity": "simple",
+    "confidence": 0.40906044840812683
+  },
+  {
+    "instruction": "Tell me which of these characters are from the Mario universe: Yoshi, Zelda, King Kong, Luigi, Princess Peach, Link, Bowser, Alex Rodriguez.",
+    "complexity": "simple",
+    "confidence": 0.37591928243637085
+  },
+  {
+    "instruction": "Extract the islands that are part of the Madeira and Savage Islands archipelagos in Portugal. Separate them with a comma.",
+    "complexity": "simple",
+    "confidence": 0.4557388722896576
+  },
+  {
+    "instruction": "What's the best piece of advice you ever received?",
+    "complexity": "simple",
+    "confidence": 0.6559058427810669
+  },
+  {
+    "instruction": "Tell me which of the following are states in the United States of America: Washington, Oregon, California, Idaho, Toronto, Canada, England.",
+    "complexity": "simple",
+    "confidence": 0.46672314405441284
+  },
+  {
+    "instruction": "Given this reference text, what was John Dalberg-Acton's most famous pronouncement, and to whom did he make it?",
+    "complexity": "simple",
+    "confidence": 0.4319874048233032
+  },
+  {
+    "instruction": "Who was Margaret Thatcher?",
+    "complexity": "simple",
+    "confidence": 0.5455291271209717
+  },
+  {
+    "instruction": "Why do babies cry?",
+    "complexity": "simple",
+    "confidence": 0.5328729748725891
+  },
+  {
+    "instruction": "Bike or Car?",
+    "complexity": "simple",
+    "confidence": 0.3526541590690613
+  },
+  {
+    "instruction": "Tell me about Indiana",
+    "complexity": "simple",
+    "confidence": 0.4226715564727783
+  },
+  {
+    "instruction": "What are mammals?",
+    "complexity": "simple",
+    "confidence": 0.35463955998420715
+  },
+  {
+    "instruction": "What causes earthquakes?",
+    "complexity": "simple",
+    "confidence": 0.3585848808288574
+  },
+  {
+    "instruction": "Who was Nikola Tesla?",
+    "complexity": "simple",
+    "confidence": 0.5404389500617981
+  },
+  {
+    "instruction": "Describe euphoria",
+    "complexity": "simple",
+    "confidence": 0.6614532470703125
+  },
+  {
+    "instruction": "Who are U2",
+    "complexity": "simple",
+    "confidence": 0.4227389395236969
+  },
+  {
+    "instruction": "Identify all PII in this customer review \"My name is Joe Smith and email address is joesmith9999@gmail.com. I'd like to leave a review about Langton's red wine. It was tasty for a red, but there were sediments at the bottom of my bottle\"",
+    "complexity": "simple",
+    "confidence": 0.3405613899230957
+  },
+  {
+    "instruction": "Please give a simple list of reasons that extraterrestrial intelligence may not exist or is very rare",
+    "complexity": "simple",
+    "confidence": 0.4507254362106323
+  },
+  {
+    "instruction": "Name some Nobel Prize winners",
+    "complexity": "simple",
+    "confidence": 0.4610903263092041
+  },
+  {
+    "instruction": "From the passage provided, extract the names of Jawaharlal Nehru's parents. Separate them with a comma.",
+    "complexity": "simple",
+    "confidence": 0.3800923526287079
+  },
+  {
+    "instruction": "Where do bears live?",
+    "complexity": "simple",
+    "confidence": 0.3974120318889618
+  },
+  {
+    "instruction": "From the passage provided, extract the total product revenue and % YoY growth using format: {$x} product revenue with {x%} YoY growth\n\nProduct revenue of $555.3 million in the fourth quarter, representing 54% year-over-year growth\nRemaining performance obligations of $3.7 billion, representing 38% year-over-year growth\n7,828 total customers\nNet revenue retention rate of 158%\n330 customers with trailing 12-month product revenue greater than $1 million\nAuthorized a $2.0 billion stock repurchase program",
+    "complexity": "simple",
+    "confidence": 0.6204819679260254
+  },
+  {
+    "instruction": "Give me a list of the last five \"best rap song\" Grammy winners (just tell me the song name and the performing artist).",
+    "complexity": "simple",
+    "confidence": 0.37945932149887085
+  },
+  {
+    "instruction": "Who is LBJ?",
+    "complexity": "simple",
+    "confidence": 0.4114290773868561
+  },
+  {
+    "instruction": "Who was Henry Ford?",
+    "complexity": "simple",
+    "confidence": 0.4861809015274048
+  },
+  {
+    "instruction": "What is it inflation?",
+    "complexity": "simple",
+    "confidence": 0.35799163579940796
+  },
+  {
+    "instruction": "How to be rich?",
+    "complexity": "simple",
+    "confidence": 0.40140101313591003
+  },
+  {
+    "instruction": "What is the best kind of bread?",
+    "complexity": "simple",
+    "confidence": 0.36570873856544495
+  },
+  {
+    "instruction": "What is a Keystone?",
+    "complexity": "simple",
+    "confidence": 0.46857234835624695
+  },
+  {
+    "instruction": "Without quoting directly from the text, give me a summary of how rainbows are formed.",
+    "complexity": "simple",
+    "confidence": 0.4749740958213806
+  },
+  {
+    "instruction": "Given a reference text about a singer, tell me when they debuted, what their first release was, and what their most popular song is.",
+    "complexity": "simple",
+    "confidence": 0.43133744597435
+  },
+  {
+    "instruction": "Different uses for glass",
+    "complexity": "simple",
+    "confidence": 0.36222854256629944
+  },
+  {
+    "instruction": "Who invented the computer?",
+    "complexity": "simple",
+    "confidence": 0.38187432289123535
+  },
+  {
+    "instruction": "What is observer bias",
+    "complexity": "simple",
+    "confidence": 0.46275442838668823
+  },
+  {
+    "instruction": "Who is Bryan Adams",
+    "complexity": "simple",
+    "confidence": 0.3754708468914032
+  },
+  {
+    "instruction": "Who developed Pilates?",
+    "complexity": "simple",
+    "confidence": 0.3961440920829773
+  },
+  {
+    "instruction": "What cause toe fungus?",
+    "complexity": "simple",
+    "confidence": 0.4108496904373169
+  },
+  {
+    "instruction": "Are UGGs considered fashionable?",
+    "complexity": "simple",
+    "confidence": 0.343441367149353
+  },
+  {
+    "instruction": "Extract which animals Waddell played with and which ones he fought with from the text. Separate them with a comma, putting the ones he played with first.",
+    "complexity": "simple",
+    "confidence": 0.42351478338241577
+  },
+  {
+    "instruction": "Can cats communicate?",
+    "complexity": "simple",
+    "confidence": 0.4073445796966553
+  },
+  {
+    "instruction": "How was Napoleon defeated?",
+    "complexity": "simple",
+    "confidence": 0.387285441160202
+  },
+  {
+    "instruction": "Give me an idea for a country to travel to that is safe, inexpensive and does not fall into the well trodden tourist path?",
+    "complexity": "simple",
+    "confidence": 0.482907235622406
+  },
+  {
+    "instruction": "Why do we watch television?",
+    "complexity": "simple",
+    "confidence": 0.3711174726486206
+  },
+  {
+    "instruction": "Who is the Zurich Insurance",
+    "complexity": "simple",
+    "confidence": 0.43018609285354614
+  },
+  {
+    "instruction": "Imagine you are a grandparent who wants a grandchild. Write a persuasive argument to your children.",
+    "complexity": "simple",
+    "confidence": 0.4250001907348633
+  },
+  {
+    "instruction": "Give me a list of the teams that have won the English Premier League",
+    "complexity": "simple",
+    "confidence": 0.35733482241630554
+  },
+  {
+    "instruction": "Name ten Shakespeare plays",
+    "complexity": "simple",
+    "confidence": 0.4181470274925232
+  },
+  {
+    "instruction": "list 7 favourite flavours",
+    "complexity": "simple",
+    "confidence": 0.5179893374443054
+  },
+  {
+    "instruction": "Tell me whether each airline is American or European: British Airways, United Airlines, Southwest Airlines, Jet Blue, Easy Jet, Ryan Air",
+    "complexity": "simple",
+    "confidence": 0.4763782322406769
+  },
+  {
+    "instruction": "How to lose weight?",
+    "complexity": "simple",
+    "confidence": 0.41015687584877014
+  },
+  {
+    "instruction": "Who is Juliette Roche?",
+    "complexity": "simple",
+    "confidence": 0.4270123839378357
+  },
+  {
+    "instruction": "Is the sun hot?",
+    "complexity": "simple",
+    "confidence": 0.37245553731918335
+  },
+  {
+    "instruction": "Why USA is best ?",
+    "complexity": "simple",
+    "confidence": 0.3634268641471863
+  },
+  {
+    "instruction": "How would you describe Dance?",
+    "complexity": "simple",
+    "confidence": 0.4193868339061737
+  },
+  {
+    "instruction": "Why Italy is known for",
+    "complexity": "simple",
+    "confidence": 0.38496145606040955
+  },
+  {
+    "instruction": "Hip Hop song Make Me Proud",
+    "complexity": "simple",
+    "confidence": 0.39406654238700867
+  },
+  {
+    "instruction": "First you'd need to consider what you're using it for. Exercise bikes can be very different from commuters or casual ride bikes or velodrome racers. Another consideration is budget: bikes can range from a couple hundred dollars in price to several thousand. Accessories can dramatically increase the price as well.\n\nFor general, all-purpose bikes you may want to consider a commuter bicycle. It would have a wider, thicker wheel than a road bike so it would be a little sturdier for urban roads. They tend to be a bit heavier, so there is a tradeoff.",
+    "complexity": "simple",
+    "confidence": 0.6771752238273621
+  },
+  {
+    "instruction": "What is orange wine?",
+    "complexity": "simple",
+    "confidence": 0.4240349531173706
+  },
+  {
+    "instruction": "I want to write a some new articles for my data blog, can you give me some snappy ideas?",
+    "complexity": "simple",
+    "confidence": 0.46576133370399475
+  },
+  {
+    "instruction": "Who was the original lead singer of the band Linkin Park?",
+    "complexity": "simple",
+    "confidence": 0.3730655908584595
+  },
+  {
+    "instruction": "Why zurich is so beautiful",
+    "complexity": "simple",
+    "confidence": 0.37172335386276245
+  },
+  {
+    "instruction": "From the passage identify the spin-off games release in the universe of Clash of Clans. Display the results in a comma separated format.",
+    "complexity": "simple",
+    "confidence": 0.3714408874511719
+  },
+  {
+    "instruction": "Classify each of the following as a dental or hair product: toothbrush, floss, shampoo, conditioner, gel, floss",
+    "complexity": "simple",
+    "confidence": 0.42382383346557617
+  },
+  {
+    "instruction": "What is a circle?",
+    "complexity": "simple",
+    "confidence": 0.4378947615623474
+  },
+  {
+    "instruction": "From a 10-year old child's perspective, write a short summary of a visit to the Rijksmuseum for the Vermeer exhibition.",
+    "complexity": "simple",
+    "confidence": 0.43329036235809326
+  },
+  {
+    "instruction": "What is Milky Way?",
+    "complexity": "simple",
+    "confidence": 0.40788188576698303
+  },
+  {
+    "instruction": "What is a newspaper?",
+    "complexity": "simple",
+    "confidence": 0.3426711857318878
+  },
+  {
+    "instruction": "Given this paragraph about time travel, how practical is it",
+    "complexity": "simple",
+    "confidence": 0.4443705677986145
+  },
+  {
+    "instruction": "Why are plants green?",
+    "complexity": "simple",
+    "confidence": 0.3750065565109253
+  },
+  {
+    "instruction": "Which movie won the Best Picture award at 95th Academy Awards?",
+    "complexity": "simple",
+    "confidence": 0.3902754485607147
+  },
+  {
+    "instruction": "Name some popular breakfast foods in the United States",
+    "complexity": "simple",
+    "confidence": 0.362859308719635
+  },
+  {
+    "instruction": "Please provide 5 different variants of served coffee",
+    "complexity": "simple",
+    "confidence": 0.40435636043548584
+  },
+  {
+    "instruction": "what is the indian subcontinent",
+    "complexity": "simple",
+    "confidence": 0.3799961507320404
+  },
+  {
+    "instruction": "When was golf invented?",
+    "complexity": "simple",
+    "confidence": 0.44790714979171753
+  },
+  {
+    "instruction": "What is quantum mechanics?",
+    "complexity": "simple",
+    "confidence": 0.3837229609489441
+  },
+  {
+    "instruction": "Extract from the text the list of actors and the characters they play.  List answer as bullet list in in format:  {actor name}:  {character name}",
+    "complexity": "simple",
+    "confidence": 0.49310871958732605
+  },
+  {
+    "instruction": "Tell me whether each company is based inside or outside of the USA: Uber, Grab, Samsung, Meituan, Exxon, Amazon, Roche",
+    "complexity": "simple",
+    "confidence": 0.354452908039093
+  },
+  {
+    "instruction": "Who was Beethoven?",
+    "complexity": "simple",
+    "confidence": 0.4355657398700714
+  },
+  {
+    "instruction": "Please give me a short bulleted list of the key discoveries from Gallo’s lab.",
+    "complexity": "simple",
+    "confidence": 0.40903985500335693
+  },
+  {
+    "instruction": "Name some of the bravolebrities from The Real Housewives of Atlanta",
+    "complexity": "simple",
+    "confidence": 0.39578232169151306
+  },
+  {
+    "instruction": "What is software craftsmanship",
+    "complexity": "simple",
+    "confidence": 0.4311741590499878
+  },
+  {
+    "instruction": "Who is Phil Murphy?",
+    "complexity": "simple",
+    "confidence": 0.3933195471763611
+  },
+  {
+    "instruction": "Explain inter frame",
+    "complexity": "simple",
+    "confidence": 0.44691702723503113
+  },
+  {
+    "instruction": "America’s cup comeback",
+    "complexity": "simple",
+    "confidence": 0.4127253592014313
+  },
+  {
+    "instruction": "When did Virgin Australia start operating?",
+    "complexity": "medium",
+    "confidence": 0.41895028948783875
+  },
+  {
+    "instruction": "Given a reference text about Lollapalooza, where does it take place, who started it and what is it?",
+    "complexity": "medium",
+    "confidence": 0.44568631052970886
+  },
+  {
+    "instruction": "Why mobile is bad for human",
+    "complexity": "medium",
+    "confidence": 0.4085676372051239
+  },
+  {
+    "instruction": "What is a polygon?",
+    "complexity": "medium",
+    "confidence": 0.36269769072532654
+  },
+  {
+    "instruction": "How do I start running?",
+    "complexity": "medium",
+    "confidence": 0.4355294108390808
+  },
+  {
+    "instruction": "What is process mining?",
+    "complexity": "medium",
+    "confidence": 0.43202587962150574
+  },
+  {
+    "instruction": "Extract the owner of Lamborghini and a listing of the different types of Huracan cars that Lamborghini has produced for its Motorsport division.",
+    "complexity": "medium",
+    "confidence": 0.4417356252670288
+  },
+  {
+    "instruction": "What is best Playstation or Xbox",
+    "complexity": "medium",
+    "confidence": 0.37115684151649475
+  },
+  {
+    "instruction": "what is REST API",
+    "complexity": "medium",
+    "confidence": 0.3847718834877014
+  },
+  {
+    "instruction": "When was the wheel invented?",
+    "complexity": "medium",
+    "confidence": 0.37679702043533325
+  },
+  {
+    "instruction": "Are lilies safe for cats?",
+    "complexity": "medium",
+    "confidence": 0.4053266942501068
+  },
+  {
+    "instruction": "Given this paragraph, what is the top speed of a Kia Stinger?",
+    "complexity": "medium",
+    "confidence": 0.4678754210472107
+  },
+  {
+    "instruction": "What is LAPR?",
+    "complexity": "medium",
+    "confidence": 0.3990291953086853
+  },
+  {
+    "instruction": "Is beauty objective or subjective?",
+    "complexity": "medium",
+    "confidence": 0.38056135177612305
+  },
+  {
+    "instruction": "Name some famous rock bands from the 1960s",
+    "complexity": "medium",
+    "confidence": 0.3475022614002228
+  },
+  {
+    "instruction": "Who are the Smiths?",
+    "complexity": "medium",
+    "confidence": 0.44535091519355774
+  },
+  {
+    "instruction": "What is HiFI?",
+    "complexity": "medium",
+    "confidence": 0.3750714063644409
+  },
+  {
+    "instruction": "What is a brown eared pheasant?",
+    "complexity": "medium",
+    "confidence": 0.43663063645362854
+  },
+  {
+    "instruction": "Is it true that Lewis Hamilton won the championship in his first F1 season?",
+    "complexity": "medium",
+    "confidence": 0.364223837852478
+  },
+  {
+    "instruction": "Classify each of the following pieces of equipment according to the sport they are used for, either basketball, football, or soccer: shin guards, shooting sleeve, penalty flag, corner flag, kicking tee, and goalie gloves.",
+    "complexity": "medium",
+    "confidence": 0.44302716851234436
+  },
+  {
+    "instruction": "Classify the following as either dark-colored beers or light colored beers: porter, pilsner, stout, amber, lager",
+    "complexity": "medium",
+    "confidence": 0.41142141819000244
+  },
+  {
+    "instruction": "Give me a bulleted list of the 5 highest mountains in the world and their respective heights in meters",
+    "complexity": "medium",
+    "confidence": 0.49951067566871643
+  },
+  {
+    "instruction": "What is SVM?",
+    "complexity": "medium",
+    "confidence": 0.369712769985199
+  },
+  {
+    "instruction": "Tell me about the 2017 Southeastern Conference football season",
+    "complexity": "medium",
+    "confidence": 0.41660478711128235
+  },
+  {
+    "instruction": "Separate the following suburbs into those that border, and do not border, the Brisbane River: Indooroopilly, Bulimba, St Lucia, Newstead, Wilston, West End, Toowong, Bowen Hills and, Wooloongabba.",
+    "complexity": "medium",
+    "confidence": 0.40962985157966614
+  },
+  {
+    "instruction": "Classify each of the following as either a title by Isaac Asimov or Jules Verne: Pebble in the Sky, The Stars, Like Dust, Foundation, The Robots of Dawn, The Naked Sun, Around the World in Eighty Days, From the Earth to the Moon, Martin Paz, Journey to the Centre of the Earth, A Drama in the Air",
+    "complexity": "medium",
+    "confidence": 0.4378098249435425
+  },
+  {
+    "instruction": "Given a reference text about Run Towards the Danger, tell me how many essays are part of the collection.",
+    "complexity": "medium",
+    "confidence": 0.44840919971466064
+  },
+  {
+    "instruction": "What is game of Cricket?",
+    "complexity": "medium",
+    "confidence": 0.42517679929733276
+  },
+  {
+    "instruction": "What does fasting mean?",
+    "complexity": "medium",
+    "confidence": 0.49451813101768494
+  },
+  {
+    "instruction": "Give me a list of the last five european golden boots winner And tell me how many goals they scored.",
+    "complexity": "medium",
+    "confidence": 0.40084555745124817
+  },
+  {
+    "instruction": "Pick if these would be useful or not useful for a high school student to put in their backpack. Notebooks, textbook, desk lamp, pencil pouch, beach ball, pillow, laptop.",
+    "complexity": "medium",
+    "confidence": 0.5290766954421997
+  },
+  {
+    "instruction": "What is one year?",
+    "complexity": "medium",
+    "confidence": 0.3536868095397949
+  },
+  {
+    "instruction": "What is wine?",
+    "complexity": "medium",
+    "confidence": 0.42102983593940735
+  },
+  {
+    "instruction": "Explain how new technologies, like LLMs and ChatGPT, may revolutionize Application Programming Interfaces (APIs) in the future. Provide an example of how these APIs might work.",
+    "complexity": "medium",
+    "confidence": 0.4393036365509033
+  },
+  {
+    "instruction": "What is world of warcraft",
+    "complexity": "medium",
+    "confidence": 0.4119294285774231
+  },
+  {
+    "instruction": "Based on the following passage summarise how sunsets are viewed from the northern hemisphere across seasons.",
+    "complexity": "medium",
+    "confidence": 0.4112517237663269
+  },
+  {
+    "instruction": "What is a secured loan?",
+    "complexity": "medium",
+    "confidence": 0.4441720247268677
+  },
+  {
+    "instruction": "Give me 3 ideas for hobbies that I can recommend to somebody who is retiring. These should all be activities that require gentle movement and are not overly demanding on the body.",
+    "complexity": "medium",
+    "confidence": 0.8247674703598022
+  },
+  {
+    "instruction": "What is the FA Cup?",
+    "complexity": "medium",
+    "confidence": 0.4433034360408783
+  },
+  {
+    "instruction": "Are Schindler elevators safe",
+    "complexity": "medium",
+    "confidence": 0.43300798535346985
+  },
+  {
+    "instruction": "Extract why Tim Lincecum was called \"The Freak\"",
+    "complexity": "medium",
+    "confidence": 0.45657965540885925
+  },
+  {
+    "instruction": "What is Linux?",
+    "complexity": "medium",
+    "confidence": 0.3746311664581299
+  },
+  {
+    "instruction": "Who was the first woman to have four country albums reach No. 1 on the Billboard 200?",
+    "complexity": "medium",
+    "confidence": 0.3857905864715576
+  },
+  {
+    "instruction": "What is FIFA?",
+    "complexity": "medium",
+    "confidence": 0.42816483974456787
+  },
+  {
+    "instruction": "Given the reference text about the Cy Young Award, please describe what the award is and why it is awarded.",
+    "complexity": "medium",
+    "confidence": 0.4016026258468628
+  },
+  {
+    "instruction": "Do cats have nine lives?",
+    "complexity": "medium",
+    "confidence": 0.4005555212497711
+  },
+  {
+    "instruction": "What is Microsoft?",
+    "complexity": "medium",
+    "confidence": 0.3815353512763977
+  },
+  {
+    "instruction": "How do you make soap?",
+    "complexity": "medium",
+    "confidence": 0.3652103841304779
+  },
+  {
+    "instruction": "Categorize the following Taylor Swift songs based on what album they are in: The Archer, tolerate it, Lover, Love Story (Taylor's Version), Bejeweled, Don't Blame Me, 22 (Taylor's version), Look What You Made Me Do, Lavender Haze, willow, Cruel Summer",
+    "complexity": "medium",
+    "confidence": 0.38352078199386597
+  },
+  {
+    "instruction": "From the passage provided, extract the second studio album that Taylor Swift released.",
+    "complexity": "medium",
+    "confidence": 0.3578098714351654
+  },
+  {
+    "instruction": "What was the Underground Railroad?",
+    "complexity": "medium",
+    "confidence": 0.4264742434024811
+  },
+  {
+    "instruction": "Which team was relegated from the league at the conclusion of the 1991 Season?",
+    "complexity": "medium",
+    "confidence": 0.4016738533973694
+  },
+  {
+    "instruction": "If each client was served by the same number of professionals, how many professionals (round to one decimal place) would each client be served by?",
+    "complexity": "medium",
+    "confidence": 0.45037877559661865
+  },
+  {
+    "instruction": "What is the PGA Championship?",
+    "complexity": "medium",
+    "confidence": 0.4472435414791107
+  },
+  {
+    "instruction": "Write a haiku about how much I love pickles.",
+    "complexity": "medium",
+    "confidence": 0.3980304002761841
+  },
+  {
+    "instruction": "Classify each of the following grades as being in elementary or high school: 10th grade, 3rd grade, 4th grade, 12th grade, 1st grade.",
+    "complexity": "medium",
+    "confidence": 0.432351678609848
+  },
+  {
+    "instruction": "What is Cup Game?",
+    "complexity": "medium",
+    "confidence": 0.3626158535480499
+  },
+  {
+    "instruction": "Let’s solve the following math problem. Each rabbit has 4 feets and each duck has 2 feets. If there are in total 25 heads and 88 feets, how many rabbits and how many ducks are there?",
+    "complexity": "medium",
+    "confidence": 0.457060307264328
+  },
+  {
+    "instruction": "What is WestWorld?",
+    "complexity": "medium",
+    "confidence": 0.3604101538658142
+  },
+  {
+    "instruction": "Best beach vacation in the world",
+    "complexity": "medium",
+    "confidence": 0.39206188917160034
+  },
+  {
+    "instruction": "Sally has 2 chickens, 3 cows and 2 motorcycles. Doug has 6 monkeys, 12 pigs and 2 tractors. Amy has 1 car, 10 cows and 6 ducks. How many farm animals do Sally, Doug and Amy have in total?",
+    "complexity": "medium",
+    "confidence": 0.42321935296058655
+  },
+  {
+    "instruction": "Is skiing or snowboarding easier?",
+    "complexity": "medium",
+    "confidence": 0.4163472056388855
+  },
+  {
+    "instruction": "What was the Counter Reformation?",
+    "complexity": "medium",
+    "confidence": 0.4355105459690094
+  },
+  {
+    "instruction": "Given a reference text about Psychiatry: An Industry of Death, tell me when it opened and and who owns and operates it.",
+    "complexity": "medium",
+    "confidence": 0.43793171644210815
+  },
+  {
+    "instruction": "How to raise a kitten?",
+    "complexity": "medium",
+    "confidence": 0.3708166182041168
+  },
+  {
+    "instruction": "Who are the pianists that are considered masters in playing Bach's music?",
+    "complexity": "medium",
+    "confidence": 0.43860724568367004
+  },
+  {
+    "instruction": "Categorize these movies that came out in 1999 as cartoons or live-action: The Matrix, Stuart Little, Cruel Intentions, The Iron Giant, The Blair Witch Project, South Park: Bigger, Longer, and Uncut, The Sixth Sense",
+    "complexity": "medium",
+    "confidence": 0.5208353996276855
+  },
+  {
+    "instruction": "Discuss at least two risks associated with scraping data from websites. Describe steps an analyst could take to mitigate those risks.",
+    "complexity": "medium",
+    "confidence": 0.45258578658103943
+  },
+  {
+    "instruction": "Where is Shuyga?",
+    "complexity": "medium",
+    "confidence": 0.4360980689525604
+  },
+  {
+    "instruction": "What are index funds?",
+    "complexity": "medium",
+    "confidence": 0.440917432308197
+  },
+  {
+    "instruction": "Tell me whether each South Park character is a kid or adult: Randy, Stan, Kyle, Butters, Sharon",
+    "complexity": "medium",
+    "confidence": 0.370240718126297
+  },
+  {
+    "instruction": "Who are the three team managers that hold the record for the most appearances in the FIFA Club World Cup final?",
+    "complexity": "medium",
+    "confidence": 0.45067280530929565
+  },
+  {
+    "instruction": "Give me a bulleted list of the last 5 Super Bowl winning teams",
+    "complexity": "medium",
+    "confidence": 0.4228079319000244
+  },
+  {
+    "instruction": "Where to visit in Brazil?",
+    "complexity": "medium",
+    "confidence": 0.39658451080322266
+  },
+  {
+    "instruction": "Extract the reason why was Mark Hunt known as the King of Walk Offs",
+    "complexity": "medium",
+    "confidence": 0.4413416385650635
+  },
+  {
+    "instruction": "Classify each of the following as either titles by J.K. Rowling or Suzanne Collins: Harry Potter and the Sorcerer's Stone, The Ickabog, Fantastic Beasts and Where to Find Them, The Cuckoo's Calling, Harry Potter and the Order of the Phoenix, Catching Fire, Mockingjay, Gregor the Overlander, Year of the Jungle, The Ballad of Songbirds and Snakes",
+    "complexity": "medium",
+    "confidence": 0.465844064950943
+  },
+  {
+    "instruction": "Tell me which months have 30 days and which have 31 days, based on this list: January, February, March, April, May, June, July, August, September, October, November, and December.",
+    "complexity": "medium",
+    "confidence": 0.43471622467041016
+  },
+  {
+    "instruction": "What is an actuary?",
+    "complexity": "medium",
+    "confidence": 0.45923322439193726
+  },
+  {
+    "instruction": "What is the fastest car?",
+    "complexity": "medium",
+    "confidence": 0.46511808037757874
+  },
+  {
+    "instruction": "What is knitting?",
+    "complexity": "medium",
+    "confidence": 0.3602342903614044
+  },
+  {
+    "instruction": "What is Jenkins?",
+    "complexity": "medium",
+    "confidence": 0.4849857687950134
+  },
+  {
+    "instruction": "Classify each of the following animals as being domesticated or wild: dog, bear, dolphin, cat, cow, hippo, rhino",
+    "complexity": "medium",
+    "confidence": 0.41795194149017334
+  },
+  {
+    "instruction": "Tell me if these drinks are alcoholic or not: Coca-Cola, Mountain Dew, Budweiser, Rum, Vodka, Tomato Juice, Orange Juice, Sprite, Tequila, Margarita",
+    "complexity": "medium",
+    "confidence": 0.3626164197921753
+  },
+  {
+    "instruction": "List the ten episode titles from the sixth season of \"Game of Thrones\" in broadcast order.",
+    "complexity": "medium",
+    "confidence": 0.38692381978034973
+  },
+  {
+    "instruction": "Name 5 popular musicians",
+    "complexity": "medium",
+    "confidence": 0.4069676399230957
+  },
+  {
+    "instruction": "What is guitar amp modeling?",
+    "complexity": "medium",
+    "confidence": 0.3818137049674988
+  },
+  {
+    "instruction": "From the passage provided, extract the programming languages supported by Flink. Separate them with a comma.",
+    "complexity": "medium",
+    "confidence": 0.3463660776615143
+  },
+  {
+    "instruction": "Classify the eight planets of Earth's solar system as rocky or gaseous, according to their primary composition.",
+    "complexity": "medium",
+    "confidence": 0.42541494965553284
+  },
+  {
+    "instruction": "How reliable is public transportation?",
+    "complexity": "medium",
+    "confidence": 0.427381306886673
+  },
+  {
+    "instruction": "What is System Thinking",
+    "complexity": "medium",
+    "confidence": 0.43084216117858887
+  },
+  {
+    "instruction": "Plan a weekend long vacation to Madrid, and mention multiple specific places you would visit and how you would travel in the city",
+    "complexity": "medium",
+    "confidence": 0.4127945005893707
+  },
+  {
+    "instruction": "Give me a comma separated list of all the organizations Henry Holst worked for based on this article.",
+    "complexity": "medium",
+    "confidence": 0.4002368152141571
+  },
+  {
+    "instruction": "Given a reference text about the Spellenspektakel, tell me where it takes place and what games are played.",
+    "complexity": "medium",
+    "confidence": 0.45781081914901733
+  },
+  {
+    "instruction": "Given this paragraph about Sam Baker, what is the Outland Trophy?",
+    "complexity": "medium",
+    "confidence": 0.45153042674064636
+  },
+  {
+    "instruction": "How do you cook ribs?",
+    "complexity": "medium",
+    "confidence": 0.3499656021595001
+  },
+  {
+    "instruction": "Classify each of the following as an American coffee shop chain or an American fast-food hamburger restaurant: Starbucks, Dunkin Donuts, McDonald's, In-N-Out, Dutch Bros, Coffee Bean & Tea Leaf, Burger King, Carl's Jr",
+    "complexity": "medium",
+    "confidence": 0.4560049772262573
+  },
+  {
+    "instruction": "Given this paragraph about the M26, tell me how many times Hunt finished in the top 3, and explain your reasoning.",
+    "complexity": "medium",
+    "confidence": 0.41607770323753357
+  },
+  {
+    "instruction": "Classify each of the following as either a quantitative major or qualitative major: English, mathematics, physics, statistics, history, law",
+    "complexity": "medium",
+    "confidence": 0.46134674549102783
+  },
+  {
+    "instruction": "Please extract Sinclair's awards from this paragraph and list them in bullets in order from oldest to most recent.",
+    "complexity": "medium",
+    "confidence": 0.46375831961631775
+  },
+  {
+    "instruction": "Why should you visit Ireland?",
+    "complexity": "medium",
+    "confidence": 0.39708906412124634
+  },
+  {
+    "instruction": "I want to buy a work monitor which is to be used along with the laptop. What features of monitor should be considered?",
+    "complexity": "medium",
+    "confidence": 0.4698912501335144
+  },
+  {
+    "instruction": "Tell me which one of the following countries are in the European Union: The Netherlands, Switzerland, Germany, Finland, the United Kingdom, Italy, Luxembourg, Turkey, Australia, Vietnam, Canada.",
+    "complexity": "medium",
+    "confidence": 0.4514205753803253
+  },
+  {
+    "instruction": "Give me a list of the greatest chess players of all time",
+    "complexity": "medium",
+    "confidence": 0.42271730303764343
+  },
+  {
+    "instruction": "Tell me a story in a few sentences about food and how a few short words can make someone hungry",
+    "complexity": "medium",
+    "confidence": 0.3856971263885498
+  },
+  {
+    "instruction": "Give me a bulleted list of all artists that performers on the Trolls World Tour Soundtrack.",
+    "complexity": "medium",
+    "confidence": 0.45746198296546936
+  },
+  {
+    "instruction": "What is feeding Springfield Reservoir?",
+    "complexity": "medium",
+    "confidence": 0.4327618479728699
+  },
+  {
+    "instruction": "Tell me whether these are part of the judicial, executive, or legislative branch of government: Supreme Court, President, House, Senate",
+    "complexity": "medium",
+    "confidence": 0.4089484214782715
+  },
+  {
+    "instruction": "Categorize the following countries based on the language their majority speaks: Iraq, Iran, Turkey, UAE, Qatar, Afghanistan, Syria",
+    "complexity": "medium",
+    "confidence": 0.41109034419059753
+  },
+  {
+    "instruction": "Share the best 7 European Cities for Nightlife",
+    "complexity": "medium",
+    "confidence": 0.358650803565979
+  },
+  {
+    "instruction": "What is Hornachuelos?",
+    "complexity": "medium",
+    "confidence": 0.4286717176437378
+  },
+  {
+    "instruction": "can i run for president?",
+    "complexity": "medium",
+    "confidence": 0.45198696851730347
+  },
+  {
+    "instruction": "Give me a chronological bulleted list based on a timeline of events",
+    "complexity": "medium",
+    "confidence": 0.40606924891471863
+  },
+  {
+    "instruction": "Would you typically find each of the following items in a bathroom, bedroom, kitchen or living room? Couch, pillow, dish soap, bedside table, oven, shower, toilet, coffee table, coffee machine",
+    "complexity": "medium",
+    "confidence": 0.3922211825847626
+  },
+  {
+    "instruction": "Pitch me some bad ideas for cologne scents.",
+    "complexity": "medium",
+    "confidence": 0.4224325716495514
+  },
+  {
+    "instruction": "What color is the Rainbow?",
+    "complexity": "medium",
+    "confidence": 0.3867751359939575
+  },
+  {
+    "instruction": "If my car's fuel tank fits 18 gallon, how many times do I need to refuel on a 10-hour trip if the average speed is 60mph and the car's fuel efficiency is 30mpg?",
+    "complexity": "medium",
+    "confidence": 0.449249804019928
+  },
+  {
+    "instruction": "What is a bubble vest?",
+    "complexity": "medium",
+    "confidence": 0.5289503931999207
+  },
+  {
+    "instruction": "Who were the children of Bill 101",
+    "complexity": "medium",
+    "confidence": 0.38096746802330017
+  },
+  {
+    "instruction": "Categorize each of the following as being beneficial or not beneficial to making a home protected from burglars: alarm system, open doors, locks, cameras, open windows",
+    "complexity": "medium",
+    "confidence": 0.39800363779067993
+  },
+  {
+    "instruction": "tell me whether these are synonyms or antonyms of love: dislike, care, like, hate, affection, harsh",
+    "complexity": "medium",
+    "confidence": 0.4606550633907318
+  },
+  {
+    "instruction": "Given this paragraph, extract a list of names that are playable by the user of this game.",
+    "complexity": "medium",
+    "confidence": 0.4346386790275574
+  },
+  {
+    "instruction": "What is gardening?",
+    "complexity": "medium",
+    "confidence": 0.389629602432251
+  },
+  {
+    "instruction": "Give this paragraph about the Alley Cats a capella group, what famous talk show hosts have they performed for?",
+    "complexity": "medium",
+    "confidence": 0.439411461353302
+  },
+  {
+    "instruction": "What is an string instrument that is similar to a Violin, but larger in size and with a lower and deeper sound?",
+    "complexity": "medium",
+    "confidence": 0.4360392093658447
+  },
+  {
+    "instruction": "Write a short story about a little girl who befriends a dragon, the dragons magical powers can bring her to a different universe.",
+    "complexity": "medium",
+    "confidence": 0.3652493357658386
+  },
+  {
+    "instruction": "What is Kraft Dinner?",
+    "complexity": "medium",
+    "confidence": 0.39184096455574036
+  },
+  {
+    "instruction": "Classify each of the following as either a single digit or a double digit number: 8, 4, 1, 12, 87, 65, 3, 5, 45, 97, 6, 2, 34, 71, 9, 48, 0, 7, 31, 50.",
+    "complexity": "medium",
+    "confidence": 0.4543870985507965
+  },
+  {
+    "instruction": "Why do humans like golf?",
+    "complexity": "medium",
+    "confidence": 0.39162448048591614
+  },
+  {
+    "instruction": "What is a Ferocactus",
+    "complexity": "medium",
+    "confidence": 0.4393343925476074
+  },
+  {
+    "instruction": "Why Cancun is famous",
+    "complexity": "medium",
+    "confidence": 0.42759832739830017
+  },
+  {
+    "instruction": "what is Sociology?",
+    "complexity": "medium",
+    "confidence": 0.35861414670944214
+  },
+  {
+    "instruction": "Imagine you are getting married and are attending a wedding cake tasting. Describe five different flavors you try, with combinations of both cake and frosting for each tasting. Pick one best flavor at the end of the five tastings.",
+    "complexity": "medium",
+    "confidence": 0.39208662509918213
+  },
+  {
+    "instruction": "I dont think I should pursue higher education. From the following, what are some pros and cons of getting a masters education?\n\ndegree to show mastery of a subject\nTakes money\nHard work is required\nLosing out on entrepreneurial opportunities by the time spent studying\ndegree to show mastery of a subject\nskill development\nTime away from family\nSet you up for lifelong success\nrespect in society",
+    "complexity": "medium",
+    "confidence": 0.7181347012519836
+  },
+  {
+    "instruction": "Who regulates banks in Australia?",
+    "complexity": "medium",
+    "confidence": 0.4400772750377655
+  },
+  {
+    "instruction": "What is a viral video?",
+    "complexity": "medium",
+    "confidence": 0.41429123282432556
+  },
+  {
+    "instruction": "Provide a table of the various recruiting lists that Calvin Johnson was named to and who named him to the list and do it in CSV format",
+    "complexity": "medium",
+    "confidence": 0.45688414573669434
+  },
+  {
+    "instruction": "Why do humans like dogs?",
+    "complexity": "medium",
+    "confidence": 0.4136212170124054
+  },
+  {
+    "instruction": "I would like to get a camper for the family vacations.  What things do I need to be aware of when buying one?",
+    "complexity": "medium",
+    "confidence": 0.42339953780174255
+  },
+  {
+    "instruction": "Why Interlaken is famous",
+    "complexity": "medium",
+    "confidence": 0.4163888394832611
+  },
+  {
+    "instruction": "Extract the teams that Bob Sanders played throughout his career, and put them in a comma-separated list.",
+    "complexity": "medium",
+    "confidence": 0.45182743668556213
+  },
+  {
+    "instruction": "Classify the following Stephen King works as either a 'book', a 'movie' or 'both': Shawshank Redemption, Carrie, Under the Dome, Sleeping Beauties, The Shining, Sleepwalkers, Dreamcatcher, Bag of Bones, Creepshow, Insomnia, The Green Mile, Cat's Eye",
+    "complexity": "medium",
+    "confidence": 0.4037478268146515
+  },
+  {
+    "instruction": "How old is Tamil language?",
+    "complexity": "medium",
+    "confidence": 0.380768358707428
+  },
+  {
+    "instruction": "Who is the top baseball player based on offensive categories that are not in the major league baseball hall of fame with no chance of getting in while alive.",
+    "complexity": "medium",
+    "confidence": 0.3976036310195923
+  },
+  {
+    "instruction": "Given a reference text about Georg Friedrich Parrot, tell me when and where he was born as well as what he studied.",
+    "complexity": "medium",
+    "confidence": 0.39460718631744385
+  },
+  {
+    "instruction": "Write a brief about your recent vacation",
+    "complexity": "medium",
+    "confidence": 0.3600730299949646
+  },
+  {
+    "instruction": "Provide a list of ways musicians can earn income from their music craft.",
+    "complexity": "medium",
+    "confidence": 0.4079609811306
+  },
+  {
+    "instruction": "What is rowing?",
+    "complexity": "medium",
+    "confidence": 0.4271343946456909
+  },
+  {
+    "instruction": "Given the numerous awards in Major League Baseball, what is the Willie Mays World Series Most Valuable Player (MVP) Award?",
+    "complexity": "medium",
+    "confidence": 0.4922664165496826
+  },
+  {
+    "instruction": "Provide a list of body parts that are only three letters long. Here are some body parts that are three lettered words: toe, rib, eye, ear, leg and jaw.",
+    "complexity": "medium",
+    "confidence": 0.4644882082939148
+  },
+  {
+    "instruction": "What is the loudest animal on Earth?",
+    "complexity": "medium",
+    "confidence": 0.4512151777744293
+  },
+  {
+    "instruction": "Give me a list of popular news podcast to listen to",
+    "complexity": "medium",
+    "confidence": 0.3501240015029907
+  },
+  {
+    "instruction": "What are the benefits of exercising and why one should workout everyday especially if you have a sedentary lifestyle that makes you sit all day long?",
+    "complexity": "medium",
+    "confidence": 0.46738964319229126
+  },
+  {
+    "instruction": "What are the four seasons of the year?",
+    "complexity": "medium",
+    "confidence": 0.4115436375141144
+  },
+  {
+    "instruction": "Give me a bulleted list of the seven most recently elected presidents from Argentina.",
+    "complexity": "medium",
+    "confidence": 0.41145962476730347
+  },
+  {
+    "instruction": "Give me a bulleted list of the last seven World Series winners",
+    "complexity": "medium",
+    "confidence": 0.3951907753944397
+  },
+  {
+    "instruction": "Which of these foods are kosher? Lobster, cheeseburger, hamburger and fries, shrimp and grits, thai red curry with tofu, thai red curry with chicken, birthday cake, lentil soup with ham hock.",
+    "complexity": "medium",
+    "confidence": 0.4228484332561493
+  },
+  {
+    "instruction": "What is nomadism?",
+    "complexity": "medium",
+    "confidence": 0.42533665895462036
+  },
+  {
+    "instruction": "What are the examples of eponyms provided in the passage. List them in the bulleted format.",
+    "complexity": "medium",
+    "confidence": 0.41841164231300354
+  },
+  {
+    "instruction": "Extract all of the names of people mentioned in this paragraph and list them using bullets in the format {Name}",
+    "complexity": "medium",
+    "confidence": 0.45620256662368774
+  },
+  {
+    "instruction": "Why is the sky blue?",
+    "complexity": "medium",
+    "confidence": 0.44503524899482727
+  },
+  {
+    "instruction": "Name every month that has 30 days",
+    "complexity": "medium",
+    "confidence": 0.4332164525985718
+  },
+  {
+    "instruction": "From the passage mention the different verticals in which SoftBank Group Corp. invests in. Display the results in comma separated format.",
+    "complexity": "medium",
+    "confidence": 0.40299734473228455
+  },
+  {
+    "instruction": "What is ASEAN?",
+    "complexity": "medium",
+    "confidence": 0.3826506733894348
+  },
+  {
+    "instruction": "Extract all of the names of people mentioned in this paragraph and list them using bullets in the format {Name}",
+    "complexity": "medium",
+    "confidence": 0.45620256662368774
+  },
+  {
+    "instruction": "Who is William Crump?",
+    "complexity": "medium",
+    "confidence": 0.4378339946269989
+  },
+  {
+    "instruction": "Classify each of the following as either titles by George R.R. Martin or Robert Jordan: A Game of Thrones, Dying of the Light, The Armageddon Rag, A Storm of Swords, A Song for Lya, The Great Hunt, Towers of Midnight, Lord of Chaos, A Crown of Swords, Crossroads of Twilight",
+    "complexity": "medium",
+    "confidence": 0.4595550000667572
+  },
+  {
+    "instruction": "Classify these wines in Red or White:  Chardonnay ,Cabernet Sauvignon,Moscato, Merlot, Syrah, Malbec, Pinot Noir, Riesling, Sangiovese, Sauvignon Blanc",
+    "complexity": "medium",
+    "confidence": 0.43881189823150635
+  },
+  {
+    "instruction": "What is the JDK?",
+    "complexity": "medium",
+    "confidence": 0.44783422350883484
+  },
+  {
+    "instruction": "Classify the following as either red wines or white wines: Cabernet Sauvignon, Pinot Blanc, Riesling, Chardonnay, Pinot Grigio, Sauvignon Blanc, Merlot, Syrah, Shiraz",
+    "complexity": "medium",
+    "confidence": 0.4304351508617401
+  },
+  {
+    "instruction": "Extract universities Moret studied at and his year of graduation for each, and put them in a bulleted list.",
+    "complexity": "medium",
+    "confidence": 0.4814836382865906
+  },
+  {
+    "instruction": "Tell me whether matches in each sport is usually played individually or on a team: baseball, golf, tennis, wrestling, hockey",
+    "complexity": "medium",
+    "confidence": 0.40712177753448486
+  },
+  {
+    "instruction": "Extract the most recent upper bound and low bound of the sofa constant and return them in the format {Bound Type} - {Bound Value}.",
+    "complexity": "medium",
+    "confidence": 0.4071923494338989
+  },
+  {
+    "instruction": "Write an email to someone updating that I’ve accepted the position at their company to which they referred me",
+    "complexity": "medium",
+    "confidence": 0.4172933101654053
+  },
+  {
+    "instruction": "What is deep dish pizza?",
+    "complexity": "medium",
+    "confidence": 0.44923126697540283
+  },
+  {
+    "instruction": "What is Football?",
+    "complexity": "medium",
+    "confidence": 0.405606210231781
+  },
+  {
+    "instruction": "What are the primary colors?",
+    "complexity": "medium",
+    "confidence": 0.37156230211257935
+  },
+  {
+    "instruction": "What are the advantages and disadvantages of allowing people to perform delivery tasks by walking instead of requiring the use of a bike or car? When do you think it is more pragmatic for deliveries to be fulfilled by walking versus biking or driving?",
+    "complexity": "medium",
+    "confidence": 0.6679342985153198
+  },
+  {
+    "instruction": "Classify each of the following as a penalty or scoring play in football: touchdown, holding, offsides, safety, field goal, false start",
+    "complexity": "medium",
+    "confidence": 0.45863115787506104
+  },
+  {
+    "instruction": "Imagine you have to spend a week on a deserted island. What are 5 items you'd bring with you and why?",
+    "complexity": "medium",
+    "confidence": 0.45879682898521423
+  },
+  {
+    "instruction": "What is the stock market?",
+    "complexity": "medium",
+    "confidence": 0.40069299936294556
+  },
+  {
+    "instruction": "Tell me whether these sports are played on grass or ice: figure skating, hockey, football, soccer, curling",
+    "complexity": "medium",
+    "confidence": 0.3621482849121094
+  },
+  {
+    "instruction": "India’s overall food grain production (based on 4th Advance estimates) is estimated to have touched how much?",
+    "complexity": "medium",
+    "confidence": 0.41900163888931274
+  },
+  {
+    "instruction": "Extract all of the names of people mentioned in this paragraph and list them using bullets in the format {Name}",
+    "complexity": "medium",
+    "confidence": 0.45620256662368774
+  },
+  {
+    "instruction": "Why do people like golf?",
+    "complexity": "medium",
+    "confidence": 0.37429869174957275
+  },
+  {
+    "instruction": "Given this paragraph about a Tesla Model 3, tell me what the EPA-rated ranges are for the various models.",
+    "complexity": "medium",
+    "confidence": 0.37379929423332214
+  },
+  {
+    "instruction": "What are the titles of the songs on Side B for this album?",
+    "complexity": "medium",
+    "confidence": 0.3989035189151764
+  },
+  {
+    "instruction": "Are cats or dogs better?",
+    "complexity": "medium",
+    "confidence": 0.35930466651916504
+  },
+  {
+    "instruction": "From the passage note down the valuation of NFT trade for the year 2020 and 2021. List the results in format ‘Year: Value‘.",
+    "complexity": "medium",
+    "confidence": 0.4143836200237274
+  },
+  {
+    "instruction": "Holidays such as Christmas, Easter and Halloween are associated with themes. Sort the following items into the holiday with which they are most frequently associated: elves, chocolate, presents, pumpkin, rabbit, candy, pilgrim, egg, Santa, Jesus, hot-crossed buns, and reindeer",
+    "complexity": "medium",
+    "confidence": 0.474983811378479
+  },
+  {
+    "instruction": "Hello, my family and I recently went to the zoo and saw a number of animals.  Please identify the animals in this summary and organize them in order of size.  My son's favorite animal is an elephant, and he saw an elephant in the grassland.  My wife caught a parakeet trying to eat our popcorn.  My daughter was scared by lion that she saw on the prairie.  I missed all of these animals and only saw a boa constrictor in an a cage.",
+    "complexity": "medium",
+    "confidence": 0.7847851514816284
+  },
+  {
+    "instruction": "Seven Wonders of the Underwater World",
+    "complexity": "medium",
+    "confidence": 0.3840937316417694
+  },
+  {
+    "instruction": "What is Central Park?",
+    "complexity": "medium",
+    "confidence": 0.3522634208202362
+  },
+  {
+    "instruction": "What is a rocking chair?",
+    "complexity": "medium",
+    "confidence": 0.44605112075805664
+  },
+  {
+    "instruction": "What is accessibility?",
+    "complexity": "medium",
+    "confidence": 0.4901207387447357
+  },
+  {
+    "instruction": "Who let the dogs out?",
+    "complexity": "medium",
+    "confidence": 0.5458823442459106
+  },
+  {
+    "instruction": "Classify each of the following dishes as either 'Indian', 'Italian', 'Latin American', 'African' or 'Neither' based on their cuisine. Biriyani, Pasta, Dosa, Risotto, Burger, Lasagne, Tajine,  Empanadas, Tacos",
+    "complexity": "medium",
+    "confidence": 0.38146471977233887
+  },
+  {
+    "instruction": "Write a friendly email to my neighbor asking them to keep the noise down after 10pm on Weekdays.",
+    "complexity": "medium",
+    "confidence": 0.42791950702667236
+  },
+  {
+    "instruction": "Who was charged in August 1902, under the Offences against the Person Act 1861 with incitement to murder?",
+    "complexity": "medium",
+    "confidence": 0.4637688994407654
+  },
+  {
+    "instruction": "List the items you need to play pickleball",
+    "complexity": "medium",
+    "confidence": 0.43107011914253235
+  },
+  {
+    "instruction": "What is the name of the gruff and tough female Viper pilot on the 2003 reboot of \"Battlestar Galactica\"?",
+    "complexity": "medium",
+    "confidence": 0.6666470170021057
+  },
+  {
+    "instruction": "I have 3 apples, Jack has 4 pears and Jill has 5 books. After I ate two of Jack's pears, how many fruits we have in total now?",
+    "complexity": "medium",
+    "confidence": 0.41914844512939453
+  },
+  {
+    "instruction": "Provide a short review for a Japanese restaurant called Honto in Brisbane. It was a little hard to find as it is in a backstreet, but we found it without too much trouble. Be sure to mention it was very atmospheric and that the food was great.",
+    "complexity": "medium",
+    "confidence": 0.6713301539421082
+  },
+  {
+    "instruction": "How do you brew beer?",
+    "complexity": "medium",
+    "confidence": 0.37017181515693665
+  },
+  {
+    "instruction": "Why do people have children?",
+    "complexity": "medium",
+    "confidence": 0.39263588190078735
+  },
+  {
+    "instruction": "Where is Meerut?",
+    "complexity": "medium",
+    "confidence": 0.39678314328193665
+  },
+  {
+    "instruction": "What are the most dangerous hobbies?",
+    "complexity": "medium",
+    "confidence": 0.48160597681999207
+  },
+  {
+    "instruction": "Why is the sky blue?",
+    "complexity": "medium",
+    "confidence": 0.44503524899482727
+  },
+  {
+    "instruction": "Why is pickleball so popular?",
+    "complexity": "medium",
+    "confidence": 0.4364393353462219
+  },
+  {
+    "instruction": "Netflix views streaming video as a \"sustaining\" technology that extends its core mail DVD business. Do you agree with this, or do you think streaming video is a \"disruptive\" technology for Netflix that does not align with its core business and requires a different strategy?",
+    "complexity": "medium",
+    "confidence": 0.48967689275741577
+  },
+  {
+    "instruction": "Give me a bulleted list of 3 informal fallacies and the meaning each",
+    "complexity": "medium",
+    "confidence": 0.39054450392723083
+  },
+  {
+    "instruction": "What is tollywood?",
+    "complexity": "medium",
+    "confidence": 0.4318373203277588
+  },
+  {
+    "instruction": "What is Arsenal FC?",
+    "complexity": "medium",
+    "confidence": 0.3806183934211731
+  },
+  {
+    "instruction": "What is the best football club in the world in 23 between Arsenal, Real Madrid, Napoli, Manchester City, and Bayern Munich?",
+    "complexity": "medium",
+    "confidence": 0.4586447477340698
+  },
+  {
+    "instruction": "Which is a species of fish? Tope or Rope",
+    "complexity": "complex",
+    "confidence": 0.5571855902671814
+  },
+  {
+    "instruction": "Why can camels survive for long without water?",
+    "complexity": "complex",
+    "confidence": 0.5471698045730591
+  },
+  {
+    "instruction": "Alice's parents have three daughters: Amy, Jessy, and what’s the name of the third daughter?",
+    "complexity": "complex",
+    "confidence": 0.4078597128391266
+  },
+  {
+    "instruction": "When was Tomoaki Komorida born?",
+    "complexity": "complex",
+    "confidence": 0.5179676413536072
+  },
+  {
+    "instruction": "If I have more pieces at the time of stalemate, have I won?",
+    "complexity": "complex",
+    "confidence": 0.558793842792511
+  },
+  {
+    "instruction": "Who gave the UN the land in NY to build their HQ",
+    "complexity": "complex",
+    "confidence": 0.5122675895690918
+  },
+  {
+    "instruction": "Who was Kyle Van Zyl playing against when he scored 36 of hisa teams 61 points?",
+    "complexity": "complex",
+    "confidence": 0.40115854144096375
+  },
+  {
+    "instruction": "From the passage list down the areas for which Dar es Salaam is Tanzania's most prominent city. List the results in comma separated format.",
+    "complexity": "complex",
+    "confidence": 0.41075390577316284
+  },
+  {
+    "instruction": "Which episodes of season four of Game of Thrones did Michelle MacLaren direct?",
+    "complexity": "complex",
+    "confidence": 0.464299738407135
+  },
+  {
+    "instruction": "What are some unique curtain tie backs that you can make yourself?",
+    "complexity": "complex",
+    "confidence": 0.6349325776100159
+  },
+  {
+    "instruction": "What is a dispersive prism?",
+    "complexity": "complex",
+    "confidence": 0.5213525295257568
+  },
+  {
+    "instruction": "Identify which instrument is string or percussion: Cantaro, Gudok",
+    "complexity": "complex",
+    "confidence": 0.4300333559513092
+  },
+  {
+    "instruction": "Give me the top 5 golf equipment company names.",
+    "complexity": "complex",
+    "confidence": 0.4492710828781128
+  },
+  {
+    "instruction": "What individual has won the most Olympic gold medals in the history of the games?",
+    "complexity": "complex",
+    "confidence": 0.4238991141319275
+  },
+  {
+    "instruction": "What happens when the sun goes down?",
+    "complexity": "complex",
+    "confidence": 0.49431321024894714
+  },
+  {
+    "instruction": "Which of the following is useful for transportation: a glass of wine, a lamp, a train, an iced cube tray, a plane, a bicycle, an apple and a scooter.",
+    "complexity": "complex",
+    "confidence": 0.5452566742897034
+  },
+  {
+    "instruction": "Identify which instrument is string or woodwind: Panduri, Zurna",
+    "complexity": "complex",
+    "confidence": 0.40921568870544434
+  },
+  {
+    "instruction": "What is the average lifespan of a Golden Retriever?",
+    "complexity": "complex",
+    "confidence": 0.46575242280960083
+  },
+  {
+    "instruction": "Who became king of Holland in 1806?",
+    "complexity": "complex",
+    "confidence": 0.423042893409729
+  },
+  {
+    "instruction": "Who played Billy the Kid in The Left Handed Gun",
+    "complexity": "complex",
+    "confidence": 0.47839057445526123
+  },
+  {
+    "instruction": "why did Syd Barrett left the Pink Floyd?",
+    "complexity": "complex",
+    "confidence": 0.5296920537948608
+  },
+  {
+    "instruction": "What is underwriting?",
+    "complexity": "complex",
+    "confidence": 0.39573410153388977
+  },
+  {
+    "instruction": "Give me a list of some characteristics of a good coffee shop?",
+    "complexity": "complex",
+    "confidence": 0.49699142575263977
+  },
+  {
+    "instruction": "Please summarize what Linkedin does.",
+    "complexity": "complex",
+    "confidence": 0.48067736625671387
+  },
+  {
+    "instruction": "Who saved Andromeda from the sea monster",
+    "complexity": "complex",
+    "confidence": 0.42816486954689026
+  },
+  {
+    "instruction": "How can I contribute to Spark?",
+    "complexity": "complex",
+    "confidence": 0.4601995348930359
+  },
+  {
+    "instruction": "Who are ''The Lumières\" ?",
+    "complexity": "complex",
+    "confidence": 0.5866764783859253
+  },
+  {
+    "instruction": "Using examples taken from the text give me a summary of the main arguments in favour of slavery reparations in the United States and the anticipated cost of enacting such reparations",
+    "complexity": "complex",
+    "confidence": 0.42268985509872437
+  },
+  {
+    "instruction": "write a scene between two actors discussing movie Inception",
+    "complexity": "complex",
+    "confidence": 0.42817848920822144
+  },
+  {
+    "instruction": "What is the currency in use in the Netherlands?",
+    "complexity": "complex",
+    "confidence": 0.47732844948768616
+  },
+  {
+    "instruction": "What is the best tv series in the world",
+    "complexity": "complex",
+    "confidence": 0.45074018836021423
+  },
+  {
+    "instruction": "Who was the first to record the Needles and Pins song?",
+    "complexity": "complex",
+    "confidence": 0.49580907821655273
+  },
+  {
+    "instruction": "Provide me a list of the different types of harnesses used in rock climbing",
+    "complexity": "complex",
+    "confidence": 0.43327903747558594
+  },
+  {
+    "instruction": "Think of some family rules to promote a healthy family relationship",
+    "complexity": "complex",
+    "confidence": 0.4682888090610504
+  },
+  {
+    "instruction": "In the series A Song of Ice and Fire, who is the founder of House Karstark?",
+    "complexity": "complex",
+    "confidence": 0.4389585554599762
+  },
+  {
+    "instruction": "What is enriched air and why would divers dive with enriched air?",
+    "complexity": "complex",
+    "confidence": 0.5183044672012329
+  },
+  {
+    "instruction": "What film won the 1943 Oscar as best film",
+    "complexity": "complex",
+    "confidence": 0.3968927264213562
+  },
+  {
+    "instruction": "which weighs more, cold or hot water?",
+    "complexity": "complex",
+    "confidence": 0.4463370740413666
+  },
+  {
+    "instruction": "Write a short paragraph about why you should not have both a pet cat and a pet bird.",
+    "complexity": "complex",
+    "confidence": 0.5682409405708313
+  },
+  {
+    "instruction": "What makes a formula one car so fast?",
+    "complexity": "complex",
+    "confidence": 0.5123122334480286
+  },
+  {
+    "instruction": "Without quoting directly from the text give me a summary of the history of the Key Lime Pie.",
+    "complexity": "complex",
+    "confidence": 0.42276182770729065
+  },
+  {
+    "instruction": "Identify which instrument is string or percussion: Kpanlogo, Shamisen",
+    "complexity": "complex",
+    "confidence": 0.4449331760406494
+  },
+  {
+    "instruction": "Why do potato chip bags become stale after opening?",
+    "complexity": "complex",
+    "confidence": 0.49542689323425293
+  },
+  {
+    "instruction": "Classify each of the following as a primary color or a secondary color",
+    "complexity": "complex",
+    "confidence": 0.4443598985671997
+  },
+  {
+    "instruction": "Where are the British Virgin Islands (BVI) and which islands are a part of the BVI?",
+    "complexity": "complex",
+    "confidence": 0.5215041041374207
+  },
+  {
+    "instruction": "Does \"outbreeding\" or \"inbreeding\" benefit the offspring more?",
+    "complexity": "complex",
+    "confidence": 0.5737757086753845
+  },
+  {
+    "instruction": "What is the future for human?",
+    "complexity": "complex",
+    "confidence": 0.5803081393241882
+  },
+  {
+    "instruction": "Name some of the bravolebrities from Vanderpump Rules",
+    "complexity": "complex",
+    "confidence": 0.37317103147506714
+  },
+  {
+    "instruction": "Who is Muhammad Ejaz Shafi",
+    "complexity": "complex",
+    "confidence": 0.36412370204925537
+  },
+  {
+    "instruction": "Give me five ways in which I can make my homebrew beer more interesting",
+    "complexity": "complex",
+    "confidence": 0.5538596510887146
+  },
+  {
+    "instruction": "How many Grammy Awards has Bad Bunny won?",
+    "complexity": "complex",
+    "confidence": 0.38096094131469727
+  },
+  {
+    "instruction": "When was the first Reading railway station opened?",
+    "complexity": "complex",
+    "confidence": 0.4632924199104309
+  },
+  {
+    "instruction": "Which of these are rappers? Eminem, Michael Jackson, Rihanna, 50 Cent",
+    "complexity": "complex",
+    "confidence": 0.5095142722129822
+  },
+  {
+    "instruction": "What are some kinds of embroidery stitches for writing letters?",
+    "complexity": "complex",
+    "confidence": 0.4477823078632355
+  },
+  {
+    "instruction": "What are the most common injuries in rowing?",
+    "complexity": "complex",
+    "confidence": 0.5135931968688965
+  },
+  {
+    "instruction": "What is a good way to get around without a car?",
+    "complexity": "complex",
+    "confidence": 0.6318581104278564
+  },
+  {
+    "instruction": "Identify which animal species is alive or extinct: Palaeophis, Giant Tortoise",
+    "complexity": "complex",
+    "confidence": 0.6037480235099792
+  },
+  {
+    "instruction": "Why is Santa Cruz, California a great place to live?",
+    "complexity": "complex",
+    "confidence": 0.5435435771942139
+  },
+  {
+    "instruction": "Give me some ideas to manage my manager.",
+    "complexity": "complex",
+    "confidence": 0.4523274898529053
+  },
+  {
+    "instruction": "Identify which instrument is string or percussion: Samphor, Viola toeria",
+    "complexity": "complex",
+    "confidence": 0.4275146722793579
+  },
+  {
+    "instruction": "If we were playing a game where we had to identify things that can be found inside a house, which of these would we call out: car, chair, table, park, cloud, microwave.",
+    "complexity": "complex",
+    "confidence": 0.3795661926269531
+  },
+  {
+    "instruction": "Extract all of the dates mentioned in this paragraph and list them using bullets in the format {Date} - {Description}",
+    "complexity": "complex",
+    "confidence": 0.45462170243263245
+  },
+  {
+    "instruction": "Please describe  what is oil and give me a list of it’s applications.",
+    "complexity": "complex",
+    "confidence": 0.5157800912857056
+  },
+  {
+    "instruction": "List 6 different types of rain in Seattle",
+    "complexity": "complex",
+    "confidence": 0.43718451261520386
+  },
+  {
+    "instruction": "What is investment banking?",
+    "complexity": "complex",
+    "confidence": 0.36332347989082336
+  },
+  {
+    "instruction": "I started a new company named Greystone Inc. What do we do?",
+    "complexity": "complex",
+    "confidence": 0.44156089425086975
+  },
+  {
+    "instruction": "Tell me whether or not these foods are on EWG's dirty dozen list",
+    "complexity": "complex",
+    "confidence": 0.467056006193161
+  },
+  {
+    "instruction": "How much music theory knowledge is required to compose music?",
+    "complexity": "complex",
+    "confidence": 0.4818457365036011
+  },
+  {
+    "instruction": "Summarize in one sentence this article about a famous song.",
+    "complexity": "complex",
+    "confidence": 0.3832385241985321
+  },
+  {
+    "instruction": "What is the Maareech Advanced Torpedo Defence System (ATDS)?",
+    "complexity": "complex",
+    "confidence": 0.5785538554191589
+  },
+  {
+    "instruction": "Change the following passage to past tense",
+    "complexity": "complex",
+    "confidence": 0.4922071695327759
+  },
+  {
+    "instruction": "What is the tallest mountain in the continental US?",
+    "complexity": "complex",
+    "confidence": 0.5137439966201782
+  },
+  {
+    "instruction": "Who is Shoji Hashimoto?",
+    "complexity": "complex",
+    "confidence": 0.48782673478126526
+  },
+  {
+    "instruction": "What are some of the best comedy movies of the 1980's?",
+    "complexity": "complex",
+    "confidence": 0.4112635552883148
+  },
+  {
+    "instruction": "In golf what do the Americans call an albatross",
+    "complexity": "complex",
+    "confidence": 0.5257822871208191
+  },
+  {
+    "instruction": "What are common ingredients of a full english breakfast?",
+    "complexity": "complex",
+    "confidence": 0.4091982841491699
+  },
+  {
+    "instruction": "Plan for a three day road trip for May long weekend from Westfield, New Jersey",
+    "complexity": "complex",
+    "confidence": 0.4980539381504059
+  },
+  {
+    "instruction": "What is the Research Collaboratory for Structural Bioinformatics Protein Data Bank (RCSB PDB)?",
+    "complexity": "complex",
+    "confidence": 0.4929625988006592
+  },
+  {
+    "instruction": "What are 5 potential uses for an empty La Croix can?",
+    "complexity": "complex",
+    "confidence": 0.5597549676895142
+  },
+  {
+    "instruction": "What is the name of the Winslow's nerdy next-door neighbor on the TV show \"Family Matters\"?",
+    "complexity": "complex",
+    "confidence": 0.447049617767334
+  },
+  {
+    "instruction": "Why are so many US Hollywood films made in the state of Georgia?",
+    "complexity": "complex",
+    "confidence": 0.45592567324638367
+  },
+  {
+    "instruction": "How many managers have Arsenal had?",
+    "complexity": "complex",
+    "confidence": 0.45320481061935425
+  },
+  {
+    "instruction": "What is the current capital of Japan?",
+    "complexity": "complex",
+    "confidence": 0.47216111421585083
+  },
+  {
+    "instruction": "What are some tools that every homeowner should have?",
+    "complexity": "complex",
+    "confidence": 0.5666740536689758
+  },
+  {
+    "instruction": "write a short essay on California wild fire",
+    "complexity": "complex",
+    "confidence": 0.37286990880966187
+  },
+  {
+    "instruction": "Who scored first in Austin FC's first victory in a home game in the 2021 MLS season?",
+    "complexity": "complex",
+    "confidence": 0.41427814960479736
+  },
+  {
+    "instruction": "Classify each of the following as either a bird, animal, reptile or insect: tiger, heron, eagle, alligator, snake, spider, ant, dog, cat, rhinoceros, kingfisher, chameleon, hornet, butterfly",
+    "complexity": "complex",
+    "confidence": 0.5125042796134949
+  },
+  {
+    "instruction": "What are some different things you should bring with you on a day hiking trip?",
+    "complexity": "complex",
+    "confidence": 0.554239809513092
+  },
+  {
+    "instruction": "How long does it take for a mustard seed to germinate?",
+    "complexity": "complex",
+    "confidence": 0.5406228303909302
+  },
+  {
+    "instruction": "Which is a species of fish? Sea dragon or Red bearded",
+    "complexity": "complex",
+    "confidence": 0.5508610010147095
+  },
+  {
+    "instruction": "Categorize where each of these household items belong: bed, couch, desk",
+    "complexity": "complex",
+    "confidence": 0.5093275904655457
+  },
+  {
+    "instruction": "What is the difference between pets and cattle?",
+    "complexity": "complex",
+    "confidence": 0.45742347836494446
+  },
+  {
+    "instruction": "How do I put a bouquet of fresh flowers in a vase?",
+    "complexity": "complex",
+    "confidence": 0.37531739473342896
+  },
+  {
+    "instruction": "What should I do on a free afternoon in San Francisco?",
+    "complexity": "complex",
+    "confidence": 0.4769621193408966
+  },
+  {
+    "instruction": "Identify which instrument is string or woodwind: Janzi, Gemshorn",
+    "complexity": "complex",
+    "confidence": 0.3957691490650177
+  },
+  {
+    "instruction": "Identify which animal species is alive or extinct: Pliosaur, Marine Iguana",
+    "complexity": "complex",
+    "confidence": 0.580708920955658
+  },
+  {
+    "instruction": "What is the origin of the name of the herb Rosemary?",
+    "complexity": "complex",
+    "confidence": 0.5357250571250916
+  },
+  {
+    "instruction": "Wat id DNA annotation?",
+    "complexity": "complex",
+    "confidence": 0.439729243516922
+  },
+  {
+    "instruction": "Who were Jaehaerys I Targaryen's children?",
+    "complexity": "complex",
+    "confidence": 0.5051343441009521
+  },
+  {
+    "instruction": "In SQL, how can I filter table rows based on a column condition?",
+    "complexity": "complex",
+    "confidence": 0.4381774365901947
+  },
+  {
+    "instruction": "Who were the ten best baseball players in the history of the Boston Red Sox?",
+    "complexity": "complex",
+    "confidence": 0.38159316778182983
+  },
+  {
+    "instruction": "What makes the world go around?",
+    "complexity": "complex",
+    "confidence": 0.5426976680755615
+  },
+  {
+    "instruction": "Who coined the phrase \"Bike-shedding\" and when?",
+    "complexity": "complex",
+    "confidence": 0.4460192322731018
+  },
+  {
+    "instruction": "Who is the best Formula 1 driver",
+    "complexity": "complex",
+    "confidence": 0.41853398084640503
+  },
+  {
+    "instruction": "What is Share capital in finance?",
+    "complexity": "complex",
+    "confidence": 0.46927401423454285
+  },
+  {
+    "instruction": "Give me some Mother's Day gift ideas.",
+    "complexity": "complex",
+    "confidence": 0.48927736282348633
+  },
+  {
+    "instruction": "Give me a list of ways that a runner can advance a base in baseball without there being a hit.",
+    "complexity": "complex",
+    "confidence": 0.4334532916545868
+  },
+  {
+    "instruction": "What are the types of RVs?",
+    "complexity": "complex",
+    "confidence": 0.4657672941684723
+  },
+  {
+    "instruction": "List the weapons of Goddess Durga in a comma separated manner.",
+    "complexity": "complex",
+    "confidence": 0.4403364360332489
+  },
+  {
+    "instruction": "What shapes are made up of straight lines?",
+    "complexity": "complex",
+    "confidence": 0.4693213403224945
+  },
+  {
+    "instruction": "Choose the word which is different from the rest: hangar, platform, dock, park, bus stand",
+    "complexity": "complex",
+    "confidence": 0.5363847017288208
+  },
+  {
+    "instruction": "Are The Smiths a good band?",
+    "complexity": "complex",
+    "confidence": 0.3988802433013916
+  },
+  {
+    "instruction": "How much of American wine is produced in California?",
+    "complexity": "complex",
+    "confidence": 0.45017579197883606
+  },
+  {
+    "instruction": "As a golfer, how can I fix my slice?",
+    "complexity": "complex",
+    "confidence": 0.5765588879585266
+  },
+  {
+    "instruction": "Who tends to participates in hackathons?",
+    "complexity": "complex",
+    "confidence": 0.5331751704216003
+  },
+  {
+    "instruction": "Which community of users on Twitter has the most 8-dollar-a-month verification?",
+    "complexity": "complex",
+    "confidence": 0.46367013454437256
+  },
+  {
+    "instruction": "Tell me whether these people are DJs or singers: David Guetta, Avicii, Rihanna, Beyonce, Martin Garrix, Calvin Harris, Taylor Swift",
+    "complexity": "complex",
+    "confidence": 0.3515547811985016
+  },
+  {
+    "instruction": "What’s a typical dish in Brazil?",
+    "complexity": "complex",
+    "confidence": 0.4646601378917694
+  },
+  {
+    "instruction": "How should I invest my money?",
+    "complexity": "complex",
+    "confidence": 0.5257997512817383
+  },
+  {
+    "instruction": "Where is the village of Congosto",
+    "complexity": "complex",
+    "confidence": 0.44806039333343506
+  },
+  {
+    "instruction": "Name the three best professional sports teams based in California.",
+    "complexity": "complex",
+    "confidence": 0.4241996109485626
+  },
+  {
+    "instruction": "What is Marketing Automation?",
+    "complexity": "complex",
+    "confidence": 0.42062118649482727
+  },
+  {
+    "instruction": "What are some ways to improve the value of your home?",
+    "complexity": "complex",
+    "confidence": 0.6069408655166626
+  },
+  {
+    "instruction": "Tell me an idea for a film based off of the cartoon movie Cars but incorporate self-driving cars.",
+    "complexity": "complex",
+    "confidence": 0.42102742195129395
+  },
+  {
+    "instruction": "Which American president spoke Dutch as their first language?",
+    "complexity": "complex",
+    "confidence": 0.5004029870033264
+  },
+  {
+    "instruction": "How many planets are there?",
+    "complexity": "complex",
+    "confidence": 0.4391685426235199
+  },
+  {
+    "instruction": "Help me come up with 3 ideas for a new business and how I can start it",
+    "complexity": "complex",
+    "confidence": 0.5874602198600769
+  },
+  {
+    "instruction": "Tomb of Sand  was translated from Hindi to English by",
+    "complexity": "complex",
+    "confidence": 0.4570702314376831
+  },
+  {
+    "instruction": "What is more important in society, freedom or safety?",
+    "complexity": "complex",
+    "confidence": 0.5877319574356079
+  },
+  {
+    "instruction": "Given this reference text about the consumption of peanut butter, when is national peanut butter day?",
+    "complexity": "complex",
+    "confidence": 0.46004626154899597
+  },
+  {
+    "instruction": "What are good activities for two year old boys?",
+    "complexity": "complex",
+    "confidence": 0.4867331385612488
+  },
+  {
+    "instruction": "How many compute services does Azure Synapse have?",
+    "complexity": "complex",
+    "confidence": 0.5174420475959778
+  },
+  {
+    "instruction": "How many times Lewis Hamilton won the F1 Championship ?",
+    "complexity": "complex",
+    "confidence": 0.45588061213493347
+  },
+  {
+    "instruction": "What happens when you bring flammable objects closer to a fire source or extreme heat?",
+    "complexity": "complex",
+    "confidence": 0.5375989675521851
+  },
+  {
+    "instruction": "Identify which instrument is string or percussion: Den-den daiko, Luc huyen cam",
+    "complexity": "complex",
+    "confidence": 0.5093583464622498
+  },
+  {
+    "instruction": "What is the largest city on the Mississippi River?",
+    "complexity": "complex",
+    "confidence": 0.5565182566642761
+  },
+  {
+    "instruction": "What is the city of Denver like?",
+    "complexity": "complex",
+    "confidence": 0.45036935806274414
+  },
+  {
+    "instruction": "Provide a list of all numbers mentioned in the provided text and what they represent",
+    "complexity": "complex",
+    "confidence": 0.44321784377098083
+  },
+  {
+    "instruction": "What are the differences between the New York Giants and New York Jets?",
+    "complexity": "complex",
+    "confidence": 0.4808822572231293
+  },
+  {
+    "instruction": "Was Furze Hill an established community in the 19th century?",
+    "complexity": "complex",
+    "confidence": 0.49497395753860474
+  },
+  {
+    "instruction": "Should you buy new golf clubs when you are a beginner?",
+    "complexity": "complex",
+    "confidence": 0.41940584778785706
+  },
+  {
+    "instruction": "Why should I use fabric softener?",
+    "complexity": "complex",
+    "confidence": 0.4256444275379181
+  },
+  {
+    "instruction": "The former Chairman of Tata Sons died in road accident  en route  from where?",
+    "complexity": "complex",
+    "confidence": 0.38507577776908875
+  },
+  {
+    "instruction": "Classify the following numbers as 'prime' or 'composite' - 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.",
+    "complexity": "complex",
+    "confidence": 0.44311773777008057
+  },
+  {
+    "instruction": "Summarize the rulers of the territory of Albania in this time period.",
+    "complexity": "complex",
+    "confidence": 0.4352778494358063
+  },
+  {
+    "instruction": "What is cloud computing in simple terms?",
+    "complexity": "complex",
+    "confidence": 0.4152376055717468
+  },
+  {
+    "instruction": "What types of sport fish do most anglers target in New England?",
+    "complexity": "complex",
+    "confidence": 0.4348796606063843
+  },
+  {
+    "instruction": "Give me a bunch of ways I can keep my house cool in the summer",
+    "complexity": "complex",
+    "confidence": 0.5110756158828735
+  },
+  {
+    "instruction": "Are the following items candy bars or gum: trident, Twix, hubba bubba, snickers, three musketeers, and wrigleys.",
+    "complexity": "complex",
+    "confidence": 0.3920440971851349
+  },
+  {
+    "instruction": "What's the relation between the Kushan Empire and the Sassanid Empire in Iran?",
+    "complexity": "complex",
+    "confidence": 0.5781513452529907
+  },
+  {
+    "instruction": "Give me a list of things that pose a challenge to cryptos",
+    "complexity": "complex",
+    "confidence": 0.4820183515548706
+  },
+  {
+    "instruction": "What is the meaning of life?",
+    "complexity": "complex",
+    "confidence": 0.544452428817749
+  },
+  {
+    "instruction": "Classify the below characters based on whether they are created by Marvel comics or D.C. comics\n Spider-Man, Iron Man, Captain America, Thor, Doctor Strange, Superman, Batman, Wonder Woman, Flash, Aquaman",
+    "complexity": "complex",
+    "confidence": 0.46612343192100525
+  },
+  {
+    "instruction": "Why are we like aquariums?",
+    "complexity": "complex",
+    "confidence": 0.5092061758041382
+  },
+  {
+    "instruction": "Give me a bulleted list of countries that start with the letter B.",
+    "complexity": "complex",
+    "confidence": 0.4411275386810303
+  },
+  {
+    "instruction": "Who are some of the most successful golfers in history?",
+    "complexity": "complex",
+    "confidence": 0.49758216738700867
+  },
+  {
+    "instruction": "Which is a bird or fish: Red-throated diver, Redlip blenny",
+    "complexity": "complex",
+    "confidence": 0.590305745601654
+  },
+  {
+    "instruction": "Which types of fish contain the lowest levels of mercury?",
+    "complexity": "complex",
+    "confidence": 0.554205596446991
+  },
+  {
+    "instruction": "How do you make an iced matcha latter?",
+    "complexity": "complex",
+    "confidence": 0.5050647258758545
+  },
+  {
+    "instruction": "What is the best swimming form?",
+    "complexity": "complex",
+    "confidence": 0.522711992263794
+  },
+  {
+    "instruction": "Which is the best place to Kayak in Austin?",
+    "complexity": "complex",
+    "confidence": 0.5391116738319397
+  },
+  {
+    "instruction": "Who is the best men's test cricket player to have come from New Zealand?",
+    "complexity": "complex",
+    "confidence": 0.5194036364555359
+  },
+  {
+    "instruction": "What is the winter weather like in Salt Lake City, Utah?",
+    "complexity": "complex",
+    "confidence": 0.45132696628570557
+  },
+  {
+    "instruction": "Whats the difference between a bass guitar and a regular guitar?",
+    "complexity": "complex",
+    "confidence": 0.4088099002838135
+  },
+  {
+    "instruction": "What is a Gross domestic product (GDP)?",
+    "complexity": "complex",
+    "confidence": 0.5351976156234741
+  },
+  {
+    "instruction": "What is the last festival celebrated in Tihar and how long does the festival last?",
+    "complexity": "complex",
+    "confidence": 0.4526168406009674
+  },
+  {
+    "instruction": "What event John Johnstone won as a rider?",
+    "complexity": "complex",
+    "confidence": 0.4166070222854614
+  },
+  {
+    "instruction": "What are the careers of your dream?",
+    "complexity": "complex",
+    "confidence": 0.5105658173561096
+  },
+  {
+    "instruction": "Let's imagine I create a fake currency called Yarns with two types of coins: a super-yarn (worth 10 yarns) and a mini-yarn (worth 0.5 yarn). How much money do I have in total if I have 2 super-yarns and three mini-yarns?",
+    "complexity": "complex",
+    "confidence": 0.3615245223045349
+  },
+  {
+    "instruction": "What is the difference between a red delicious and a Granny Smith apple?",
+    "complexity": "complex",
+    "confidence": 0.41341355443000793
+  },
+  {
+    "instruction": "List the Pokemon Go regions.",
+    "complexity": "complex",
+    "confidence": 0.444764643907547
+  },
+  {
+    "instruction": "Who do you think is the most powerful Mandalorian in Star Wars history?",
+    "complexity": "complex",
+    "confidence": 0.5439963340759277
+  },
+  {
+    "instruction": "What cities should someone visit during a trip to Morocco?",
+    "complexity": "complex",
+    "confidence": 0.46097666025161743
+  },
+  {
+    "instruction": "Which classical composer was deaf?",
+    "complexity": "complex",
+    "confidence": 0.3900005519390106
+  },
+  {
+    "instruction": "Who discovered the double-helix DNA structure?",
+    "complexity": "complex",
+    "confidence": 0.5353149175643921
+  },
+  {
+    "instruction": "Please provide a brief summary describing Canada",
+    "complexity": "complex",
+    "confidence": 0.35494905710220337
+  },
+  {
+    "instruction": "Why age 27 is given so much importance specially in Music industry?",
+    "complexity": "complex",
+    "confidence": 0.43940019607543945
+  },
+  {
+    "instruction": "What are Nanotube?",
+    "complexity": "complex",
+    "confidence": 0.42355048656463623
+  },
+  {
+    "instruction": "Write the first paragraph of a blog post describing the appeal of Boston as a tourist destination",
+    "complexity": "complex",
+    "confidence": 0.4288591146469116
+  },
+  {
+    "instruction": "Name some reasons it's great to live in Marin County, California.",
+    "complexity": "complex",
+    "confidence": 0.42056792974472046
+  },
+  {
+    "instruction": "Who was the first American to win a Nobel Peace?",
+    "complexity": "complex",
+    "confidence": 0.5187227725982666
+  },
+  {
+    "instruction": "What are the 4 oceans on earth",
+    "complexity": "complex",
+    "confidence": 0.44363170862197876
+  },
+  {
+    "instruction": "Did Harry Potter put his own name in the goblet of fire?",
+    "complexity": "complex",
+    "confidence": 0.5208150744438171
+  },
+  {
+    "instruction": "Why does it help to focus on the breath when practicing mindfulness?",
+    "complexity": "complex",
+    "confidence": 0.42413443326950073
+  },
+  {
+    "instruction": "What's the best way to learn how to snowboard?",
+    "complexity": "complex",
+    "confidence": 0.5824700593948364
+  },
+  {
+    "instruction": "What was Angie Thomas's first published novel?",
+    "complexity": "complex",
+    "confidence": 0.497710645198822
+  },
+  {
+    "instruction": "Based on this paragraph, how many younger siblings did Kennedy have?",
+    "complexity": "complex",
+    "confidence": 0.46503791213035583
+  },
+  {
+    "instruction": "What are some of the common elements of visual design?",
+    "complexity": "complex",
+    "confidence": 0.4545482397079468
+  },
+  {
+    "instruction": "What is the difference between a shrub and a tree?",
+    "complexity": "complex",
+    "confidence": 0.5518919825553894
+  },
+  {
+    "instruction": "As an expert skier, what are the top resorts in the US to go skiing?",
+    "complexity": "complex",
+    "confidence": 0.4829195439815521
+  },
+  {
+    "instruction": "Which characters belong to DC or Marvel Universe? Hulk, Spectre",
+    "complexity": "complex",
+    "confidence": 0.4987514019012451
+  },
+  {
+    "instruction": "Which players won the men's singles grand slam tennis tournaments in 2022.",
+    "complexity": "complex",
+    "confidence": 0.41791754961013794
+  },
+  {
+    "instruction": "Can you tell me something about Stanley J. Goldberg",
+    "complexity": "complex",
+    "confidence": 0.49095240235328674
+  },
+  {
+    "instruction": "Please summarize the causes and cure for color blindness given in the passage?",
+    "complexity": "complex",
+    "confidence": 0.5348100662231445
+  },
+  {
+    "instruction": "How can I improve my finances?",
+    "complexity": "complex",
+    "confidence": 0.5845487117767334
+  },
+  {
+    "instruction": "What is Zenthoefer Furs",
+    "complexity": "complex",
+    "confidence": 0.4645417034626007
+  },
+  {
+    "instruction": "What are the three branches of the US Federal Government?",
+    "complexity": "complex",
+    "confidence": 0.49536189436912537
+  },
+  {
+    "instruction": "When rock climbing, what is the difference between lead climbing and top rope climbing?",
+    "complexity": "complex",
+    "confidence": 0.4882340729236603
+  },
+  {
+    "instruction": "Which is a species of fish? Mola mola or Molar",
+    "complexity": "complex",
+    "confidence": 0.44845229387283325
+  },
+  {
+    "instruction": "Imagine a world where life expectancy is fixed and the same for everyone at birth, yet people can engage in life expectancy \"donation\" – meaning that someone can extend your life three years longer at the expense of theirs. Talk about a likely scenario in this world that involves manipulated, coerced donation.",
+    "complexity": "complex",
+    "confidence": 0.4732306897640228
+  },
+  {
+    "instruction": "What makes a good sales account executive?",
+    "complexity": "complex",
+    "confidence": 0.4114295542240143
+  },
+  {
+    "instruction": "Which of the following are colors: red, black, yellow, orange, sun, sunflower, chips, book, white, pink, blue, keyboard.",
+    "complexity": "complex",
+    "confidence": 0.4456051290035248
+  },
+  {
+    "instruction": "Think up some openings for beginners to the game of Chess",
+    "complexity": "complex",
+    "confidence": 0.45314669609069824
+  },
+  {
+    "instruction": "Give me a list of popular current artists in the EDM category.",
+    "complexity": "complex",
+    "confidence": 0.4356667101383209
+  },
+  {
+    "instruction": "Which sports would be easiest to find success in if you’re not tall: baseball, soccer, basketball, bowling.",
+    "complexity": "complex",
+    "confidence": 0.4804893732070923
+  },
+  {
+    "instruction": "What is the appeal of Flathead Lake as a Summer vacation destination?",
+    "complexity": "complex",
+    "confidence": 0.4597001075744629
+  },
+  {
+    "instruction": "What's the difference between tennis and pickleball?",
+    "complexity": "complex",
+    "confidence": 0.47393912076950073
+  },
+  {
+    "instruction": "Given a reference text about Jen Shah, what is she famous from, when was she criminally charged, what was the verdict, and when was she sentenced.",
+    "complexity": "complex",
+    "confidence": 0.3774803876876831
+  },
+  {
+    "instruction": "What are the classifications of Academic Degrees?",
+    "complexity": "complex",
+    "confidence": 0.4658143222332001
+  },
+  {
+    "instruction": "What types of problems in government could AI be used to solve",
+    "complexity": "complex",
+    "confidence": 0.6846758127212524
+  },
+  {
+    "instruction": "Why isn't multi-threading making my Python code faster? How can I fix it.",
+    "complexity": "complex",
+    "confidence": 0.5189509987831116
+  },
+  {
+    "instruction": "Who is the best NBA player of all time?",
+    "complexity": "complex",
+    "confidence": 0.4593067765235901
+  },
+  {
+    "instruction": "Classify each as either a vodka drink or a gin drink: Screwdriver, Bloody Mary, French 75, White Russian, Gimlet, Cosmopolitan, Tom Collins, Negroni",
+    "complexity": "complex",
+    "confidence": 0.4641788601875305
+  }
+]

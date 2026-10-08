@@ -1,0 +1,10 @@
+complexity,model,queries,avg_quality,avg_latency_ms,avg_cost,success_rate
+complex,large_model,149,0.9574,1212.57,1.0327,1.0
+complex,medium_model,149,0.8,527.81,0.3222,0.9933
+complex,small_model,149,0.5539,220.65,0.1099,0.9664
+medium,large_model,149,0.9635,1196.85,1.0024,1.0
+medium,medium_model,149,0.9068,510.17,0.3097,0.9933
+medium,small_model,149,0.7639,208.4,0.1002,0.9799
+simple,large_model,149,0.9686,1144.12,0.9807,1.0
+simple,medium_model,149,0.937,481.24,0.2889,0.9933
+simple,small_model,149,0.9106,187.03,0.0896,0.9866

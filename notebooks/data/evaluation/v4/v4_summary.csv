@@ -1,0 +1,14 @@
+metric,value
+evaluation_queries,639.0
+training_queries,447.0
+holdout_queries,192.0
+feedback_records,1917.0
+v3_average_quality,0.9251119791666667
+v4_average_quality,0.9251119791666667
+v3_average_latency_ms,638.8797916666666
+v4_average_latency_ms,638.8797916666666
+v3_average_cost,0.48003593750000007
+v4_average_cost,0.48003593750000007
+v3_success_rate,1.0
+v4_success_rate,1.0
+v4_fallback_rate,0.0

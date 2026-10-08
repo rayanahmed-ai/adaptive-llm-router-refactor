@@ -1,0 +1,19 @@
+{
+  "version": "V4",
+  "description": "Feedback-driven quality/cost/latency router",
+  "evaluation_queries": 639,
+  "training_fraction": 0.7,
+  "random_seed": 42,
+  "quality_requirements": {
+    "simple": 0.8,
+    "medium": 0.9,
+    "complex": 0.95
+  },
+  "success_threshold": 0.95,
+  "cost_weight": 0.55,
+  "latency_weight": 0.45,
+  "feedback_records": 1917,
+  "s3_bucket": "adaptive-llm-router-753176172779-eu-north-1",
+  "s3_prefix": "adaptive-llm-router/v4",
+  "simulation": true
+}

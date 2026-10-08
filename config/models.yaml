@@ -1,0 +1,20 @@
+version: '8.0'
+models:
+  small_model:
+    model_id: eu.amazon.nova-micro-v1:0
+    enabled: true
+    capabilities:
+    - text
+    tier: small
+  medium_model:
+    model_id: eu.amazon.nova-lite-v1:0
+    enabled: true
+    capabilities:
+    - text
+    tier: medium
+  large_model:
+    model_id: eu.amazon.nova-pro-v1:0
+    enabled: true
+    capabilities:
+    - text
+    tier: large

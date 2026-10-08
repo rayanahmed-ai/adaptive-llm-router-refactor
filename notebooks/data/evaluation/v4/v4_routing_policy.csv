@@ -1,0 +1,4 @@
+complexity,required_quality,eligible_models,selected_model,fallback
+simple,0.8,"large_model, medium_model, small_model",small_model,False
+medium,0.9,"large_model, medium_model",medium_model,False
+complex,0.95,large_model,large_model,False

@@ -1,0 +1,10 @@
+query,complexity,confidence,required_quality,eligible_models,selected_model,small_score,medium_score,large_score,fallback
+What is Python?,simple,0.5078,0.8,"small_model, medium_model, large_model",small_model,0.0,0.2572,1.0,False
+What is the capital of France?,complex,0.6696,0.95,large_model,large_model,,,1.0,False
+What is 25 multiplied by 4?,complex,0.4884,0.95,large_model,large_model,,,1.0,False
+Compare Python and Java for backend development.,simple,0.4874,0.8,"small_model, medium_model, large_model",small_model,0.0,0.2572,1.0,False
+Explain the advantages and disadvantages of remote work.,medium,0.401,0.9,"medium_model, large_model",medium_model,,0.2572,1.0,False
+What are the main differences between supervised and unsupervised learning?,complex,0.4044,0.95,large_model,large_model,,,1.0,False
+Design a fraud detection system for a bank that processes millions of transactions.,complex,0.4746,0.95,large_model,large_model,,,1.0,False
+Design an AI system that processes millions of financial transactions in real time.,simple,0.4104,0.8,"small_model, medium_model, large_model",small_model,0.0,0.2572,1.0,False
+"Analyze the tradeoffs between cost, latency, and accuracy in an AI system.",complex,0.5659,0.95,large_model,large_model,,,1.0,False

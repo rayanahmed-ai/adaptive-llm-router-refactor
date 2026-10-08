@@ -1,0 +1,133 @@
+name: V8.4 Issue to PR Agent
+
+on:
+  issues:
+    types:
+      - labeled
+
+permissions:
+  contents: write
+  issues: read
+  pull-requests: write
+  id-token: write
+
+jobs:
+  issue-to-pr:
+    if: github.event.label.name == 'agent-fix'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Debug GitHub OIDC claims
+        env:
+          ACTIONS_ID_TOKEN_REQUEST_URL: ${{ env.ACTIONS_ID_TOKEN_REQUEST_URL }}
+          ACTIONS_ID_TOKEN_REQUEST_TOKEN: ${{ env.ACTIONS_ID_TOKEN_REQUEST_TOKEN }}
+        run: |
+          TOKEN=$(curl -sSf \
+            -H "Authorization: bearer ${ACTIONS_ID_TOKEN_REQUEST_TOKEN}" \
+            "${ACTIONS_ID_TOKEN_REQUEST_URL}&audience=sts.amazonaws.com" \
+            | python -c "import sys,json; print(json.load(sys.stdin)['value'])")
+
+          python - "$TOKEN" <<'PY'
+          import sys
+          import json
+          import base64
+
+          token = sys.argv[1]
+          payload = token.split(".")[1]
+          payload += "=" * (-len(payload) % 4)
+
+          claims = json.loads(
+              base64.urlsafe_b64decode(payload).decode()
+          )
+
+          print("OIDC issuer:", claims.get("iss"))
+          print("OIDC audience:", claims.get("aud"))
+          print("OIDC subject:", claims.get("sub"))
+          print("OIDC repository:", claims.get("repository"))
+          print("OIDC ref:", claims.get("ref"))
+          print("OIDC event_name:", claims.get("event_name"))
+          PY
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_GITHUB_ROLE_ARN }}
+          aws-region: eu-north-1
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Test Bedrock access
+        run: |
+          python - <<'PYTEST'
+          import boto3
+
+          client = boto3.client(
+              "bedrock-runtime",
+              region_name="eu-north-1"
+          )
+
+          models = [
+              "eu.amazon.nova-micro-v1:0",
+              "eu.amazon.nova-lite-v1:0",
+              "eu.amazon.nova-pro-v1:0",
+          ]
+
+          for model_id in models:
+              print(f"Testing {model_id}")
+
+              response = client.converse(
+                  modelId=model_id,
+                  messages=[
+                      {
+                          "role": "user",
+                          "content": [
+                              {"text": "Reply with exactly: BEDROCK_OK"}
+                          ],
+                      }
+                  ],
+                  inferenceConfig={
+                      "maxTokens": 50,
+                      "temperature": 0.0,
+                  },
+              )
+
+              content = (
+                  response
+                  .get("output", {})
+                  .get("message", {})
+                  .get("content", [])
+              )
+
+              print("Content blocks:", len(content))
+              print("Response:", repr(content))
+              print("Stop reason:", response.get("stopReason"))
+
+          PYTEST
+
+      - name: Run V8.4 Issue-to-PR Agent
+        env:
+          AWS_REGION: eu-north-1
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+          V84_DRY_RUN: "false"
+          V84_TEST_COMMAND: "python -m pytest -q tests/test_v8_api.py"
+        run: |
+          PYTHONPATH=. python -m app.agents.v8_issue_to_pr

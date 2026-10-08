@@ -1,0 +1,193 @@
+query_id,query,complexity,selected_model,quality,latency_ms,cost,success,fallback
+6,What is your favorite strip from the comic Calvin and Hobbes?,simple,small_model,0.8732,197.56,0.0906,1,False
+11,Which products apple sell?,simple,small_model,0.9354,186.62,0.0834,1,False
+14,How do you operate a car with a manual transmission?,simple,small_model,0.9037,189.38,0.0871,1,False
+15,What is an apple?,simple,small_model,0.9622,193.33,0.0882,1,False
+16,What are AirPods?,simple,small_model,0.8947,212.21,0.085,1,False
+17,What is an EV?,simple,small_model,0.828,189.26,0.0862,1,False
+19,"Please classify each of the following animals as mammal, amphibian, or fish: elk, frog, dog, cat, newt, and human.",simple,small_model,0.8759,185.63,0.0834,1,False
+22,Should I have Kids?,simple,small_model,0.9193,181.56,0.0921,1,False
+23,Extract what is Top Gun,simple,small_model,0.9729,195.86,0.0866,1,False
+30,Give me three ideas for a fun dinner party,simple,small_model,0.9194,194.11,0.0861,1,False
+31,"Tell me whether each of these are animals or not: Alligator, Grass, Tree, Boat, Dolphin, Shark, Fish, Fence, Dog, Car",simple,small_model,0.9181,202.83,0.0901,1,False
+34,How are tornadoes formed?,simple,small_model,0.9428,184.02,0.0923,1,False
+35,What is Magical Thinking?,simple,small_model,0.8986,193.01,0.0949,1,False
+36,"Tell me whether these are movies or film Directors: Sholay, Satyajit Ray, Mani Ratnam, Lagaan, Yash Chopra, Roja",simple,small_model,0.9421,216.16,0.0838,1,False
+40,"Given a reference text about Gennady Petrovich Lyachin, tell me when he joined the navy and when he was decommissioned.",simple,small_model,0.9348,184.84,0.0948,1,False
+41,"Tell me wether these are cities, or states? IL, chicago, Texas, Fremont, Washington, Washington DC, san jose, bay area",simple,small_model,0.8788,196.54,0.0862,1,False
+42,Why do people enjoy surfing,simple,small_model,0.8367,184.9,0.081,1,False
+43,What is Depreciation,simple,small_model,0.8876,197.07,0.083,1,False
+44,Write a brief passage arguing for mandating Electric Vehicles (EVs) over gas combustion vehicles in the United States.,simple,small_model,0.8712,176.51,0.096,1,False
+47,Provide a brief summary of the reaction to the creation of LIV Golf,simple,small_model,0.8799,174.31,0.0844,1,False
+49,"Tell me whether these are names of soft drinks or coffee: Starbucks, Peet's, Blue Bottle, Coca-Cola, Sprite, Canada Dry, Pepsi",simple,small_model,0.8999,195.52,0.0792,1,False
+53,Who is Stephen King?,simple,small_model,0.9288,181.89,0.0881,1,False
+57,What causes ocean tides?,simple,small_model,0.9414,194.14,0.0868,1,False
+58,Where do bears live?,simple,small_model,0.9601,182.08,0.088,1,False
+60,What is WordPress?,simple,small_model,0.8736,198.49,0.089,1,False
+61,"Tell me if these vegetables are or are not green: carrot, courgette, bell pepper, radish, spaghetti squash, onion.",simple,small_model,0.896,174.46,0.0896,1,False
+64,Why do people like biking?,simple,small_model,0.9814,207.27,0.0859,1,False
+69,"Given a reference text about Larissa Ilinichna Volpert, tell me what game she played, when she was champion, and what titles she earned.",simple,small_model,0.8849,194.73,0.0882,1,False
+76,How to lose weight?,simple,small_model,0.9292,166.66,0.0918,1,False
+77,Extract the non-meat ingredients of the sandwich in the passage provided. Separate them with a pipe symbol.,simple,small_model,0.8799,196.03,0.0925,1,False
+97,Who are the Wagner group,simple,small_model,0.9174,204.63,0.0912,1,False
+102,Why do people sleep?,simple,small_model,0.9455,182.57,0.0892,1,False
+105,Remove vowels from this text:,simple,small_model,0.9518,191.03,0.0881,1,False
+109,What is solar wind?,simple,small_model,0.8942,157.64,0.0912,1,False
+110,Tell me about Roger Federer,simple,small_model,0.9,152.29,0.0855,1,False
+113,Who wrote the most episodes of season four of Game of Thrones?,simple,small_model,0.8781,196.5,0.092,1,False
+122,"Tell me whether these pokemon are electric or grass type: Pikachu, Bulbasaur, Zapdos, Voltorb, Oddish, Bellsprout",simple,small_model,0.8977,180.98,0.0885,1,False
+129,Who is Ronald Peter Nash,simple,small_model,0.9493,172.29,0.099,1,False
+136,Who was Margaret Thatcher?,simple,small_model,1.0,162.99,0.0915,1,False
+137,Why do babies cry?,simple,small_model,0.925,206.38,0.0845,1,False
+139,Tell me about Indiana,simple,small_model,0.9315,184.14,0.0889,1,False
+140,What are mammals?,simple,small_model,0.9577,179.42,0.091,1,False
+141,What causes earthquakes?,simple,small_model,0.9495,195.54,0.0867,1,False
+142,Who was Nikola Tesla?,simple,small_model,0.9043,203.27,0.0876,1,False
+160,Different uses for glass,simple,small_model,0.9529,199.16,0.0894,1,False
+162,What is observer bias,simple,small_model,0.8623,181.14,0.0854,1,False
+163,Who is Bryan Adams,simple,small_model,0.8635,179.71,0.0864,1,False
+164,Who developed Pilates?,simple,small_model,0.99,190.86,0.0911,1,False
+166,Are UGGs considered fashionable?,simple,small_model,0.9779,169.63,0.0935,1,False
+169,How was Napoleon defeated?,simple,small_model,0.935,170.78,0.098,1,False
+171,Why do we watch television?,simple,small_model,0.8941,191.73,0.0933,1,False
+175,Name ten Shakespeare plays,simple,small_model,0.9255,172.46,0.0907,1,False
+178,How to lose weight?,simple,small_model,0.9143,193.27,0.0935,1,False
+179,Who is Juliette Roche?,simple,small_model,0.9527,191.49,0.1005,1,False
+181,Why USA is best ?,simple,small_model,0.867,193.41,0.0927,1,False
+182,How would you describe Dance?,simple,small_model,0.9599,232.75,0.0823,1,False
+183,Why Italy is known for,simple,small_model,0.9303,199.17,0.0883,1,False
+192,What is a circle?,simple,small_model,0.9245,200.6,0.1002,1,False
+193,"From a 10-year old child's perspective, write a short summary of a visit to the Rijksmuseum for the Vermeer exhibition.",simple,small_model,0.88,182.29,0.0886,1,False
+194,What is Milky Way?,simple,small_model,0.9205,202.56,0.0913,1,False
+195,What is a newspaper?,simple,small_model,0.9603,207.33,0.0901,1,False
+196,"Given this paragraph about time travel, how practical is it",simple,small_model,0.9087,182.53,0.0904,1,False
+205,"Tell me whether each company is based inside or outside of the USA: Uber, Grab, Samsung, Meituan, Exxon, Amazon, Roche",simple,small_model,0.9048,191.07,0.0926,1,False
+207,Please give me a short bulleted list of the key discoveries from Gallo’s lab.,simple,small_model,0.8624,179.32,0.0865,1,False
+214,"Given a reference text about Lollapalooza, where does it take place, who started it and what is it?",medium,medium_model,0.93,441.49,0.3083,1,False
+220,What is best Playstation or Xbox,medium,medium_model,0.8827,572.72,0.3133,1,False
+225,What is LAPR?,medium,medium_model,0.9011,550.62,0.2993,1,False
+226,Is beauty objective or subjective?,medium,medium_model,0.8954,567.08,0.3248,1,False
+236,Tell me about the 2017 Southeastern Conference football season,medium,medium_model,0.8886,510.29,0.3017,1,False
+238,"Classify each of the following as either a title by Isaac Asimov or Jules Verne: Pebble in the Sky, The Stars, Like Dust, Foundation, The Robots of Dawn, The Naked Sun, Around the World in Eighty Days, From the Earth to the Moon, Martin Paz, Journey to the Centre of the Earth, A Drama in the Air",medium,medium_model,0.9192,558.81,0.3112,1,False
+243,"Pick if these would be useful or not useful for a high school student to put in their backpack. Notebooks, textbook, desk lamp, pencil pouch, beach ball, pillow, laptop.",medium,medium_model,0.9131,474.8,0.3225,1,False
+244,What is one year?,medium,medium_model,0.9318,490.21,0.3393,1,False
+248,Based on the following passage summarise how sunsets are viewed from the northern hemisphere across seasons.,medium,medium_model,0.9312,514.64,0.3129,1,False
+250,Give me 3 ideas for hobbies that I can recommend to somebody who is retiring. These should all be activities that require gentle movement and are not overly demanding on the body.,medium,medium_model,0.9064,573.05,0.307,1,False
+253,"Extract why Tim Lincecum was called ""The Freak""",medium,medium_model,0.8848,553.13,0.3159,1,False
+254,What is Linux?,medium,medium_model,0.8882,540.02,0.2889,1,False
+256,What is FIFA?,medium,medium_model,0.9669,550.63,0.2955,1,False
+261,"Categorize the following Taylor Swift songs based on what album they are in: The Archer, tolerate it, Lover, Love Story (Taylor's Version), Bejeweled, Don't Blame Me, 22 (Taylor's version), Look What You Made Me Do, Lavender Haze, willow, Cruel Summer",medium,medium_model,0.8775,519.59,0.3288,1,False
+267,Write a haiku about how much I love pickles.,medium,medium_model,0.8501,480.95,0.3188,1,False
+275,What was the Counter Reformation?,medium,medium_model,0.8647,549.21,0.2773,1,False
+279,"Categorize these movies that came out in 1999 as cartoons or live-action: The Matrix, Stuart Little, Cruel Intentions, The Iron Giant, The Blair Witch Project, South Park: Bigger, Longer, and Uncut, The Sixth Sense",medium,medium_model,0.9412,547.13,0.3144,1,False
+280,Discuss at least two risks associated with scraping data from websites. Describe steps an analyst could take to mitigate those risks.,medium,medium_model,0.8987,499.93,0.3176,1,False
+283,"Tell me whether each South Park character is a kid or adult: Randy, Stan, Kyle, Butters, Sharon",medium,medium_model,0.8485,449.73,0.3009,1,False
+288,"Classify each of the following as either titles by J.K. Rowling or Suzanne Collins: Harry Potter and the Sorcerer's Stone, The Ickabog, Fantastic Beasts and Where to Find Them, The Cuckoo's Calling, Harry Potter and the Order of the Phoenix, Catching Fire, Mockingjay, Gregor the Overlander, Year of the Jungle, The Ballad of Songbirds and Snakes",medium,medium_model,0.9661,496.09,0.3117,1,False
+291,What is the fastest car?,medium,medium_model,0.8342,567.98,0.3245,1,False
+297,Name 5 popular musicians,medium,medium_model,0.8966,545.21,0.2974,1,False
+298,What is guitar amp modeling?,medium,medium_model,0.9327,479.7,0.2916,1,False
+301,How reliable is public transportation?,medium,medium_model,0.9913,468.24,0.3131,1,False
+304,Give me a comma separated list of all the organizations Henry Holst worked for based on this article.,medium,medium_model,0.8849,473.96,0.3263,1,False
+305,"Given a reference text about the Spellenspektakel, tell me where it takes place and what games are played.",medium,medium_model,0.9049,503.0,0.29,1,False
+306,"Given this paragraph about Sam Baker, what is the Outland Trophy?",medium,medium_model,0.8509,568.06,0.3039,1,False
+308,"Classify each of the following as an American coffee shop chain or an American fast-food hamburger restaurant: Starbucks, Dunkin Donuts, McDonald's, In-N-Out, Dutch Bros, Coffee Bean & Tea Leaf, Burger King, Carl's Jr",medium,medium_model,0.9155,529.91,0.3182,1,False
+312,Why should you visit Ireland?,medium,medium_model,0.9278,528.58,0.3144,1,False
+315,Give me a list of the greatest chess players of all time,medium,medium_model,0.9403,500.72,0.3023,1,False
+317,Give me a bulleted list of all artists that performers on the Trolls World Tour Soundtrack.,medium,medium_model,0.8737,528.76,0.3089,1,False
+321,Share the best 7 European Cities for Nightlife,medium,medium_model,0.9074,501.4,0.3049,1,False
+322,What is Hornachuelos?,medium,medium_model,0.9672,521.5,0.319,1,False
+326,Pitch me some bad ideas for cologne scents.,medium,medium_model,0.9229,560.42,0.2983,1,False
+335,"Give this paragraph about the Alley Cats a capella group, what famous talk show hosts have they performed for?",medium,medium_model,0.9213,467.81,0.3053,1,False
+339,"Classify each of the following as either a single digit or a double digit number: 8, 4, 1, 12, 87, 65, 3, 5, 45, 97, 6, 2, 34, 71, 9, 48, 0, 7, 31, 50.",medium,medium_model,0.8823,502.91,0.3114,1,False
+348,Provide a table of the various recruiting lists that Calvin Johnson was named to and who named him to the list and do it in CSV format,medium,medium_model,0.8364,513.85,0.3409,1,False
+349,Why do humans like dogs?,medium,medium_model,0.9635,552.94,0.3171,1,False
+350,I would like to get a camper for the family vacations.  What things do I need to be aware of when buying one?,medium,medium_model,0.9301,553.31,0.3194,1,False
+358,Provide a list of ways musicians can earn income from their music craft.,medium,medium_model,0.8909,477.39,0.3153,1,False
+362,What is the loudest animal on Earth?,medium,medium_model,0.9248,520.03,0.3096,1,False
+369,What is nomadism?,medium,medium_model,0.9126,491.05,0.2943,1,False
+371,Extract all of the names of people mentioned in this paragraph and list them using bullets in the format {Name},medium,medium_model,0.9563,541.23,0.288,1,False
+378,"Classify each of the following as either titles by George R.R. Martin or Robert Jordan: A Game of Thrones, Dying of the Light, The Armageddon Rag, A Storm of Swords, A Song for Lya, The Great Hunt, Towers of Midnight, Lord of Chaos, A Crown of Swords, Crossroads of Twilight",medium,medium_model,0.882,575.34,0.3216,1,False
+380,What is the JDK?,medium,medium_model,0.8818,568.4,0.3241,1,False
+381,"Classify the following as either red wines or white wines: Cabernet Sauvignon, Pinot Blanc, Riesling, Chardonnay, Pinot Grigio, Sauvignon Blanc, Merlot, Syrah, Shiraz",medium,medium_model,0.9523,521.11,0.2813,1,False
+382,"Extract universities Moret studied at and his year of graduation for each, and put them in a bulleted list.",medium,medium_model,0.8825,524.62,0.3376,1,False
+385,Write an email to someone updating that I’ve accepted the position at their company to which they referred me,medium,medium_model,0.8417,491.3,0.3232,1,False
+388,What are the primary colors?,medium,medium_model,0.9836,525.85,0.3016,1,False
+393,"Tell me whether these sports are played on grass or ice: figure skating, hockey, football, soccer, curling",medium,medium_model,0.884,481.07,0.2901,1,False
+394,India’s overall food grain production (based on 4th Advance estimates) is estimated to have touched how much?,medium,medium_model,0.9386,506.17,0.3267,1,False
+396,Why do people like golf?,medium,medium_model,0.8002,473.02,0.3092,1,False
+397,"Given this paragraph about a Tesla Model 3, tell me what the EPA-rated ranges are for the various models.",medium,medium_model,0.9997,418.58,0.304,1,False
+398,What are the titles of the songs on Side B for this album?,medium,medium_model,0.9025,520.3,0.3217,1,False
+399,Are cats or dogs better?,medium,medium_model,0.9167,544.86,0.2947,1,False
+401,"Holidays such as Christmas, Easter and Halloween are associated with themes. Sort the following items into the holiday with which they are most frequently associated: elves, chocolate, presents, pumpkin, rabbit, candy, pilgrim, egg, Santa, Jesus, hot-crossed buns, and reindeer",medium,medium_model,0.9113,495.79,0.329,1,False
+407,Who let the dogs out?,medium,medium_model,0.902,593.11,0.2827,1,False
+411,List the items you need to play pickleball,medium,medium_model,0.8922,425.04,0.3111,1,False
+412,"What is the name of the gruff and tough female Viper pilot on the 2003 reboot of ""Battlestar Galactica""?",medium,medium_model,0.93,524.56,0.2931,1,False
+417,Where is Meerut?,medium,medium_model,0.8535,550.35,0.2675,1,False
+420,Why is pickleball so popular?,medium,medium_model,0.927,476.74,0.3147,1,False
+422,Give me a bulleted list of 3 informal fallacies and the meaning each,medium,medium_model,0.9428,561.08,0.3092,1,False
+423,What is tollywood?,medium,medium_model,0.8377,423.21,0.3313,1,False
+425,"What is the best football club in the world in 23 between Arsenal, Real Madrid, Napoli, Manchester City, and Bayern Munich?",medium,medium_model,0.8252,546.35,0.2995,1,False
+426,Which is a species of fish? Tope or Rope,complex,large_model,0.964,1198.45,1.0666,1,False
+427,Why can camels survive for long without water?,complex,large_model,0.9804,1195.33,1.0854,1,False
+429,When was Tomoaki Komorida born?,complex,large_model,0.9317,1283.83,1.0388,1,False
+431,Who gave the UN the land in NY to build their HQ,complex,large_model,0.9406,1325.31,0.9434,1,False
+436,What is a dispersive prism?,complex,large_model,0.9226,1104.03,0.945,1,False
+445,Who played Billy the Kid in The Left Handed Gun,complex,large_model,0.9207,1119.12,1.0553,1,False
+450,Who saved Andromeda from the sea monster,complex,large_model,1.0,1293.22,1.0458,1,False
+452,"Who are ''The Lumières"" ?",complex,large_model,0.9344,1139.13,1.0448,1,False
+457,Who was the first to record the Needles and Pins song?,complex,large_model,1.0,1119.51,0.9926,1,False
+458,Provide me a list of the different types of harnesses used in rock climbing,complex,large_model,0.921,1267.45,1.0715,1,False
+459,Think of some family rules to promote a healthy family relationship,complex,large_model,0.9247,1282.02,1.0757,1,False
+463,"which weighs more, cold or hot water?",complex,large_model,0.9536,1082.39,1.0534,1,False
+464,Write a short paragraph about why you should not have both a pet cat and a pet bird.,complex,large_model,0.9242,1004.31,1.0591,1,False
+465,What makes a formula one car so fast?,complex,large_model,0.9735,1121.9,1.067,1,False
+468,Why do potato chip bags become stale after opening?,complex,large_model,0.9379,1235.41,1.0009,1,False
+469,Classify each of the following as a primary color or a secondary color,complex,large_model,0.9525,1150.1,1.0449,1,False
+475,Give me five ways in which I can make my homebrew beer more interesting,complex,large_model,0.9727,1201.83,0.9967,1,False
+476,How many Grammy Awards has Bad Bunny won?,complex,large_model,0.9693,1302.93,1.0026,1,False
+479,What are some kinds of embroidery stitches for writing letters?,complex,large_model,0.8997,1196.44,1.0296,1,False
+483,"Why is Santa Cruz, California a great place to live?",complex,large_model,0.9362,1408.11,1.0121,1,False
+484,Give me some ideas to manage my manager.,complex,large_model,1.0,1250.98,1.036,1,False
+488,Please describe  what is oil and give me a list of it’s applications.,complex,large_model,0.9658,1200.06,0.9326,1,False
+489,List 6 different types of rain in Seattle,complex,large_model,0.953,1026.88,1.0777,1,False
+492,Tell me whether or not these foods are on EWG's dirty dozen list,complex,large_model,0.9671,1458.91,1.0391,1,False
+494,Summarize in one sentence this article about a famous song.,complex,large_model,0.961,1198.85,1.0597,1,False
+495,What is the Maareech Advanced Torpedo Defence System (ATDS)?,complex,large_model,0.9621,1135.54,1.0669,1,False
+498,Who is Shoji Hashimoto?,complex,large_model,0.9865,948.8,1.0931,1,False
+506,Why are so many US Hollywood films made in the state of Georgia?,complex,large_model,0.9277,1293.92,1.1399,1,False
+508,What is the current capital of Japan?,complex,large_model,0.9662,1268.7,1.1146,1,False
+510,write a short essay on California wild fire,complex,large_model,0.9911,1289.44,1.1233,1,False
+515,Which is a species of fish? Sea dragon or Red bearded,complex,large_model,0.9394,1153.88,0.9239,1,False
+516,"Categorize where each of these household items belong: bed, couch, desk",complex,large_model,0.9186,1316.46,1.0448,1,False
+521,"Identify which animal species is alive or extinct: Pliosaur, Marine Iguana",complex,large_model,0.9597,1155.43,1.0766,1,False
+525,"In SQL, how can I filter table rows based on a column condition?",complex,large_model,0.9621,1108.06,1.0521,1,False
+527,What makes the world go around?,complex,large_model,0.963,1136.28,1.0019,1,False
+534,List the weapons of Goddess Durga in a comma separated manner.,complex,large_model,0.942,1232.33,0.996,1,False
+540,Who tends to participates in hackathons?,complex,large_model,0.9613,1388.03,1.1135,1,False
+544,How should I invest my money?,complex,large_model,0.9162,1215.79,1.0361,1,False
+551,How many planets are there?,complex,large_model,0.9834,1048.24,0.9474,1,False
+556,What are good activities for two year old boys?,complex,large_model,0.9471,1239.4,1.0685,1,False
+559,What happens when you bring flammable objects closer to a fire source or extreme heat?,complex,large_model,0.9127,1059.33,1.1326,1,False
+568,The former Chairman of Tata Sons died in road accident  en route  from where?,complex,large_model,1.0,1216.92,0.9706,1,False
+571,What is cloud computing in simple terms?,complex,large_model,0.9384,1214.63,1.0369,1,False
+574,"Are the following items candy bars or gum: trident, Twix, hubba bubba, snickers, three musketeers, and wrigleys.",complex,large_model,0.9479,1404.2,1.0291,1,False
+576,Give me a list of things that pose a challenge to cryptos,complex,large_model,0.9115,1294.15,0.9849,1,False
+579,Why are we like aquariums?,complex,large_model,0.9852,1162.13,1.0653,1,False
+580,Give me a bulleted list of countries that start with the letter B.,complex,large_model,0.952,1322.07,1.0284,1,False
+581,Who are some of the most successful golfers in history?,complex,large_model,1.0,1177.27,0.9926,1,False
+582,"Which is a bird or fish: Red-throated diver, Redlip blenny",complex,large_model,1.0,1294.11,1.1012,1,False
+584,How do you make an iced matcha latter?,complex,large_model,0.9684,1359.09,0.9698,1,False
+586,Which is the best place to Kayak in Austin?,complex,large_model,0.9878,1325.64,1.014,1,False
+588,"What is the winter weather like in Salt Lake City, Utah?",complex,large_model,0.9277,1229.22,1.0364,1,False
+593,What are the careers of your dream?,complex,large_model,0.9235,1252.85,1.0932,1,False
+601,Please provide a brief summary describing Canada,complex,large_model,1.0,1355.28,1.0529,1,False
+604,Write the first paragraph of a blog post describing the appeal of Boston as a tourist destination,complex,large_model,0.948,1109.89,1.0391,1,False
+615,"As an expert skier, what are the top resorts in the US to go skiing?",complex,large_model,0.9521,1225.11,1.0586,1,False
+616,"Which characters belong to DC or Marvel Universe? Hulk, Spectre",complex,large_model,0.968,1119.06,1.0376,1,False
+617,Which players won the men's singles grand slam tennis tournaments in 2022.,complex,large_model,0.9424,1265.18,1.0995,1,False
+618,Can you tell me something about Stanley J. Goldberg,complex,large_model,0.9061,1194.96,1.0264,1,False
+629,Give me a list of popular current artists in the EDM category.,complex,large_model,0.9988,1101.55,1.0455,1,False
+633,"Given a reference text about Jen Shah, what is she famous from, when was she criminally charged, what was the verdict, and when was she sentenced.",complex,large_model,0.9409,1258.19,1.0513,1,False
+634,What are the classifications of Academic Degrees?,complex,large_model,0.856,1282.59,1.0013,1,False
+635,What types of problems in government could AI be used to solve,complex,large_model,0.9867,1045.63,1.0875,1,False
+637,Who is the best NBA player of all time?,complex,large_model,0.9533,1106.23,1.1252,1,False

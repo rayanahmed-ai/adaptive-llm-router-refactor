@@ -1,0 +1,6 @@
+metric,V5,V6,delta_V6_minus_V5
+average_quality,0.9231,0.9217,-0.0014
+average_latency_ms,638.7457,658.9728,20.2271
+average_cost,0.4745,0.4886,0.0141
+success_rate,1.0,1.0,0.0
+average_reward,0.8297,0.8244,-0.0053

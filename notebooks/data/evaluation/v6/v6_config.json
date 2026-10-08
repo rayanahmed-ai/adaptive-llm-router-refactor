@@ -1,0 +1,18 @@
+{
+  "version": "V6",
+  "algorithm": "persistent_online_epsilon_greedy",
+  "context": "query_complexity",
+  "state_store": "DynamoDB",
+  "historical_store": "S3",
+  "monitoring": "CloudWatch",
+  "online_requests": 300,
+  "initial_epsilon": 0.05,
+  "minimum_epsilon": 0.01,
+  "epsilon_decay": 0.995,
+  "restart_step": 150,
+  "dynamodb_table": "adaptive-llm-router-v6-state-753176172779",
+  "s3_bucket": "adaptive-llm-router-753176172779-eu-north-1",
+  "s3_prefix": "adaptive-llm-router/v6",
+  "cloudwatch_namespace": "AdaptiveLLMRouter/V6",
+  "simulation": true
+}

@@ -1,0 +1,23 @@
+{
+  "small_model": {
+    "quality": 0.82,
+    "latency_ms": 200,
+    "cost": 0.1,
+    "normalized_cost": 0.0,
+    "normalized_latency": 0.0
+  },
+  "medium_model": {
+    "quality": 0.91,
+    "latency_ms": 500,
+    "cost": 0.3,
+    "normalized_cost": 0.2222222222222222,
+    "normalized_latency": 0.3
+  },
+  "large_model": {
+    "quality": 0.97,
+    "latency_ms": 1200,
+    "cost": 1.0,
+    "normalized_cost": 1.0,
+    "normalized_latency": 1.0
+  }
+}

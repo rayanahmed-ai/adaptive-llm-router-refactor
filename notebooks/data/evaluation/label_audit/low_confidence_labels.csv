@@ -1,0 +1,633 @@
+instruction,complexity,confidence
+Who was John Moses Browning?,simple,0.35976269841194153
+Who is Thomas Jefferson?,simple,0.5071777701377869
+Which Dutch artist painted “Girl with a Pearl Earring”?,simple,0.35567647218704224
+What is a verb?,simple,0.6339873671531677
+Did dinosaurs have lips?,simple,0.5723126530647278
+What is Sunshine Recession?,simple,0.43267905712127686
+What is your favorite strip from the comic Calvin and Hobbes?,simple,0.43173736333847046
+Who invented the telephone?,simple,0.42300960421562195
+What is a kite?,simple,0.3860251307487488
+"Given this paragraph about Billie Eilish, tell me who produced her debut single, also tell me what is her chart-topping single?",simple,0.5296847224235535
+Who was boxer John Baldwin,simple,0.482620507478714
+Which products apple sell?,simple,0.4693126976490021
+"Categorize each of the following instruments as either string or keyboard: Guitar, Violin, piano, harmonium, cello, accordion, banjo",simple,0.37086722254753113
+How do you operate a car with a manual transmission?,simple,0.3854459524154663
+What is an apple?,simple,0.36253494024276733
+What are AirPods?,simple,0.3823820948600769
+What is an EV?,simple,0.4751831591129303
+Name 10 colors,simple,0.41805216670036316
+"Please classify each of the following animals as mammal, amphibian, or fish: elk, frog, dog, cat, newt, and human.",simple,0.374815970659256
+What is a Mormon?,simple,0.40447309613227844
+What is Bollywood,simple,0.36653175950050354
+Should I have Kids?,simple,0.46485385298728943
+Extract what is Top Gun,simple,0.5460243225097656
+What percussion instruments are easy to learn?,simple,0.43107977509498596
+"Tell me whether you drive on the right or left side of the road in these countries: USA, Mexico, Spain, England, New Zealand, Japan",simple,0.42951610684394836
+When was Lamb Air operating,simple,0.3849758207798004
+What is Terraform?,simple,0.3790725767612457
+From the passage find the list of banks who supported Yes Bank in 2020. Display the results in comma separated format.,simple,0.35425516963005066
+Give me three ideas for a fun dinner party,simple,0.4438302516937256
+"Tell me whether each of these are animals or not: Alligator, Grass, Tree, Boat, Dolphin, Shark, Fish, Fence, Dog, Car",simple,0.5062754154205322
+Cauliflower rice is not that fun to eat in its bland form. Is there anything interesting and tasty I can cook with cauliflower rice?,simple,0.5477110743522644
+What is Brdinje,simple,0.41499385237693787
+How are tornadoes formed?,simple,0.41890275478363037
+What is Magical Thinking?,simple,0.4834940433502197
+"Tell me whether these are movies or film Directors: Sholay, Satyajit Ray, Mani Ratnam, Lagaan, Yash Chopra, Roja",simple,0.39143165946006775
+What is CBT?,simple,0.3485495448112488
+"Can you tell me recipe to make a quick dessert , tell me one which is your favorite.",simple,0.4991151988506317
+Who is Cindy Robinson?,simple,0.4086368978023529
+"Given a reference text about Gennady Petrovich Lyachin, tell me when he joined the navy and when he was decommissioned.",simple,0.3358589708805084
+"Tell me wether these are cities, or states? IL, chicago, Texas, Fremont, Washington, Washington DC, san jose, bay area",simple,0.43728041648864746
+Why do people enjoy surfing,simple,0.5033051371574402
+What is Depreciation,simple,0.491852343082428
+Write a brief passage arguing for mandating Electric Vehicles (EVs) over gas combustion vehicles in the United States.,simple,0.3498940169811249
+"Based on the text below, please summarise in a few lines",simple,0.40167954564094543
+Who invented the radio?,simple,0.442369669675827
+Provide a brief summary of the reaction to the creation of LIV Golf,simple,0.5730435848236084
+What is Angel Falls?,simple,0.3840838372707367
+"Tell me whether these are names of soft drinks or coffee: Starbucks, Peet's, Blue Bottle, Coca-Cola, Sprite, Canada Dry, Pepsi",simple,0.5200124382972717
+What is Python?,simple,0.346295028924942
+what is Stoicism,simple,0.5216525793075562
+"Tell me whether the following animals are part of the cat family: ocelot, lion, jackal, caracal, leopard, fox, tiger, lynx.",simple,0.4015538692474365
+Who is Stephen King?,simple,0.41501709818840027
+Who is Malcolm X?,simple,0.4344564974308014
+How does water feel?,simple,0.4746032953262329
+What causes ocean tides?,simple,0.37331539392471313
+Where do bears live?,simple,0.3974120318889618
+5 best Resume titles,simple,0.5393342971801758
+What is WordPress?,simple,0.47632473707199097
+"Tell me if these vegetables are or are not green: carrot, courgette, bell pepper, radish, spaghetti squash, onion.",simple,0.6266455054283142
+"Tell me whether each food is from a grain or animal: quinoa, millet, couscous, ribeye steak, pork belly, chicken wing",simple,0.4362427294254303
+Is it fun to play guitar? How do you start playing guitar?,simple,0.35720840096473694
+Why do people like biking?,simple,0.34942859411239624
+Who is Alexander McGuire?,simple,0.398929238319397
+"From this passage, tell me what was the highest grossing movie in 2022 and what was the second highest grossing movie?",simple,0.4301058351993561
+Why do people drink coffee?,simple,0.3920886516571045
+"Given a reference text about Larissa Ilinichna Volpert, tell me what game she played, when she was champion, and what titles she earned.",simple,0.4552713632583618
+Who is Santa Clause?,simple,0.53715980052948
+"Given a reference text about Richard Brandon Morris, tell me what when and where he was born as well as the different colleges and universities he attended.",simple,0.35112670063972473
+What is Holi?,simple,0.4218221604824066
+List the years in which Anne Rochelle Steely Ramirez participated in Sprint events based on the passage. Use bulleted format to represent the years and sort in ascending order.,simple,0.3398718535900116
+Provide a list of diseases which spread in the Diamond Princess and the virus that caused them. Use bulleted list in the format ‘Disease Name - Virus Name - year’.,simple,0.345797598361969
+Is karaoke fun?,simple,0.4682735204696655
+How to lose weight?,simple,0.41015687584877014
+Extract the non-meat ingredients of the sandwich in the passage provided. Separate them with a pipe symbol.,simple,0.3940519094467163
+Tell me about David Wolfenberger,simple,0.35468342900276184
+Who created Sesame Street?,simple,0.466153621673584
+Who started Belu?,simple,0.38815271854400635
+What is a bond,simple,0.4004036486148834
+"Give me a title of one of the ""Harry Potter"" novels.",simple,0.39175859093666077
+We are expecting a baby. Can you describe your experience and provide some pointers as a first time parent?,simple,0.4195631742477417
+Who were the Beatles?,simple,0.4924423098564148
+"Classify the following hockey teams as either National Hockey League (NHL) or American Hockey League (AHL): Abbotsford Canucks, Bakersfield Condors, Belleville Senators, Bridgeport Islanders, Calgary Wranglers, Charlotte Checkers, Chicago Wolves, Cleveland Monsters, Coachella Valley Firebirds, Colorado Eagles, Grand Rapids Griffins, Hartford Wolf Pack, Henderson Silver Knights, Hershey Bears, Iowa Wild, Laval Rocket, Lehigh Valley Phantoms, Manitoba Moose, Milwaukee Admirals, Ontario Reign, Providence Bruins, Rochester Americans, Rockford IceHogs, San Diego Gulls, San Jose Barracuda, Springfield Thunderbirds, Syracuse Crunch, Texas Stars, Toronto Marlies, Tucson Roadrunners, Utica Comets, Wilkes-Barre/Scranton Penguins, Anaheim Ducks, Arizona Coyotes, Boston Bruins, Buffalo Sabres, Calgary Flames, Carolina Hurricanes, Chicago Blackhawks, Colorado Avalanche, Columbus Blue Jackets, Dallas Stars, Detroit Red Wings, Edmonton Oilers, Florida Panthers, Los Angeles Kings, Minnesota Wild, Montreal Canadiens, Nashville Predators, New Jersey Devils, New York Islanders, New York Rangers, Ottawa Senators, Philadelphia Flyers, Pittsburgh Penguins, San Jose Sharks, Seattle Kraken, St Louis Blues, Tampa Bay Lightning, Toronto Maple Leafs, Vancouver Canucks, Vegas Golden Knights, Washington Capitals, Winnipeg Jets",simple,0.4397924840450287
+What are brambles?,simple,0.3846471309661865
+Who is RFK?,simple,0.4249202013015747
+Who is Tom Billeter,simple,0.511457085609436
+"Extract from the text what are the Proteins functions in the organism, and separate them with a comma,",simple,0.49499499797821045
+What is net worth?,simple,0.4092395007610321
+"Without quoting directly from the text, tell me about rainbows.",simple,0.44108521938323975
+"Using this text, please give me a short bulleted list of famous figures buried at the Sleepy Hollow Cemetery in Sleepy Hollow, New York",simple,0.36878418922424316
+"Give me a title of one of the ""Harry Potter"" novels.",simple,0.39175859093666077
+How is beer made?,simple,0.44738900661468506
+What is a trumpet?,simple,0.4442328214645386
+Who are the Wagner group,simple,0.37160199880599976
+Who wrote Beloved?,simple,0.5306705832481384
+Extract the platforms that the game can be played on and separate them with a comma.,simple,0.40745022892951965
+Extract the names of all of the albums that Taylor Swift has released. Separate them with a comma.,simple,0.6255120635032654
+"Tell me which sport the following athletes play, or played in the past: Michael Jordan, Derek Jeter, Joe Namath, Lebron James, Tiger Woods, Rory Mcilroy, Jackie Robinson, Mike Tyson, Barry Sanders, Tom Brady, Jaromir Jagr, Sydney Crosby, Muhammed Ali, Greg Maddux, Oscar Robertson",simple,0.369772344827652
+Why do people sleep?,simple,0.4525003135204315
+"Classify each of these as a cereal grain or legume: wheat, lentils, chickpeas, rye, corn, soybeans, peas, millet",simple,0.34932753443717957
+Who is Ali G?,simple,0.39608320593833923
+Remove vowels from this text:,simple,0.4037388265132904
+Who is Hugo Chavez?,simple,0.42528560757637024
+List of Italian horse breeds,simple,0.46890655159950256
+Correct the typos in these sentences,simple,0.4856935143470764
+What is solar wind?,simple,0.3965747654438019
+Tell me about Roger Federer,simple,0.533444881439209
+Extract from the text the main characteristics of the city of São Paulo. Separate them with a comma.,simple,0.3376985788345337
+What is pink salt?,simple,0.418189138174057
+Who wrote the most episodes of season four of Game of Thrones?,simple,0.407198429107666
+What is a mammal?,simple,0.39708900451660156
+"Given the text about the 2019 Masters Tournament, tell me who won the golf tournament, where the tournament was held and what age the winner was?",simple,0.5084415674209595
+Explain Business Intelligence,simple,0.3845313787460327
+What is Sinking Sand?,simple,0.3546038866043091
+"Tell me whether these are flowers or fruit: apples, oranges, pineapples, bananas, strawberries, daisies, sunflowers, roses, poppies",simple,0.4963739812374115
+"Tell me which of these things are fruits or vegetables: Carrot, Apple, Orange, Potato, Peas, Broccoli, Pears",simple,0.5737836956977844
+Who founded Amazon?,simple,0.39672622084617615
+Who invented Calculus?,simple,0.37213826179504395
+"Tell me whether these pokemon are electric or grass type: Pikachu, Bulbasaur, Zapdos, Voltorb, Oddish, Bellsprout",simple,0.37825921177864075
+which country surrounds India?,simple,0.3958855867385864
+What do economists do?,simple,0.4133090674877167
+"Classify each of the following as either a drink or a food: apple juice, cake, hamburger, carrot, orange juice, soda.",simple,0.3694475591182709
+"Tell me whether these are TV shows or books: Modern Family, You, Don Quixote, A Tale of Two Cities,  The Little Prince",simple,0.439910352230072
+Who succeeded Howard Schultz as Chairman of Starbucks Corporation on June 2018?,simple,0.353436142206192
+What is paella?,simple,0.36383143067359924
+Who is Ronald Peter Nash,simple,0.463728129863739
+Why we need music?,simple,0.40906044840812683
+"Tell me which of these characters are from the Mario universe: Yoshi, Zelda, King Kong, Luigi, Princess Peach, Link, Bowser, Alex Rodriguez.",simple,0.37591928243637085
+Extract the islands that are part of the Madeira and Savage Islands archipelagos in Portugal. Separate them with a comma.,simple,0.4557388722896576
+"Tell me which of the following are states in the United States of America: Washington, Oregon, California, Idaho, Toronto, Canada, England.",simple,0.46672314405441284
+"Given this reference text, what was John Dalberg-Acton's most famous pronouncement, and to whom did he make it?",simple,0.4319874048233032
+Who was Margaret Thatcher?,simple,0.5455291271209717
+Why do babies cry?,simple,0.5328729748725891
+Bike or Car?,simple,0.3526541590690613
+Tell me about Indiana,simple,0.4226715564727783
+What are mammals?,simple,0.35463955998420715
+What causes earthquakes?,simple,0.3585848808288574
+Who was Nikola Tesla?,simple,0.5404389500617981
+Who are U2,simple,0.4227389395236969
+"Identify all PII in this customer review ""My name is Joe Smith and email address is joesmith9999@gmail.com. I'd like to leave a review about Langton's red wine. It was tasty for a red, but there were sediments at the bottom of my bottle""",simple,0.3405613899230957
+Please give a simple list of reasons that extraterrestrial intelligence may not exist or is very rare,simple,0.4507254362106323
+Name some Nobel Prize winners,simple,0.4610903263092041
+"From the passage provided, extract the names of Jawaharlal Nehru's parents. Separate them with a comma.",simple,0.3800923526287079
+Where do bears live?,simple,0.3974120318889618
+"From the passage provided, extract the total product revenue and % YoY growth using format: {$x} product revenue with {x%} YoY growth
+
+Product revenue of $555.3 million in the fourth quarter, representing 54% year-over-year growth
+Remaining performance obligations of $3.7 billion, representing 38% year-over-year growth
+7,828 total customers
+Net revenue retention rate of 158%
+330 customers with trailing 12-month product revenue greater than $1 million
+Authorized a $2.0 billion stock repurchase program",simple,0.6204819679260254
+"Give me a list of the last five ""best rap song"" Grammy winners (just tell me the song name and the performing artist).",simple,0.37945932149887085
+Who is LBJ?,simple,0.4114290773868561
+Who was Henry Ford?,simple,0.4861809015274048
+What is it inflation?,simple,0.35799163579940796
+How to be rich?,simple,0.40140101313591003
+What is the best kind of bread?,simple,0.36570873856544495
+What is a Keystone?,simple,0.46857234835624695
+"Without quoting directly from the text, give me a summary of how rainbows are formed.",simple,0.4749740958213806
+"Given a reference text about a singer, tell me when they debuted, what their first release was, and what their most popular song is.",simple,0.43133744597435
+Different uses for glass,simple,0.36222854256629944
+Who invented the computer?,simple,0.38187432289123535
+What is observer bias,simple,0.46275442838668823
+Who is Bryan Adams,simple,0.3754708468914032
+Who developed Pilates?,simple,0.3961440920829773
+What cause toe fungus?,simple,0.4108496904373169
+Are UGGs considered fashionable?,simple,0.343441367149353
+"Extract which animals Waddell played with and which ones he fought with from the text. Separate them with a comma, putting the ones he played with first.",simple,0.42351478338241577
+Can cats communicate?,simple,0.4073445796966553
+How was Napoleon defeated?,simple,0.387285441160202
+"Give me an idea for a country to travel to that is safe, inexpensive and does not fall into the well trodden tourist path?",simple,0.482907235622406
+Why do we watch television?,simple,0.3711174726486206
+Who is the Zurich Insurance,simple,0.43018609285354614
+Imagine you are a grandparent who wants a grandchild. Write a persuasive argument to your children.,simple,0.4250001907348633
+Give me a list of the teams that have won the English Premier League,simple,0.35733482241630554
+Name ten Shakespeare plays,simple,0.4181470274925232
+list 7 favourite flavours,simple,0.5179893374443054
+"Tell me whether each airline is American or European: British Airways, United Airlines, Southwest Airlines, Jet Blue, Easy Jet, Ryan Air",simple,0.4763782322406769
+How to lose weight?,simple,0.41015687584877014
+Who is Juliette Roche?,simple,0.4270123839378357
+Is the sun hot?,simple,0.37245553731918335
+Why USA is best ?,simple,0.3634268641471863
+How would you describe Dance?,simple,0.4193868339061737
+Why Italy is known for,simple,0.38496145606040955
+Hip Hop song Make Me Proud,simple,0.39406654238700867
+What is orange wine?,simple,0.4240349531173706
+"I want to write a some new articles for my data blog, can you give me some snappy ideas?",simple,0.46576133370399475
+Who was the original lead singer of the band Linkin Park?,simple,0.3730655908584595
+Why zurich is so beautiful,simple,0.37172335386276245
+From the passage identify the spin-off games release in the universe of Clash of Clans. Display the results in a comma separated format.,simple,0.3714408874511719
+"Classify each of the following as a dental or hair product: toothbrush, floss, shampoo, conditioner, gel, floss",simple,0.42382383346557617
+What is a circle?,simple,0.4378947615623474
+"From a 10-year old child's perspective, write a short summary of a visit to the Rijksmuseum for the Vermeer exhibition.",simple,0.43329036235809326
+What is Milky Way?,simple,0.40788188576698303
+What is a newspaper?,simple,0.3426711857318878
+"Given this paragraph about time travel, how practical is it",simple,0.4443705677986145
+Why are plants green?,simple,0.3750065565109253
+Which movie won the Best Picture award at 95th Academy Awards?,simple,0.3902754485607147
+Name some popular breakfast foods in the United States,simple,0.362859308719635
+Please provide 5 different variants of served coffee,simple,0.40435636043548584
+what is the indian subcontinent,simple,0.3799961507320404
+When was golf invented?,simple,0.44790714979171753
+What is quantum mechanics?,simple,0.3837229609489441
+Extract from the text the list of actors and the characters they play.  List answer as bullet list in in format:  {actor name}:  {character name},simple,0.49310871958732605
+"Tell me whether each company is based inside or outside of the USA: Uber, Grab, Samsung, Meituan, Exxon, Amazon, Roche",simple,0.354452908039093
+Who was Beethoven?,simple,0.4355657398700714
+Please give me a short bulleted list of the key discoveries from Gallo’s lab.,simple,0.40903985500335693
+Name some of the bravolebrities from The Real Housewives of Atlanta,simple,0.39578232169151306
+What is software craftsmanship,simple,0.4311741590499878
+Who is Phil Murphy?,simple,0.3933195471763611
+Explain inter frame,simple,0.44691702723503113
+America’s cup comeback,simple,0.4127253592014313
+When did Virgin Australia start operating?,medium,0.41895028948783875
+"Given a reference text about Lollapalooza, where does it take place, who started it and what is it?",medium,0.44568631052970886
+Why mobile is bad for human,medium,0.4085676372051239
+What is a polygon?,medium,0.36269769072532654
+How do I start running?,medium,0.4355294108390808
+What is process mining?,medium,0.43202587962150574
+Extract the owner of Lamborghini and a listing of the different types of Huracan cars that Lamborghini has produced for its Motorsport division.,medium,0.4417356252670288
+What is best Playstation or Xbox,medium,0.37115684151649475
+what is REST API,medium,0.3847718834877014
+When was the wheel invented?,medium,0.37679702043533325
+Are lilies safe for cats?,medium,0.4053266942501068
+"Given this paragraph, what is the top speed of a Kia Stinger?",medium,0.4678754210472107
+What is LAPR?,medium,0.3990291953086853
+Is beauty objective or subjective?,medium,0.38056135177612305
+Name some famous rock bands from the 1960s,medium,0.3475022614002228
+Who are the Smiths?,medium,0.44535091519355774
+What is HiFI?,medium,0.3750714063644409
+What is a brown eared pheasant?,medium,0.43663063645362854
+Is it true that Lewis Hamilton won the championship in his first F1 season?,medium,0.364223837852478
+"Classify each of the following pieces of equipment according to the sport they are used for, either basketball, football, or soccer: shin guards, shooting sleeve, penalty flag, corner flag, kicking tee, and goalie gloves.",medium,0.44302716851234436
+"Classify the following as either dark-colored beers or light colored beers: porter, pilsner, stout, amber, lager",medium,0.41142141819000244
+Give me a bulleted list of the 5 highest mountains in the world and their respective heights in meters,medium,0.49951067566871643
+What is SVM?,medium,0.369712769985199
+Tell me about the 2017 Southeastern Conference football season,medium,0.41660478711128235
+"Separate the following suburbs into those that border, and do not border, the Brisbane River: Indooroopilly, Bulimba, St Lucia, Newstead, Wilston, West End, Toowong, Bowen Hills and, Wooloongabba.",medium,0.40962985157966614
+"Classify each of the following as either a title by Isaac Asimov or Jules Verne: Pebble in the Sky, The Stars, Like Dust, Foundation, The Robots of Dawn, The Naked Sun, Around the World in Eighty Days, From the Earth to the Moon, Martin Paz, Journey to the Centre of the Earth, A Drama in the Air",medium,0.4378098249435425
+"Given a reference text about Run Towards the Danger, tell me how many essays are part of the collection.",medium,0.44840919971466064
+What is game of Cricket?,medium,0.42517679929733276
+What does fasting mean?,medium,0.49451813101768494
+Give me a list of the last five european golden boots winner And tell me how many goals they scored.,medium,0.40084555745124817
+"Pick if these would be useful or not useful for a high school student to put in their backpack. Notebooks, textbook, desk lamp, pencil pouch, beach ball, pillow, laptop.",medium,0.5290766954421997
+What is one year?,medium,0.3536868095397949
+What is wine?,medium,0.42102983593940735
+"Explain how new technologies, like LLMs and ChatGPT, may revolutionize Application Programming Interfaces (APIs) in the future. Provide an example of how these APIs might work.",medium,0.4393036365509033
+What is world of warcraft,medium,0.4119294285774231
+Based on the following passage summarise how sunsets are viewed from the northern hemisphere across seasons.,medium,0.4112517237663269
+What is a secured loan?,medium,0.4441720247268677
+What is the FA Cup?,medium,0.4433034360408783
+Are Schindler elevators safe,medium,0.43300798535346985
+"Extract why Tim Lincecum was called ""The Freak""",medium,0.45657965540885925
+What is Linux?,medium,0.3746311664581299
+Who was the first woman to have four country albums reach No. 1 on the Billboard 200?,medium,0.3857905864715576
+What is FIFA?,medium,0.42816483974456787
+"Given the reference text about the Cy Young Award, please describe what the award is and why it is awarded.",medium,0.4016026258468628
+Do cats have nine lives?,medium,0.4005555212497711
+What is Microsoft?,medium,0.3815353512763977
+How do you make soap?,medium,0.3652103841304779
+"Categorize the following Taylor Swift songs based on what album they are in: The Archer, tolerate it, Lover, Love Story (Taylor's Version), Bejeweled, Don't Blame Me, 22 (Taylor's version), Look What You Made Me Do, Lavender Haze, willow, Cruel Summer",medium,0.38352078199386597
+"From the passage provided, extract the second studio album that Taylor Swift released.",medium,0.3578098714351654
+What was the Underground Railroad?,medium,0.4264742434024811
+Which team was relegated from the league at the conclusion of the 1991 Season?,medium,0.4016738533973694
+"If each client was served by the same number of professionals, how many professionals (round to one decimal place) would each client be served by?",medium,0.45037877559661865
+What is the PGA Championship?,medium,0.4472435414791107
+Write a haiku about how much I love pickles.,medium,0.3980304002761841
+"Classify each of the following grades as being in elementary or high school: 10th grade, 3rd grade, 4th grade, 12th grade, 1st grade.",medium,0.432351678609848
+What is Cup Game?,medium,0.3626158535480499
+"Let’s solve the following math problem. Each rabbit has 4 feets and each duck has 2 feets. If there are in total 25 heads and 88 feets, how many rabbits and how many ducks are there?",medium,0.457060307264328
+What is WestWorld?,medium,0.3604101538658142
+Best beach vacation in the world,medium,0.39206188917160034
+"Sally has 2 chickens, 3 cows and 2 motorcycles. Doug has 6 monkeys, 12 pigs and 2 tractors. Amy has 1 car, 10 cows and 6 ducks. How many farm animals do Sally, Doug and Amy have in total?",medium,0.42321935296058655
+Is skiing or snowboarding easier?,medium,0.4163472056388855
+What was the Counter Reformation?,medium,0.4355105459690094
+"Given a reference text about Psychiatry: An Industry of Death, tell me when it opened and and who owns and operates it.",medium,0.43793171644210815
+How to raise a kitten?,medium,0.3708166182041168
+Who are the pianists that are considered masters in playing Bach's music?,medium,0.43860724568367004
+"Categorize these movies that came out in 1999 as cartoons or live-action: The Matrix, Stuart Little, Cruel Intentions, The Iron Giant, The Blair Witch Project, South Park: Bigger, Longer, and Uncut, The Sixth Sense",medium,0.5208353996276855
+Discuss at least two risks associated with scraping data from websites. Describe steps an analyst could take to mitigate those risks.,medium,0.45258578658103943
+Where is Shuyga?,medium,0.4360980689525604
+What are index funds?,medium,0.440917432308197
+"Tell me whether each South Park character is a kid or adult: Randy, Stan, Kyle, Butters, Sharon",medium,0.370240718126297
+Who are the three team managers that hold the record for the most appearances in the FIFA Club World Cup final?,medium,0.45067280530929565
+Give me a bulleted list of the last 5 Super Bowl winning teams,medium,0.4228079319000244
+Where to visit in Brazil?,medium,0.39658451080322266
+Extract the reason why was Mark Hunt known as the King of Walk Offs,medium,0.4413416385650635
+"Classify each of the following as either titles by J.K. Rowling or Suzanne Collins: Harry Potter and the Sorcerer's Stone, The Ickabog, Fantastic Beasts and Where to Find Them, The Cuckoo's Calling, Harry Potter and the Order of the Phoenix, Catching Fire, Mockingjay, Gregor the Overlander, Year of the Jungle, The Ballad of Songbirds and Snakes",medium,0.465844064950943
+"Tell me which months have 30 days and which have 31 days, based on this list: January, February, March, April, May, June, July, August, September, October, November, and December.",medium,0.43471622467041016
+What is an actuary?,medium,0.45923322439193726
+What is the fastest car?,medium,0.46511808037757874
+What is knitting?,medium,0.3602342903614044
+What is Jenkins?,medium,0.4849857687950134
+"Classify each of the following animals as being domesticated or wild: dog, bear, dolphin, cat, cow, hippo, rhino",medium,0.41795194149017334
+"Tell me if these drinks are alcoholic or not: Coca-Cola, Mountain Dew, Budweiser, Rum, Vodka, Tomato Juice, Orange Juice, Sprite, Tequila, Margarita",medium,0.3626164197921753
+"List the ten episode titles from the sixth season of ""Game of Thrones"" in broadcast order.",medium,0.38692381978034973
+Name 5 popular musicians,medium,0.4069676399230957
+What is guitar amp modeling?,medium,0.3818137049674988
+"From the passage provided, extract the programming languages supported by Flink. Separate them with a comma.",medium,0.3463660776615143
+"Classify the eight planets of Earth's solar system as rocky or gaseous, according to their primary composition.",medium,0.42541494965553284
+How reliable is public transportation?,medium,0.427381306886673
+What is System Thinking,medium,0.43084216117858887
+"Plan a weekend long vacation to Madrid, and mention multiple specific places you would visit and how you would travel in the city",medium,0.4127945005893707
+Give me a comma separated list of all the organizations Henry Holst worked for based on this article.,medium,0.4002368152141571
+"Given a reference text about the Spellenspektakel, tell me where it takes place and what games are played.",medium,0.45781081914901733
+"Given this paragraph about Sam Baker, what is the Outland Trophy?",medium,0.45153042674064636
+How do you cook ribs?,medium,0.3499656021595001
+"Classify each of the following as an American coffee shop chain or an American fast-food hamburger restaurant: Starbucks, Dunkin Donuts, McDonald's, In-N-Out, Dutch Bros, Coffee Bean & Tea Leaf, Burger King, Carl's Jr",medium,0.4560049772262573
+"Given this paragraph about the M26, tell me how many times Hunt finished in the top 3, and explain your reasoning.",medium,0.41607770323753357
+"Classify each of the following as either a quantitative major or qualitative major: English, mathematics, physics, statistics, history, law",medium,0.46134674549102783
+Please extract Sinclair's awards from this paragraph and list them in bullets in order from oldest to most recent.,medium,0.46375831961631775
+Why should you visit Ireland?,medium,0.39708906412124634
+I want to buy a work monitor which is to be used along with the laptop. What features of monitor should be considered?,medium,0.4698912501335144
+"Tell me which one of the following countries are in the European Union: The Netherlands, Switzerland, Germany, Finland, the United Kingdom, Italy, Luxembourg, Turkey, Australia, Vietnam, Canada.",medium,0.4514205753803253
+Give me a list of the greatest chess players of all time,medium,0.42271730303764343
+Tell me a story in a few sentences about food and how a few short words can make someone hungry,medium,0.3856971263885498
+Give me a bulleted list of all artists that performers on the Trolls World Tour Soundtrack.,medium,0.45746198296546936
+What is feeding Springfield Reservoir?,medium,0.4327618479728699
+"Tell me whether these are part of the judicial, executive, or legislative branch of government: Supreme Court, President, House, Senate",medium,0.4089484214782715
+"Categorize the following countries based on the language their majority speaks: Iraq, Iran, Turkey, UAE, Qatar, Afghanistan, Syria",medium,0.41109034419059753
+Share the best 7 European Cities for Nightlife,medium,0.358650803565979
+What is Hornachuelos?,medium,0.4286717176437378
+can i run for president?,medium,0.45198696851730347
+Give me a chronological bulleted list based on a timeline of events,medium,0.40606924891471863
+"Would you typically find each of the following items in a bathroom, bedroom, kitchen or living room? Couch, pillow, dish soap, bedside table, oven, shower, toilet, coffee table, coffee machine",medium,0.3922211825847626
+Pitch me some bad ideas for cologne scents.,medium,0.4224325716495514
+What color is the Rainbow?,medium,0.3867751359939575
+"If my car's fuel tank fits 18 gallon, how many times do I need to refuel on a 10-hour trip if the average speed is 60mph and the car's fuel efficiency is 30mpg?",medium,0.449249804019928
+What is a bubble vest?,medium,0.5289503931999207
+Who were the children of Bill 101,medium,0.38096746802330017
+"Categorize each of the following as being beneficial or not beneficial to making a home protected from burglars: alarm system, open doors, locks, cameras, open windows",medium,0.39800363779067993
+"tell me whether these are synonyms or antonyms of love: dislike, care, like, hate, affection, harsh",medium,0.4606550633907318
+"Given this paragraph, extract a list of names that are playable by the user of this game.",medium,0.4346386790275574
+What is gardening?,medium,0.389629602432251
+"Give this paragraph about the Alley Cats a capella group, what famous talk show hosts have they performed for?",medium,0.439411461353302
+"What is an string instrument that is similar to a Violin, but larger in size and with a lower and deeper sound?",medium,0.4360392093658447
+"Write a short story about a little girl who befriends a dragon, the dragons magical powers can bring her to a different universe.",medium,0.3652493357658386
+What is Kraft Dinner?,medium,0.39184096455574036
+"Classify each of the following as either a single digit or a double digit number: 8, 4, 1, 12, 87, 65, 3, 5, 45, 97, 6, 2, 34, 71, 9, 48, 0, 7, 31, 50.",medium,0.4543870985507965
+Why do humans like golf?,medium,0.39162448048591614
+What is a Ferocactus,medium,0.4393343925476074
+Why Cancun is famous,medium,0.42759832739830017
+what is Sociology?,medium,0.35861414670944214
+"Imagine you are getting married and are attending a wedding cake tasting. Describe five different flavors you try, with combinations of both cake and frosting for each tasting. Pick one best flavor at the end of the five tastings.",medium,0.39208662509918213
+Who regulates banks in Australia?,medium,0.4400772750377655
+What is a viral video?,medium,0.41429123282432556
+Provide a table of the various recruiting lists that Calvin Johnson was named to and who named him to the list and do it in CSV format,medium,0.45688414573669434
+Why do humans like dogs?,medium,0.4136212170124054
+I would like to get a camper for the family vacations.  What things do I need to be aware of when buying one?,medium,0.42339953780174255
+Why Interlaken is famous,medium,0.4163888394832611
+"Extract the teams that Bob Sanders played throughout his career, and put them in a comma-separated list.",medium,0.45182743668556213
+"Classify the following Stephen King works as either a 'book', a 'movie' or 'both': Shawshank Redemption, Carrie, Under the Dome, Sleeping Beauties, The Shining, Sleepwalkers, Dreamcatcher, Bag of Bones, Creepshow, Insomnia, The Green Mile, Cat's Eye",medium,0.4037478268146515
+How old is Tamil language?,medium,0.380768358707428
+Who is the top baseball player based on offensive categories that are not in the major league baseball hall of fame with no chance of getting in while alive.,medium,0.3976036310195923
+"Given a reference text about Georg Friedrich Parrot, tell me when and where he was born as well as what he studied.",medium,0.39460718631744385
+Write a brief about your recent vacation,medium,0.3600730299949646
+Provide a list of ways musicians can earn income from their music craft.,medium,0.4079609811306
+What is rowing?,medium,0.4271343946456909
+"Given the numerous awards in Major League Baseball, what is the Willie Mays World Series Most Valuable Player (MVP) Award?",medium,0.4922664165496826
+"Provide a list of body parts that are only three letters long. Here are some body parts that are three lettered words: toe, rib, eye, ear, leg and jaw.",medium,0.4644882082939148
+What is the loudest animal on Earth?,medium,0.4512151777744293
+Give me a list of popular news podcast to listen to,medium,0.3501240015029907
+What are the benefits of exercising and why one should workout everyday especially if you have a sedentary lifestyle that makes you sit all day long?,medium,0.46738964319229126
+What are the four seasons of the year?,medium,0.4115436375141144
+Give me a bulleted list of the seven most recently elected presidents from Argentina.,medium,0.41145962476730347
+Give me a bulleted list of the last seven World Series winners,medium,0.3951907753944397
+"Which of these foods are kosher? Lobster, cheeseburger, hamburger and fries, shrimp and grits, thai red curry with tofu, thai red curry with chicken, birthday cake, lentil soup with ham hock.",medium,0.4228484332561493
+What is nomadism?,medium,0.42533665895462036
+What are the examples of eponyms provided in the passage. List them in the bulleted format.,medium,0.41841164231300354
+Extract all of the names of people mentioned in this paragraph and list them using bullets in the format {Name},medium,0.45620256662368774
+Why is the sky blue?,medium,0.44503524899482727
+Name every month that has 30 days,medium,0.4332164525985718
+From the passage mention the different verticals in which SoftBank Group Corp. invests in. Display the results in comma separated format.,medium,0.40299734473228455
+What is ASEAN?,medium,0.3826506733894348
+Extract all of the names of people mentioned in this paragraph and list them using bullets in the format {Name},medium,0.45620256662368774
+Who is William Crump?,medium,0.4378339946269989
+"Classify each of the following as either titles by George R.R. Martin or Robert Jordan: A Game of Thrones, Dying of the Light, The Armageddon Rag, A Storm of Swords, A Song for Lya, The Great Hunt, Towers of Midnight, Lord of Chaos, A Crown of Swords, Crossroads of Twilight",medium,0.4595550000667572
+"Classify these wines in Red or White:  Chardonnay ,Cabernet Sauvignon,Moscato, Merlot, Syrah, Malbec, Pinot Noir, Riesling, Sangiovese, Sauvignon Blanc",medium,0.43881189823150635
+What is the JDK?,medium,0.44783422350883484
+"Classify the following as either red wines or white wines: Cabernet Sauvignon, Pinot Blanc, Riesling, Chardonnay, Pinot Grigio, Sauvignon Blanc, Merlot, Syrah, Shiraz",medium,0.4304351508617401
+"Extract universities Moret studied at and his year of graduation for each, and put them in a bulleted list.",medium,0.4814836382865906
+"Tell me whether matches in each sport is usually played individually or on a team: baseball, golf, tennis, wrestling, hockey",medium,0.40712177753448486
+Extract the most recent upper bound and low bound of the sofa constant and return them in the format {Bound Type} - {Bound Value}.,medium,0.4071923494338989
+Write an email to someone updating that I’ve accepted the position at their company to which they referred me,medium,0.4172933101654053
+What is deep dish pizza?,medium,0.44923126697540283
+What is Football?,medium,0.405606210231781
+What are the primary colors?,medium,0.37156230211257935
+"Classify each of the following as a penalty or scoring play in football: touchdown, holding, offsides, safety, field goal, false start",medium,0.45863115787506104
+Imagine you have to spend a week on a deserted island. What are 5 items you'd bring with you and why?,medium,0.45879682898521423
+What is the stock market?,medium,0.40069299936294556
+"Tell me whether these sports are played on grass or ice: figure skating, hockey, football, soccer, curling",medium,0.3621482849121094
+India’s overall food grain production (based on 4th Advance estimates) is estimated to have touched how much?,medium,0.41900163888931274
+Extract all of the names of people mentioned in this paragraph and list them using bullets in the format {Name},medium,0.45620256662368774
+Why do people like golf?,medium,0.37429869174957275
+"Given this paragraph about a Tesla Model 3, tell me what the EPA-rated ranges are for the various models.",medium,0.37379929423332214
+What are the titles of the songs on Side B for this album?,medium,0.3989035189151764
+Are cats or dogs better?,medium,0.35930466651916504
+From the passage note down the valuation of NFT trade for the year 2020 and 2021. List the results in format ‘Year: Value‘.,medium,0.4143836200237274
+"Holidays such as Christmas, Easter and Halloween are associated with themes. Sort the following items into the holiday with which they are most frequently associated: elves, chocolate, presents, pumpkin, rabbit, candy, pilgrim, egg, Santa, Jesus, hot-crossed buns, and reindeer",medium,0.474983811378479
+Seven Wonders of the Underwater World,medium,0.3840937316417694
+What is Central Park?,medium,0.3522634208202362
+What is a rocking chair?,medium,0.44605112075805664
+What is accessibility?,medium,0.4901207387447357
+Who let the dogs out?,medium,0.5458823442459106
+"Classify each of the following dishes as either 'Indian', 'Italian', 'Latin American', 'African' or 'Neither' based on their cuisine. Biriyani, Pasta, Dosa, Risotto, Burger, Lasagne, Tajine,  Empanadas, Tacos",medium,0.38146471977233887
+Write a friendly email to my neighbor asking them to keep the noise down after 10pm on Weekdays.,medium,0.42791950702667236
+"Who was charged in August 1902, under the Offences against the Person Act 1861 with incitement to murder?",medium,0.4637688994407654
+List the items you need to play pickleball,medium,0.43107011914253235
+"I have 3 apples, Jack has 4 pears and Jill has 5 books. After I ate two of Jack's pears, how many fruits we have in total now?",medium,0.41914844512939453
+How do you brew beer?,medium,0.37017181515693665
+Why do people have children?,medium,0.39263588190078735
+Where is Meerut?,medium,0.39678314328193665
+What are the most dangerous hobbies?,medium,0.48160597681999207
+Why is the sky blue?,medium,0.44503524899482727
+Why is pickleball so popular?,medium,0.4364393353462219
+"Netflix views streaming video as a ""sustaining"" technology that extends its core mail DVD business. Do you agree with this, or do you think streaming video is a ""disruptive"" technology for Netflix that does not align with its core business and requires a different strategy?",medium,0.48967689275741577
+Give me a bulleted list of 3 informal fallacies and the meaning each,medium,0.39054450392723083
+What is tollywood?,medium,0.4318373203277588
+What is Arsenal FC?,medium,0.3806183934211731
+"What is the best football club in the world in 23 between Arsenal, Real Madrid, Napoli, Manchester City, and Bayern Munich?",medium,0.4586447477340698
+Which is a species of fish? Tope or Rope,complex,0.5571855902671814
+Why can camels survive for long without water?,complex,0.5471698045730591
+"Alice's parents have three daughters: Amy, Jessy, and what’s the name of the third daughter?",complex,0.4078597128391266
+When was Tomoaki Komorida born?,complex,0.5179676413536072
+"If I have more pieces at the time of stalemate, have I won?",complex,0.558793842792511
+Who gave the UN the land in NY to build their HQ,complex,0.5122675895690918
+Who was Kyle Van Zyl playing against when he scored 36 of hisa teams 61 points?,complex,0.40115854144096375
+From the passage list down the areas for which Dar es Salaam is Tanzania's most prominent city. List the results in comma separated format.,complex,0.41075390577316284
+Which episodes of season four of Game of Thrones did Michelle MacLaren direct?,complex,0.464299738407135
+What are some unique curtain tie backs that you can make yourself?,complex,0.6349325776100159
+What is a dispersive prism?,complex,0.5213525295257568
+"Identify which instrument is string or percussion: Cantaro, Gudok",complex,0.4300333559513092
+Give me the top 5 golf equipment company names.,complex,0.4492710828781128
+What individual has won the most Olympic gold medals in the history of the games?,complex,0.4238991141319275
+What happens when the sun goes down?,complex,0.49431321024894714
+"Which of the following is useful for transportation: a glass of wine, a lamp, a train, an iced cube tray, a plane, a bicycle, an apple and a scooter.",complex,0.5452566742897034
+"Identify which instrument is string or woodwind: Panduri, Zurna",complex,0.40921568870544434
+What is the average lifespan of a Golden Retriever?,complex,0.46575242280960083
+Who became king of Holland in 1806?,complex,0.423042893409729
+Who played Billy the Kid in The Left Handed Gun,complex,0.47839057445526123
+why did Syd Barrett left the Pink Floyd?,complex,0.5296920537948608
+What is underwriting?,complex,0.39573410153388977
+Give me a list of some characteristics of a good coffee shop?,complex,0.49699142575263977
+Please summarize what Linkedin does.,complex,0.48067736625671387
+Who saved Andromeda from the sea monster,complex,0.42816486954689026
+How can I contribute to Spark?,complex,0.4601995348930359
+"Who are ''The Lumières"" ?",complex,0.5866764783859253
+Using examples taken from the text give me a summary of the main arguments in favour of slavery reparations in the United States and the anticipated cost of enacting such reparations,complex,0.42268985509872437
+write a scene between two actors discussing movie Inception,complex,0.42817848920822144
+What is the currency in use in the Netherlands?,complex,0.47732844948768616
+What is the best tv series in the world,complex,0.45074018836021423
+Who was the first to record the Needles and Pins song?,complex,0.49580907821655273
+Provide me a list of the different types of harnesses used in rock climbing,complex,0.43327903747558594
+Think of some family rules to promote a healthy family relationship,complex,0.4682888090610504
+"In the series A Song of Ice and Fire, who is the founder of House Karstark?",complex,0.4389585554599762
+What is enriched air and why would divers dive with enriched air?,complex,0.5183044672012329
+What film won the 1943 Oscar as best film,complex,0.3968927264213562
+"which weighs more, cold or hot water?",complex,0.4463370740413666
+Write a short paragraph about why you should not have both a pet cat and a pet bird.,complex,0.5682409405708313
+What makes a formula one car so fast?,complex,0.5123122334480286
+Without quoting directly from the text give me a summary of the history of the Key Lime Pie.,complex,0.42276182770729065
+"Identify which instrument is string or percussion: Kpanlogo, Shamisen",complex,0.4449331760406494
+Why do potato chip bags become stale after opening?,complex,0.49542689323425293
+Classify each of the following as a primary color or a secondary color,complex,0.4443598985671997
+Where are the British Virgin Islands (BVI) and which islands are a part of the BVI?,complex,0.5215041041374207
+"Does ""outbreeding"" or ""inbreeding"" benefit the offspring more?",complex,0.5737757086753845
+What is the future for human?,complex,0.5803081393241882
+Name some of the bravolebrities from Vanderpump Rules,complex,0.37317103147506714
+Who is Muhammad Ejaz Shafi,complex,0.36412370204925537
+Give me five ways in which I can make my homebrew beer more interesting,complex,0.5538596510887146
+How many Grammy Awards has Bad Bunny won?,complex,0.38096094131469727
+When was the first Reading railway station opened?,complex,0.4632924199104309
+"Which of these are rappers? Eminem, Michael Jackson, Rihanna, 50 Cent",complex,0.5095142722129822
+What are some kinds of embroidery stitches for writing letters?,complex,0.4477823078632355
+What are the most common injuries in rowing?,complex,0.5135931968688965
+What is a good way to get around without a car?,complex,0.6318581104278564
+"Identify which animal species is alive or extinct: Palaeophis, Giant Tortoise",complex,0.6037480235099792
+"Why is Santa Cruz, California a great place to live?",complex,0.5435435771942139
+Give me some ideas to manage my manager.,complex,0.4523274898529053
+"Identify which instrument is string or percussion: Samphor, Viola toeria",complex,0.4275146722793579
+"If we were playing a game where we had to identify things that can be found inside a house, which of these would we call out: car, chair, table, park, cloud, microwave.",complex,0.3795661926269531
+Extract all of the dates mentioned in this paragraph and list them using bullets in the format {Date} - {Description},complex,0.45462170243263245
+Please describe  what is oil and give me a list of it’s applications.,complex,0.5157800912857056
+List 6 different types of rain in Seattle,complex,0.43718451261520386
+What is investment banking?,complex,0.36332347989082336
+I started a new company named Greystone Inc. What do we do?,complex,0.44156089425086975
+Tell me whether or not these foods are on EWG's dirty dozen list,complex,0.467056006193161
+How much music theory knowledge is required to compose music?,complex,0.4818457365036011
+Summarize in one sentence this article about a famous song.,complex,0.3832385241985321
+What is the Maareech Advanced Torpedo Defence System (ATDS)?,complex,0.5785538554191589
+Change the following passage to past tense,complex,0.4922071695327759
+What is the tallest mountain in the continental US?,complex,0.5137439966201782
+Who is Shoji Hashimoto?,complex,0.48782673478126526
+What are some of the best comedy movies of the 1980's?,complex,0.4112635552883148
+In golf what do the Americans call an albatross,complex,0.5257822871208191
+What are common ingredients of a full english breakfast?,complex,0.4091982841491699
+"Plan for a three day road trip for May long weekend from Westfield, New Jersey",complex,0.4980539381504059
+What is the Research Collaboratory for Structural Bioinformatics Protein Data Bank (RCSB PDB)?,complex,0.4929625988006592
+What are 5 potential uses for an empty La Croix can?,complex,0.5597549676895142
+"What is the name of the Winslow's nerdy next-door neighbor on the TV show ""Family Matters""?",complex,0.447049617767334
+Why are so many US Hollywood films made in the state of Georgia?,complex,0.45592567324638367
+How many managers have Arsenal had?,complex,0.45320481061935425
+What is the current capital of Japan?,complex,0.47216111421585083
+What are some tools that every homeowner should have?,complex,0.5666740536689758
+write a short essay on California wild fire,complex,0.37286990880966187
+Who scored first in Austin FC's first victory in a home game in the 2021 MLS season?,complex,0.41427814960479736
+"Classify each of the following as either a bird, animal, reptile or insect: tiger, heron, eagle, alligator, snake, spider, ant, dog, cat, rhinoceros, kingfisher, chameleon, hornet, butterfly",complex,0.5125042796134949
+What are some different things you should bring with you on a day hiking trip?,complex,0.554239809513092
+How long does it take for a mustard seed to germinate?,complex,0.5406228303909302
+Which is a species of fish? Sea dragon or Red bearded,complex,0.5508610010147095
+"Categorize where each of these household items belong: bed, couch, desk",complex,0.5093275904655457
+What is the difference between pets and cattle?,complex,0.45742347836494446
+How do I put a bouquet of fresh flowers in a vase?,complex,0.37531739473342896
+What should I do on a free afternoon in San Francisco?,complex,0.4769621193408966
+"Identify which instrument is string or woodwind: Janzi, Gemshorn",complex,0.3957691490650177
+"Identify which animal species is alive or extinct: Pliosaur, Marine Iguana",complex,0.580708920955658
+What is the origin of the name of the herb Rosemary?,complex,0.5357250571250916
+Wat id DNA annotation?,complex,0.439729243516922
+Who were Jaehaerys I Targaryen's children?,complex,0.5051343441009521
+"In SQL, how can I filter table rows based on a column condition?",complex,0.4381774365901947
+Who were the ten best baseball players in the history of the Boston Red Sox?,complex,0.38159316778182983
+What makes the world go around?,complex,0.5426976680755615
+"Who coined the phrase ""Bike-shedding"" and when?",complex,0.4460192322731018
+Who is the best Formula 1 driver,complex,0.41853398084640503
+What is Share capital in finance?,complex,0.46927401423454285
+Give me some Mother's Day gift ideas.,complex,0.48927736282348633
+Give me a list of ways that a runner can advance a base in baseball without there being a hit.,complex,0.4334532916545868
+What are the types of RVs?,complex,0.4657672941684723
+List the weapons of Goddess Durga in a comma separated manner.,complex,0.4403364360332489
+What shapes are made up of straight lines?,complex,0.4693213403224945
+"Choose the word which is different from the rest: hangar, platform, dock, park, bus stand",complex,0.5363847017288208
+Are The Smiths a good band?,complex,0.3988802433013916
+How much of American wine is produced in California?,complex,0.45017579197883606
+"As a golfer, how can I fix my slice?",complex,0.5765588879585266
+Who tends to participates in hackathons?,complex,0.5331751704216003
+Which community of users on Twitter has the most 8-dollar-a-month verification?,complex,0.46367013454437256
+"Tell me whether these people are DJs or singers: David Guetta, Avicii, Rihanna, Beyonce, Martin Garrix, Calvin Harris, Taylor Swift",complex,0.3515547811985016
+What’s a typical dish in Brazil?,complex,0.4646601378917694
+How should I invest my money?,complex,0.5257997512817383
+Where is the village of Congosto,complex,0.44806039333343506
+Name the three best professional sports teams based in California.,complex,0.4241996109485626
+What is Marketing Automation?,complex,0.42062118649482727
+What are some ways to improve the value of your home?,complex,0.6069408655166626
+Tell me an idea for a film based off of the cartoon movie Cars but incorporate self-driving cars.,complex,0.42102742195129395
+Which American president spoke Dutch as their first language?,complex,0.5004029870033264
+How many planets are there?,complex,0.4391685426235199
+Help me come up with 3 ideas for a new business and how I can start it,complex,0.5874602198600769
+Tomb of Sand  was translated from Hindi to English by,complex,0.4570702314376831
+"What is more important in society, freedom or safety?",complex,0.5877319574356079
+"Given this reference text about the consumption of peanut butter, when is national peanut butter day?",complex,0.46004626154899597
+What are good activities for two year old boys?,complex,0.4867331385612488
+How many compute services does Azure Synapse have?,complex,0.5174420475959778
+How many times Lewis Hamilton won the F1 Championship ?,complex,0.45588061213493347
+What happens when you bring flammable objects closer to a fire source or extreme heat?,complex,0.5375989675521851
+"Identify which instrument is string or percussion: Den-den daiko, Luc huyen cam",complex,0.5093583464622498
+What is the largest city on the Mississippi River?,complex,0.5565182566642761
+What is the city of Denver like?,complex,0.45036935806274414
+Provide a list of all numbers mentioned in the provided text and what they represent,complex,0.44321784377098083
+What are the differences between the New York Giants and New York Jets?,complex,0.4808822572231293
+Was Furze Hill an established community in the 19th century?,complex,0.49497395753860474
+Should you buy new golf clubs when you are a beginner?,complex,0.41940584778785706
+Why should I use fabric softener?,complex,0.4256444275379181
+The former Chairman of Tata Sons died in road accident  en route  from where?,complex,0.38507577776908875
+"Classify the following numbers as 'prime' or 'composite' - 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.",complex,0.44311773777008057
+Summarize the rulers of the territory of Albania in this time period.,complex,0.4352778494358063
+What is cloud computing in simple terms?,complex,0.4152376055717468
+What types of sport fish do most anglers target in New England?,complex,0.4348796606063843
+Give me a bunch of ways I can keep my house cool in the summer,complex,0.5110756158828735
+"Are the following items candy bars or gum: trident, Twix, hubba bubba, snickers, three musketeers, and wrigleys.",complex,0.3920440971851349
+What's the relation between the Kushan Empire and the Sassanid Empire in Iran?,complex,0.5781513452529907
+Give me a list of things that pose a challenge to cryptos,complex,0.4820183515548706
+What is the meaning of life?,complex,0.544452428817749
+"Classify the below characters based on whether they are created by Marvel comics or D.C. comics
+ Spider-Man, Iron Man, Captain America, Thor, Doctor Strange, Superman, Batman, Wonder Woman, Flash, Aquaman",complex,0.46612343192100525
+Why are we like aquariums?,complex,0.5092061758041382
+Give me a bulleted list of countries that start with the letter B.,complex,0.4411275386810303
+Who are some of the most successful golfers in history?,complex,0.49758216738700867
+"Which is a bird or fish: Red-throated diver, Redlip blenny",complex,0.590305745601654
+Which types of fish contain the lowest levels of mercury?,complex,0.554205596446991
+How do you make an iced matcha latter?,complex,0.5050647258758545
+What is the best swimming form?,complex,0.522711992263794
+Which is the best place to Kayak in Austin?,complex,0.5391116738319397
+Who is the best men's test cricket player to have come from New Zealand?,complex,0.5194036364555359
+"What is the winter weather like in Salt Lake City, Utah?",complex,0.45132696628570557
+Whats the difference between a bass guitar and a regular guitar?,complex,0.4088099002838135
+What is a Gross domestic product (GDP)?,complex,0.5351976156234741
+What is the last festival celebrated in Tihar and how long does the festival last?,complex,0.4526168406009674
+What event John Johnstone won as a rider?,complex,0.4166070222854614
+What are the careers of your dream?,complex,0.5105658173561096
+Let's imagine I create a fake currency called Yarns with two types of coins: a super-yarn (worth 10 yarns) and a mini-yarn (worth 0.5 yarn). How much money do I have in total if I have 2 super-yarns and three mini-yarns?,complex,0.3615245223045349
+What is the difference between a red delicious and a Granny Smith apple?,complex,0.41341355443000793
+List the Pokemon Go regions.,complex,0.444764643907547
+Who do you think is the most powerful Mandalorian in Star Wars history?,complex,0.5439963340759277
+What cities should someone visit during a trip to Morocco?,complex,0.46097666025161743
+Which classical composer was deaf?,complex,0.3900005519390106
+Who discovered the double-helix DNA structure?,complex,0.5353149175643921
+Please provide a brief summary describing Canada,complex,0.35494905710220337
+Why age 27 is given so much importance specially in Music industry?,complex,0.43940019607543945
+What are Nanotube?,complex,0.42355048656463623
+Write the first paragraph of a blog post describing the appeal of Boston as a tourist destination,complex,0.4288591146469116
+"Name some reasons it's great to live in Marin County, California.",complex,0.42056792974472046
+Who was the first American to win a Nobel Peace?,complex,0.5187227725982666
+What are the 4 oceans on earth,complex,0.44363170862197876
+Did Harry Potter put his own name in the goblet of fire?,complex,0.5208150744438171
+Why does it help to focus on the breath when practicing mindfulness?,complex,0.42413443326950073
+What's the best way to learn how to snowboard?,complex,0.5824700593948364
+What was Angie Thomas's first published novel?,complex,0.497710645198822
+"Based on this paragraph, how many younger siblings did Kennedy have?",complex,0.46503791213035583
+What are some of the common elements of visual design?,complex,0.4545482397079468
+What is the difference between a shrub and a tree?,complex,0.5518919825553894
+"As an expert skier, what are the top resorts in the US to go skiing?",complex,0.4829195439815521
+"Which characters belong to DC or Marvel Universe? Hulk, Spectre",complex,0.4987514019012451
+Which players won the men's singles grand slam tennis tournaments in 2022.,complex,0.41791754961013794
+Can you tell me something about Stanley J. Goldberg,complex,0.49095240235328674
+Please summarize the causes and cure for color blindness given in the passage?,complex,0.5348100662231445
+How can I improve my finances?,complex,0.5845487117767334
+What is Zenthoefer Furs,complex,0.4645417034626007
+What are the three branches of the US Federal Government?,complex,0.49536189436912537
+"When rock climbing, what is the difference between lead climbing and top rope climbing?",complex,0.4882340729236603
+Which is a species of fish? Mola mola or Molar,complex,0.44845229387283325
+"Imagine a world where life expectancy is fixed and the same for everyone at birth, yet people can engage in life expectancy ""donation"" – meaning that someone can extend your life three years longer at the expense of theirs. Talk about a likely scenario in this world that involves manipulated, coerced donation.",complex,0.4732306897640228
+What makes a good sales account executive?,complex,0.4114295542240143
+"Which of the following are colors: red, black, yellow, orange, sun, sunflower, chips, book, white, pink, blue, keyboard.",complex,0.4456051290035248
+Think up some openings for beginners to the game of Chess,complex,0.45314669609069824
+Give me a list of popular current artists in the EDM category.,complex,0.4356667101383209
+"Which sports would be easiest to find success in if you’re not tall: baseball, soccer, basketball, bowling.",complex,0.4804893732070923
+What is the appeal of Flathead Lake as a Summer vacation destination?,complex,0.4597001075744629
+What's the difference between tennis and pickleball?,complex,0.47393912076950073
+"Given a reference text about Jen Shah, what is she famous from, when was she criminally charged, what was the verdict, and when was she sentenced.",complex,0.3774803876876831
+What are the classifications of Academic Degrees?,complex,0.4658143222332001
+Why isn't multi-threading making my Python code faster? How can I fix it.,complex,0.5189509987831116
+Who is the best NBA player of all time?,complex,0.4593067765235901
+"Classify each as either a vodka drink or a gin drink: Screwdriver, Bloody Mary, French 75, White Russian, Gimlet, Cosmopolitan, Tom Collins, Negroni",complex,0.4641788601875305
