@@ -96,11 +96,20 @@ def test_valid_json_action_and_fenced_json_action_are_accepted(agent):
     named_tool = agent._parse_action(
         '{"read_file":{"path":"README.md"}}'
     )
+    wrapped_action = agent._parse_action(
+        '{"action":{"action":"write_file","path":"README.md",'
+        '"content":"HELLO WORLD"}}'
+    )
     fenced = agent._parse_action(
         '```json\n{"action":"finish","summary":"done"}\n```'
     )
     assert plain == {"action": "read_file", "path": "src/module.py"}
     assert named_tool == {"action": "read_file", "path": "README.md"}
+    assert wrapped_action == {
+        "action": "write_file",
+        "path": "README.md",
+        "content": "HELLO WORLD",
+    }
     assert fenced == {"action": "finish", "summary": "done"}
 
 
@@ -123,6 +132,19 @@ def test_named_tool_call_rejects_multiple_or_unknown_tools(agent):
         )
     with pytest.raises(ActionResponseError, match="supported action"):
         agent._parse_action('{"shell":{"command":"anything"}}')
+
+
+def test_nested_action_wrapper_executes_as_a_normal_validated_action(agent):
+    parsed = agent._parse_action(
+        '{"action":{"action":"read_file","path":"src/module.py"}}'
+    )
+    assert parsed == {"action": "read_file", "path": "src/module.py"}
+    assert agent.execute_action(parsed) == "VALUE = 'old'\n"
+
+    with pytest.raises(ActionResponseError, match="missing fields: content"):
+        agent._parse_action(
+            '{"action":{"action":"write_file","path":"README.md"}}'
+        )
 
 
 @pytest.mark.parametrize(

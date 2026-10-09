@@ -218,6 +218,16 @@ class V84IssueToPRAgent:
             "run_tests": ({"action", "command"}, {"command": str}),
             "finish": ({"action", "summary"}, {"summary": str}),
         }
+        # Some model responses wrap the standard action in an extra
+        # {"action": ...} object. Unwrap exactly one layer, then apply the
+        # same strict action schema below.
+        if (
+            set(action) == {"action"}
+            and isinstance(action["action"], dict)
+            and "action" in action["action"]
+        ):
+            action = action["action"]
+
         # Accept the equivalent function-call envelope used by some text-only
         # model responses, e.g. {"read_file": {"path": "README.md"}}.
         if "action" not in action:
