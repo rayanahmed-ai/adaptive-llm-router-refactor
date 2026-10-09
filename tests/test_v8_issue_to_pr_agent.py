@@ -2,10 +2,15 @@ from __future__ import annotations
 
 import json
 import subprocess
+from types import SimpleNamespace
 
 import pytest
 
-from app.agents.v8_issue_to_pr import V84IssueToPRAgent
+from app.agents.v8_issue_to_pr import (
+    ActionResponseError,
+    V84IssueToPRAgent,
+)
+from app.models.v7_bedrock import V7BedrockClient
 
 
 def action(**data):
@@ -19,9 +24,14 @@ class FakeBedrock:
 
     def invoke(self, model, prompt, **kwargs):
         self.calls.append((model, prompt))
+        if not self.responses:
+            raise AssertionError("unexpected additional Bedrock invocation")
         return {
             "success": True,
             "response": self.responses.pop(0),
+            "response_type": "dict",
+            "stop_reason": "end_turn",
+            "content_block_count": 1,
         }
 
 
@@ -77,6 +87,214 @@ def test_structured_action_json_and_paths_are_validated(agent):
             "path": "app/agents/v8_issue_to_pr.py",
             "content": "",
         })
+
+
+def test_valid_json_action_and_fenced_json_action_are_accepted(agent):
+    plain = agent._parse_action(
+        '{"action":"read_file","path":"src/module.py"}'
+    )
+    fenced = agent._parse_action(
+        '```json\n{"action":"finish","summary":"done"}\n```'
+    )
+    assert plain == {"action": "read_file", "path": "src/module.py"}
+    assert fenced == {"action": "finish", "summary": "done"}
+
+
+@pytest.mark.parametrize(
+    ("response", "category"),
+    [
+        ("", "empty"),
+        ("I made the change.", "plain_text"),
+        ('{"action":', "malformed_json"),
+    ],
+)
+def test_empty_plain_text_and_malformed_json_have_distinct_categories(
+    agent, response, category
+):
+    with pytest.raises(ActionResponseError) as error:
+        agent._parse_action(response)
+    assert error.value.category == category
+
+
+def test_action_schema_requires_all_fields_and_rejects_unknown_fields(agent):
+    with pytest.raises(ActionResponseError, match="missing fields: path"):
+        agent._parse_action('{"action":"read_file"}')
+    with pytest.raises(ActionResponseError, match="unexpected fields"):
+        agent._parse_action(
+            '{"action":"read_file","path":"src/module.py","extra":true}'
+        )
+
+
+def test_bedrock_converse_shape_is_extracted_by_existing_client():
+    bedrock = V7BedrockClient.__new__(V7BedrockClient)
+    bedrock.model_ids = {"small_model": "eu.amazon.nova-micro-v1:0"}
+    bedrock.client = SimpleNamespace(
+        converse=lambda **_: {
+            "output": {
+                "message": {
+                    "content": [
+                        {"text": '{"action":"finish"}'},
+                    ],
+                },
+            },
+            "stopReason": "end_turn",
+            "usage": {"inputTokens": 4, "outputTokens": 3, "totalTokens": 7},
+            "metrics": {"latencyMs": 12},
+        }
+    )
+    result = bedrock.invoke("small_model", "return json")
+    assert result["success"] is True
+    assert result["response"] == '{"action":"finish"}'
+    assert result["response_type"] == "dict"
+    assert result["stop_reason"] == "end_turn"
+    assert result["content_block_count"] == 1
+
+
+def test_empty_bedrock_converse_content_preserves_diagnostics():
+    bedrock = V7BedrockClient.__new__(V7BedrockClient)
+    bedrock.model_ids = {"small_model": "eu.amazon.nova-micro-v1:0"}
+    bedrock.client = SimpleNamespace(
+        converse=lambda **_: {
+            "output": {"message": {"content": []}},
+            "stopReason": "max_tokens",
+        }
+    )
+    result = bedrock.invoke("small_model", "return json")
+    assert result["success"] is False
+    assert result["response"] == ""
+    assert result["response_error"] == "empty_response"
+    assert result["stop_reason"] == "max_tokens"
+    assert result["content_block_count"] == 0
+
+
+def test_unexpected_bedrock_response_shape_is_not_executed(agent):
+    class UnexpectedShape:
+        def invoke(self, *_args, **_kwargs):
+            return ["not", "a", "response"]
+
+    with pytest.raises(RuntimeError, match="Unexpected Bedrock client response shape"):
+        agent._invoke_model(UnexpectedShape(), "small_model", "prompt")
+
+
+def test_invocation_errors_are_not_treated_as_model_text(agent):
+    class InvocationFailure:
+        def invoke(self, *_args, **_kwargs):
+            return {
+                "success": False,
+                "error": "Authorization: Bearer sensitive-token-value",
+            }
+
+    with pytest.raises(RuntimeError, match="Bedrock invocation failed") as error:
+        agent._invoke_model(InvocationFailure(), "small_model", "prompt")
+    assert "sensitive-token-value" not in str(error.value)
+    assert "[REDACTED]" in str(error.value)
+    assert "json-secret" not in agent._redact_diagnostic(
+        '{"token":"json-secret","authorization":"Bearer json-bearer-secret"}'
+    )
+
+
+def test_invalid_response_logs_safe_bedrock_diagnostics(agent, caplog):
+    bedrock = FakeBedrock([
+        "plain text token=super-secret-value",
+        '{"action":"finish","summary":"done"}',
+    ])
+    history = []
+    agent._tool_loop(
+        bedrock,
+        "medium_model",
+        77,
+        "Safe diagnostics",
+        "Do not log secrets.",
+        {
+            "selected_model": "medium_model",
+            "decision_type": "EXPLOITATION",
+        },
+        history,
+    )
+    assert "category=plain_text" in caplog.text
+    assert "response_type=dict" in caplog.text
+    assert "stop_reason=end_turn" in caplog.text
+    assert "content_block_count=1" in caplog.text
+    assert "super-secret-value" not in caplog.text
+
+
+@pytest.mark.parametrize(
+    ("response", "category"),
+    [
+        ("", "empty"),
+        ("This is plain text, not an action.", "plain_text"),
+        ('{"action":', "malformed_json"),
+    ],
+)
+def test_invalid_responses_retry_twice_then_stop_without_changes(
+    agent, response, category
+):
+    bedrock = FakeBedrock([response, response, response])
+    history = []
+    with pytest.raises(RuntimeError, match=f"retries exhausted.*{category}"):
+        agent._tool_loop(
+            bedrock,
+            "large_model",
+            78,
+            "Test response handling",
+            "No repository edit should occur.",
+            {"selected_model": "large_model", "decision_type": "EXPLORATION"},
+            history,
+        )
+    assert len(bedrock.calls) == 3
+    assert all(model == "large_model" for model, _ in bedrock.calls)
+    assert "previous_response_error" in bedrock.calls[1][1]
+    assert "previous_response_error" in bedrock.calls[2][1]
+    assert not agent.changed_paths()
+
+
+def test_invalid_path_action_is_rejected_without_modification(agent):
+    bedrock = FakeBedrock([
+        '{"action":"read_file","path":"../outside.py"}',
+        '{"action":"finish","summary":"Stopped safely."}',
+    ])
+    history = []
+    summary = agent._tool_loop(
+        bedrock,
+        "medium_model",
+        79,
+        "Reject traversal",
+        "Do not access outside the workspace.",
+        {"selected_model": "medium_model", "decision_type": "EXPLOITATION"},
+        history,
+    )
+    assert summary == "Stopped safely."
+    assert json.loads(history[0]["result"])["ok"] is False
+    assert "traversal paths" in history[0]["result"]
+    assert not agent.changed_paths()
+
+
+def test_retry_exhaustion_prevents_changes_and_pr_creation(agent, monkeypatch):
+    monkeypatch.setattr(
+        agent,
+        "_route_issue",
+        lambda *_: {
+            "selected_model": "small_model",
+            "decision_type": "EXPLORATION",
+        },
+    )
+    bedrock = FakeBedrock(["not-json"] * 3)
+    monkeypatch.setattr(agent, "_bedrock_client", lambda _model: bedrock)
+    published = []
+    monkeypatch.setattr(
+        agent,
+        "publish_changes",
+        lambda *args: published.append(args),
+    )
+    agent.dry_run = False
+    result = agent.run(80, "Malformed model", "Do not edit files.")
+    assert result.success is False
+    assert "retries exhausted" in result.message
+    assert result.selected_model == "small_model"
+    assert len(bedrock.calls) == 3
+    assert all(model == "small_model" for model, _ in bedrock.calls)
+    assert not published
+    assert not agent.changed_paths()
 
 
 def test_file_reads_and_complete_writes_need_no_patch_parser(agent):

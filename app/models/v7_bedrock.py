@@ -125,6 +125,18 @@ class V7BedrockClient:
                 .get("message", {})
                 .get("content", [])
             )
+            if not isinstance(content, list):
+                content = []
+
+            stop_reason = response.get(
+                "stopReason",
+                "unknown",
+            )
+            response_metadata = {
+                "response_type": type(response).__name__,
+                "stop_reason": stop_reason,
+                "content_block_count": len(content),
+            }
 
             response_text = ""
 
@@ -140,17 +152,20 @@ class V7BedrockClient:
                     )
 
             if not response_text.strip():
-                stop_reason = response.get(
-                    "stopReason",
-                    "unknown",
-                )
-
-                raise RuntimeError(
-                    "Bedrock returned no text content. "
-                    f"model_id={model_id}, "
-                    f"content_blocks={len(content)}, "
-                    f"stop_reason={stop_reason}"
-                )
+                return {
+                    "success": False,
+                    "response": "",
+                    "model_id": model_id,
+                    "latency_ms": (
+                        time.perf_counter() - start_time
+                    ) * 1000,
+                    "input_tokens": 0,
+                    "output_tokens": 0,
+                    "total_tokens": 0,
+                    "error": "Bedrock returned no text content.",
+                    "response_error": "empty_response",
+                    **response_metadata,
+                }
 
 
             # ------------------------------------------------
@@ -211,6 +226,7 @@ class V7BedrockClient:
                     ),
 
                 "error": None,
+                **response_metadata,
             }
 
 
@@ -251,6 +267,9 @@ class V7BedrockClient:
                         "Message",
                         str(error),
                     ),
+                "response_type": "unavailable",
+                "stop_reason": "unknown",
+                "content_block_count": 0,
             }
 
 
@@ -281,4 +300,7 @@ class V7BedrockClient:
 
                 "error":
                     str(error),
+                "response_type": "unavailable",
+                "stop_reason": "unknown",
+                "content_block_count": 0,
             }

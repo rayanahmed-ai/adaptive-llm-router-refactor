@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 import shlex
 import shutil
 import subprocess
@@ -27,8 +28,15 @@ MAX_TOOL_OUTPUT_CHARS = 12_000
 MAX_TOTAL_TOOL_OUTPUT_CHARS = 100_000
 MAX_FILE_CHARS = 50_000
 MAX_MODEL_RESPONSE_CHARS = 50_000
+MAX_ACTION_RESPONSE_RETRIES = 2
 MAX_TASK_SECONDS = 1_800
 MAX_REPAIR_ATTEMPTS = 1
+
+
+class ActionResponseError(ValueError):
+    def __init__(self, category: str, message: str):
+        super().__init__(message)
+        self.category = category
 
 
 @dataclass
@@ -94,7 +102,10 @@ class V84IssueToPRAgent:
         self._tool_output_chars = 0
 
     def _check_deadline(self) -> None:
-        if time.monotonic() - self.started_at > self.max_task_seconds:
+        if (
+            self.started_at
+            and time.monotonic() - self.started_at > self.max_task_seconds
+        ):
             raise TimeoutError("V8.4 task exceeded its execution time limit.")
 
     def _git(
@@ -160,15 +171,125 @@ class V84IssueToPRAgent:
 
     @staticmethod
     def _parse_action(text: str) -> dict[str, Any]:
+        if not isinstance(text, str) or not text.strip():
+            raise ActionResponseError("empty", "Model returned empty text.")
+
+        candidate = text.strip()
+        if candidate.startswith("```"):
+            match = re.fullmatch(
+                r"```(?:json)?\s*\n?(.*?)\n?```",
+                candidate,
+                flags=re.IGNORECASE | re.DOTALL,
+            )
+            if not match:
+                raise ActionResponseError(
+                    "malformed_json",
+                    "Model returned an incomplete or invalid JSON code fence.",
+                )
+            candidate = match.group(1).strip()
+
         try:
-            action = json.loads(text)
+            action = json.loads(candidate)
         except (json.JSONDecodeError, TypeError) as exc:
-            raise ValueError(f"Model response is not valid JSON: {exc}") from exc
-        if not isinstance(action, dict) or not isinstance(
-            action.get("action"), str
-        ):
-            raise ValueError("Model JSON must be an object with an action string.")
+            category = (
+                "plain_text"
+                if candidate[:1] not in ("{", "[")
+                else "malformed_json"
+            )
+            message = (
+                "Model returned plain text instead of a JSON action."
+                if category == "plain_text"
+                else f"Model response is not valid JSON (malformed JSON): {exc}"
+            )
+            raise ActionResponseError(category, message) from exc
+
+        if not isinstance(action, dict):
+            raise ActionResponseError(
+                "invalid_action",
+                "Decoded model response must be a JSON object.",
+            )
+        schemas: dict[str, tuple[set[str], dict[str, type]]] = {
+            "read_file": ({"action", "path"}, {"path": str}),
+            "list_files": ({"action", "path"}, {"path": str}),
+            "write_file": (
+                {"action", "path", "content"},
+                {"path": str, "content": str},
+            ),
+            "run_tests": ({"action", "command"}, {"command": str}),
+            "finish": ({"action", "summary"}, {"summary": str}),
+        }
+        name = action.get("action")
+        if not isinstance(name, str) or name not in schemas:
+            raise ActionResponseError(
+                "invalid_action",
+                "Model JSON must specify a supported action.",
+            )
+        required, field_types = schemas[name]
+        if name == "list_files" and "path" not in action:
+            action["path"] = "."
+        if name == "finish" and "summary" not in action:
+            action["summary"] = "Model completed the requested edits."
+        if set(action) != required:
+            missing = sorted(required - set(action))
+            unexpected = sorted(set(action) - required)
+            details = []
+            if missing:
+                details.append(f"missing fields: {', '.join(missing)}")
+            if unexpected:
+                details.append(f"unexpected fields: {', '.join(unexpected)}")
+            raise ActionResponseError(
+                "invalid_action",
+                "Invalid action fields (" + "; ".join(details) + ").",
+            )
+        for field_name, expected_type in field_types.items():
+            if not isinstance(action[field_name], expected_type):
+                raise ActionResponseError(
+                    "invalid_action",
+                    f"Action field '{field_name}' must be "
+                    f"{expected_type.__name__}.",
+                )
+        if name in ("read_file", "list_files", "write_file"):
+            if not action["path"]:
+                raise ActionResponseError(
+                    "invalid_action",
+                    "Action field 'path' must be a non-empty string.",
+                )
+        if name == "run_tests" and not action["command"]:
+            raise ActionResponseError(
+                "invalid_action",
+                "Action field 'command' must be a non-empty string.",
+            )
         return action
+
+    @staticmethod
+    def _redact_diagnostic(value: Any) -> str:
+        text = str(value)
+        text = re.sub(
+            r"(?i)(authorization\s*[:=]\s*(?:bearer\s+)?)\S+",
+            r"\1[REDACTED]",
+            text,
+        )
+        text = re.sub(
+            r"(?i)([\"']?(?:authorization|aws_access_key_id|"
+            r"aws_secret_access_key|aws_session_token|access[_ -]?key|"
+            r"secret[_ -]?key|api[_ -]?key|password|token)[\"']?"
+            r"\s*[:=]\s*)(\"[^\"]*\"|'[^']*'|[^\s,;}]+)",
+            r"\1[REDACTED]",
+            text,
+        )
+        text = re.sub(
+            r"(?i)\bBearer\s+[A-Za-z0-9._~+/-]+=*",
+            "Bearer [REDACTED]",
+            text,
+        )
+        text = re.sub(r"\bAKIA[0-9A-Z]{16}\b", "[REDACTED_AWS_KEY]", text)
+        text = re.sub(
+            r"\beyJ[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}"
+            r"(?:\.[A-Za-z0-9_-]{10,})?\b",
+            "[REDACTED_TOKEN]",
+            text,
+        )
+        return text[:500]
 
     def _resolve_path(self, raw_path: Any, *, allow_root: bool = False) -> Path:
         if not isinstance(raw_path, str) or not raw_path:
@@ -372,6 +493,7 @@ class V84IssueToPRAgent:
         route: dict[str, Any],
         history: list[dict[str, Any]],
         repair: str | None = None,
+        response_error: str | None = None,
     ) -> str:
         payload = {
             "issue_number": issue_number,
@@ -380,6 +502,7 @@ class V84IssueToPRAgent:
             "routing_decision": route,
             "tool_history": history,
             "verification_failure": repair,
+            "previous_response_error": response_error,
             "available_actions": {
                 "read_file": {"path": "relative repository path"},
                 "list_files": {"path": "optional relative directory, default ."},
@@ -394,13 +517,17 @@ class V84IssueToPRAgent:
         return (
             "You are a repository coding agent. Use only the available JSON actions. "
             "Return exactly one JSON object per response, with no Markdown or prose. "
+            "Each action must contain exactly the fields shown by its action schema. "
+            "Do not return explanations, status text, or multiple actions. "
             "Read a file before replacing it, and write complete file contents. "
             "Never use shell commands except run_tests with the exact approved "
             "command. After editing, return a finish action.\n\n"
             + json.dumps(payload, ensure_ascii=False)
         )
 
-    def _invoke_model(self, client: Any, selected_model: str, prompt: str) -> str:
+    def _invoke_model(
+        self, client: Any, selected_model: str, prompt: str
+    ) -> tuple[str, dict[str, Any]]:
         self._check_deadline()
         if self._model_calls >= self.max_model_calls:
             raise RuntimeError("Model invocation limit reached.")
@@ -411,20 +538,46 @@ class V84IssueToPRAgent:
             max_tokens=4096,
             temperature=0.1,
         )
-        if not result.get("success"):
+        if not isinstance(result, dict):
+            raise RuntimeError(
+                "Unexpected Bedrock client response shape: "
+                f"expected dict, got {type(result).__name__}."
+            )
+
+        diagnostics = {
+            "response_type": result.get("response_type", "str"),
+            "stop_reason": result.get("stop_reason", "unknown"),
+            "content_block_count": result.get("content_block_count", 0),
+        }
+        if not isinstance(result.get("success"), bool):
+            raise RuntimeError(
+                "Unexpected Bedrock client response shape: "
+                "success must be bool; "
+                f"response_type={diagnostics['response_type']}, "
+                f"stop_reason={diagnostics['stop_reason']}, "
+                f"content_block_count={diagnostics['content_block_count']}."
+            )
+        if result.get("response_error") == "empty_response":
+            return "", diagnostics
+        if result.get("success") is not True:
             raise RuntimeError(
                 f"Bedrock invocation failed for {selected_model}: "
-                f"{result.get('error') or 'unknown error'}"
+                f"{self._redact_diagnostic(result.get('error') or 'unknown error')}"
             )
         response = result.get("response")
-        if not isinstance(response, str) or not response.strip():
-            raise RuntimeError("Bedrock returned an empty model response.")
+        if not isinstance(response, str):
+            raise RuntimeError(
+                "Unexpected Bedrock client response shape: response must be "
+                f"str, got {type(response).__name__}; "
+                f"stop_reason={diagnostics['stop_reason']}, "
+                f"content_block_count={diagnostics['content_block_count']}."
+            )
         if len(response) > MAX_MODEL_RESPONSE_CHARS:
             raise RuntimeError(
                 f"Bedrock response exceeds the {MAX_MODEL_RESPONSE_CHARS}-character limit."
             )
         self._check_deadline()
-        return response
+        return response, diagnostics
 
     def _tool_loop(
         self,
@@ -437,17 +590,48 @@ class V84IssueToPRAgent:
         history: list[dict[str, Any]],
         repair: str | None = None,
     ) -> str:
+        response_retries = 0
+        response_error = None
         while True:
             prompt = self._model_prompt(
-                issue_number, issue_title, issue_body, route, history, repair
+                issue_number,
+                issue_title,
+                issue_body,
+                route,
+                history,
+                repair,
+                response_error,
             )
-            text = self._invoke_model(client, selected_model, prompt)
+            text, diagnostics = self._invoke_model(
+                client, selected_model, prompt
+            )
             try:
                 action = self._parse_action(text)
-            except ValueError as exc:
-                history.append({"model_error": str(exc), "response": text[:2000]})
-                if self._model_calls >= self.max_model_calls:
-                    raise
+            except ActionResponseError as exc:
+                preview = self._redact_diagnostic(text) if text else "<empty>"
+                logger.warning(
+                    "V8.4 model action response rejected category=%s "
+                    "response_type=%s stop_reason=%s content_block_count=%s "
+                    "preview=%r",
+                    exc.category,
+                    diagnostics.get("response_type", "unknown"),
+                    diagnostics.get("stop_reason", "unknown"),
+                    diagnostics.get("content_block_count", 0),
+                    preview,
+                )
+                if response_retries >= MAX_ACTION_RESPONSE_RETRIES:
+                    raise RuntimeError(
+                        "Model action response retries exhausted after "
+                        f"{response_retries} retries: {exc.category}: {exc}; "
+                        f"response_type={diagnostics.get('response_type', 'unknown')}, "
+                        f"stop_reason={diagnostics.get('stop_reason', 'unknown')}, "
+                        "content_block_count="
+                        f"{diagnostics.get('content_block_count', 0)}, "
+                        f"preview={preview!r}"
+                    ) from exc
+                response_retries += 1
+                response_error = f"{exc.category}: {exc}"
+                history.append({"model_error": response_error})
                 continue
 
             if action["action"] == "finish":
