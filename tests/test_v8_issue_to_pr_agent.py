@@ -93,11 +93,36 @@ def test_valid_json_action_and_fenced_json_action_are_accepted(agent):
     plain = agent._parse_action(
         '{"action":"read_file","path":"src/module.py"}'
     )
+    named_tool = agent._parse_action(
+        '{"read_file":{"path":"README.md"}}'
+    )
     fenced = agent._parse_action(
         '```json\n{"action":"finish","summary":"done"}\n```'
     )
     assert plain == {"action": "read_file", "path": "src/module.py"}
+    assert named_tool == {"action": "read_file", "path": "README.md"}
     assert fenced == {"action": "finish", "summary": "done"}
+
+
+def test_named_tool_call_executes_through_normal_validation(agent):
+    response = '{"read_file":{"path":"src/module.py"}}'
+    parsed = agent._parse_action(response)
+    assert agent.execute_action(parsed) == "VALUE = 'old'\n"
+
+    forbidden = agent._parse_action(
+        '{"read_file":{"path":"../outside.py"}}'
+    )
+    with pytest.raises(ValueError, match="traversal paths"):
+        agent.execute_action(forbidden)
+
+
+def test_named_tool_call_rejects_multiple_or_unknown_tools(agent):
+    with pytest.raises(ActionResponseError, match="one action"):
+        agent._parse_action(
+            '{"read_file":{"path":"README.md"},"write_file":{}}'
+        )
+    with pytest.raises(ActionResponseError, match="supported action"):
+        agent._parse_action('{"shell":{"command":"anything"}}')
 
 
 @pytest.mark.parametrize(

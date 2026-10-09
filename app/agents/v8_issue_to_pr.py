@@ -218,6 +218,22 @@ class V84IssueToPRAgent:
             "run_tests": ({"action", "command"}, {"command": str}),
             "finish": ({"action", "summary"}, {"summary": str}),
         }
+        # Accept the equivalent function-call envelope used by some text-only
+        # model responses, e.g. {"read_file": {"path": "README.md"}}.
+        if "action" not in action:
+            if len(action) != 1:
+                raise ActionResponseError(
+                    "invalid_action",
+                    "Model JSON must contain one action or one named tool call.",
+                )
+            action_name, arguments = next(iter(action.items()))
+            if action_name not in schemas or not isinstance(arguments, dict):
+                raise ActionResponseError(
+                    "invalid_action",
+                    "Named tool call must use a supported action with object arguments.",
+                )
+            action = {"action": action_name, **arguments}
+
         name = action.get("action")
         if not isinstance(name, str) or name not in schemas:
             raise ActionResponseError(
